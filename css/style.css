@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  height: 950px;
+  width: 100%;
+
+  border-radius: 0px;
+
+  position: absolute;
+  width: 100%;
+  height: 950px;
+
+  background: #1b3764;
+}
+nav {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 251px;
+
+  position: relative;
+  width: 100%;
+  height: 100px;
+
+  height: 100px;
+  width: 100%;
+
+  border-radius: 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 251px;
+
+  position: relative;
+}
+
+.nav {
+}
+.nav li a {
+  text-decoration: none;
+  color: white;
+}
+.hero .logo {
+  font-family: ITF Devanagari Marathi;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: white;
+}

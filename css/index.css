@@ -113,3 +113,9 @@ marquee ul li {
 
   border: 3px solid #ffca42;
 }
+/* articles container*/
+.articles-container {
+  width: 100px;
+}
+.article-card {
+}

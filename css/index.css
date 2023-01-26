@@ -115,7 +115,13 @@ marquee ul li {
 }
 /* articles container*/
 .articles-container {
-  width: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .article-card {
+  height: 448px;
+  width: 248px;
+  background-color: blue;
 }

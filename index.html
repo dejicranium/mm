@@ -5,73 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shobowale's Business Insight</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/min/tiny-slider.js"></script>
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/nav.css" />
     <script src="./script/navscript.js"></script>
- 
+    <script src="./script/index.js"></script>
   </head>
   <body>
     <section>
-    <section class="hero">
-      <!--nav bar-->
-      <nav>
-        <div class="logo">
-          <img src="./asset/image/Shobowale Lukeman.png" class="logopng" alt="" />
+      <section class="hero">
+        <!--nav bar-->
+        <nav>
+          <div class="logo">
+            <img
+              src="./asset/image/Shobowale Lukeman.png"
+              class="logopng"
+              alt=""
+            />
+          </div>
+          <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+          </label>
+          <input type="checkbox" id="btn" />
+          <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">SBI</a></li>
+            <li>
+              <label for="btn-1" class="show"
+                >Resources <img src="./asset/image/Vector 13.svg" alt=""
+              /></label>
+              <a href="#"
+                >Resources <img src="./asset/image/Vector 13.svg" alt=""
+              /></a>
+              <input type="checkbox" id="btn-1" />
+              <ul>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Books</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">About</a></li>
+            <li class="get"><a href="#">Get Started</a></li>
+          </ul>
+        </nav>
+
+        <!--hero content-->
+        <div class="main">
+          Shobowale<br />Lukeman <br />
+          <div class="line1"></div>
         </div>
-        <label for="btn" class="icon">
-          <span class="fa fa-bars"></span>
-        </label>
-        <input type="checkbox" id="btn" />
-        <ul class="nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">SBI</a></li>
-          <li>
-            <label for="btn-1" class="show">Resources <img src="./asset/image/Vector 13.svg" alt=""></label>
-            <a href="#">Resources <img src="./asset/image/Vector 13.svg" alt=""></a>
-            <input type="checkbox" id="btn-1" />
-            <ul>
-              <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Books</a></li>
-              
-            </ul>
-          </li>
-          
-          
-          <li><a href="#">About</a></li>
-          <li class="get"><a href="#">Get Started</a></li>
-        </ul>
-      </nav>
-
-
-      <!--hero content-->
-      <div class="main">Shobowale<br/>Lukeman <br/><div class="line1"></div></div>
       </section>
 
-
       <!--marquee text-->
-      <section><marquee  behavior="scroll"  loop=""> <ul class="marquee">
-        <li>INSPIRE</li>
-        <li>LEADERSHIP</li>
-        <li>ADVANCEMENT</li>
-        <li>EMERGENCE</li>
-        <li>REFINEMENT</li>
-      </ul></marquee></section>
+      <section>
+        <div class="marquee">
+          
+            <ul class="marquee-content scroll">
+              <li class="text-block">INSPIRE</li>
+              <li class="text-block">LEADERSHIP</li>
+              <li class="text-block">ADVANCEMENT</li>
+              <li class="text-block">EMERGENCE</li>
+              <li class="text-block">REFINEMENT</li>
+            </ul></marquee
+          >
+            <ul class="marquee-content scroll">
+              <li class="text-block">INSPIRE</li>
+              <li class="text-block">LEADERSHIP</li>
+              <li class="text-block">ADVANCEMENT</li>
+              <li class="text-block">EMERGENCE</li>
+              <li class="text-block">REFINEMENT</li>
+            </ul></marquee
+          >
+        
+      </section>
 
-      
       <!--article-->
       <section class="article">
         <div class="arhead">Articles & Resources</div>
         <div class="line2-container">
-          <div class="line2"></div></div>
-          <!--article container-->
+          <div class="line2"></div>
+        </div>
+        <!--article container-->
         <div class="articles-container">
           <div class="article-card">
-            <img src="./asset/image/Photo (2).png" alt="">
+            <img src="./asset/image/Photo (2).png" alt="" />
             <div class="article-context">
               <h3>The energy efficiency offers hydrotherapy or swim</h3>
-              <p>The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
+              <p>
+                The point of using Lorem Ipsum hiter of that using making it
+                look like others readable will get end.
+              </p>
               <div class="details">
                 <div><a href="#">Read more</a></div>
                 <div class="date">Author - 23.05.2022</div>
@@ -79,10 +105,13 @@
             </div>
           </div>
           <div class="article-card">
-            <img src="./asset/image/Photo.png" alt="">
+            <img src="./asset/image/Photo.png" alt="" />
             <div class="article-context">
               <h3>The energy efficiency offers hydrotherapy or swim</h3>
-              <p>The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
+              <p>
+                The point of using Lorem Ipsum hiter of that using making it
+                look like others readable will get end.
+              </p>
               <div class="details">
                 <div><a href="#">Read more</a></div>
                 <div class="date">Sobowale Lukeman</div>
@@ -90,10 +119,13 @@
             </div>
           </div>
           <div class="article-card">
-            <img src="./asset/image/Photo (1).png" alt="">
+            <img src="./asset/image/Photo (1).png" alt="" />
             <div class="article-context">
               <h3>The energy efficiency offers hydrotherapy or swim</h3>
-              <p>The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
+              <p>
+                The point of using Lorem Ipsum hiter of that using making it
+                look like others readable will get end.
+              </p>
               <div class="details">
                 <div><a href="#">Read more</a></div>
                 <div class="date">Author - 23.05.2022</div>
@@ -101,13 +133,135 @@
             </div>
           </div>
         </div>
-
       </section>
+      <!--quote section-->
       <section>
-        
+        <div class="quote">
+          <div class="quote-text">
+            “To Master Your Life, Business And Career, You Need To Think About
+            How You Think.”
+          </div>
+          <div class="small-name">-Shobowale Lukeman</div>
+        </div>
       </section>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </section>
+    <!-- tweeter tweets -->
+<section>
+  <div class="c-product-tray">
+  
+  <div class="o-wrapper">
+  
+    <h2 class="c-product-tray__heading">Our Products</h2><!-- /c-product-tray__heading -->
+
+    <div class="c-product-tray__carousel">
+      
+      <div class="o-slider-product-tray">
+        
+        <div class="o-slider-product-tray__controls js-controls">
+        
+          <button class="o-slider-product-tray__button o-slider-product-tray__button--prev">
+            <svg class="o-slider-product-tray__arrow o-slider-product-tray__arrow--prev" 
+                 xmlns="http://www.w3.org/2000/svg" 
+                 viewBox="-44 40.7 11 21.1">
+              <path d="M-33.5 61.8L-44 51.3l10.5-10.6.5.5-10.1 10.1 10.1 10z"/>
+            </svg><!-- /o-slider-product-tray__arrow -->          
+          </button><!-- /o-slider-product-tray__button -->
+
+          <button class="o-slider-product-tray__button o-slider-product-tray__button--next">
+            <svg class="o-slider-product-tray__arrow o-slider-product-tray__arrow--next" 
+                 xmlns="http://www.w3.org/2000/svg" 
+                 viewBox="-44 40.7 11 21.1">
+              <path d="M-33.5 61.8L-44 51.3l10.5-10.6.5.5-10.1 10.1 10.1 10z"/>
+            </svg><!-- /o-slider-product-tray__arrow -->          
+          </button><!-- /o-slider-product-tray__button -->
+
+        </div><!-- /o-slider-product-tray__controls -->
+        
+
+        <ul class="o-slider-product-tray__inner js-slider-product-tray">
+
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+  <li class="o-slider-product-tray__slide">
+
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The reason some people are broke and jobless is because they don’t mingle with business people to understand how they think. You can’t be watching and thinking about bum bum all the day and build a product that’ll solve a problem.</p>&mdash; Lukman Shobowale (@lukmanshobowale) <a href="https://twitter.com/lukmanshobowale/status/1612820192777703425?ref_src=twsrc%5Etfw">January 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><!-- /c-product-tile -->
+
+          </li><!-- /o-slider-product-tray__slide -->
+
+        </ul><!-- /o-slider-product-tray__inner -->
+        
+      </div><!-- /o-slider-product-tray -->
+
+    </div><!-- /c-product-tray__carousel -->
+    
+    </div><!-- /o-wrapper -->
+  
+</div><!-- /c-product-tray -->
+<!-- partial -->
+
+
+</section>
+    
+    <script src="./script/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/min/tiny-slider.js'></script><script  src="./script.js"></script>
     <script src="./script/navscript.js"></script>
   </body>
-
 </html>

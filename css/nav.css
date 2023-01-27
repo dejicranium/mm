@@ -106,7 +106,7 @@ input {
     width: 100%;
   }
   .show + a,
-  ul {
+  nav ul {
     display: none;
   }
   .nav {

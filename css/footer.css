@@ -7,6 +7,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
+  width: 100%;
+  justify-content: space-between;
 }
 .container ul {
   list-style: none;
@@ -21,12 +23,25 @@
   padding: 0 15px;
 }
 .footer-col h4 {
-  font-size: 18px;
+  font-size: 24px;
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 35px;
   font-weight: 500;
+  font-family: "Cardo";
   position: relative;
+}
+.footer-col ul span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 180%;
+  /* or 32px */
+
+  letter-spacing: -0.01em;
+
+  color: #b4c7e7;
 }
 .footer-col h4::before {
   content: "";
@@ -47,17 +62,11 @@
   color: #ffffff;
   text-decoration: none;
   font-weight: 300;
-  color: #bbbbbb;
+
   display: block;
   transition: all 0.3s ease;
 }
 .footer-col ul li a i {
-  position: absolute;
-  width: 16px;
-  height: 22px;
-  left: 149px;
-  top: 15px;
-
   font-family: "Font Awesome 5 Brands";
   font-style: normal;
   font-weight: 400;
@@ -71,26 +80,39 @@
 
   color: #ffffff;
 }
+
 .footer-col ul li a:hover {
   color: #ffffff;
   padding-left: 8px;
 }
 .footer-col .social-links a {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  left: 0px;
-  top: 0px;
-
-  border: 1px solid #ffca42;
+  color: #ffffff;
+  border: 1px #ffca42 solid;
+  width: 55px !important;
+  margin: 5px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px !important;
+}
+.footer-col .social-links a i {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
 }
 .footer-col .social-links a:hover {
   color: #24262b;
-  background-color: #ffffff;
+  background-color: #24262b;
 }
-
+.footer-col .social-links a:hover .footer-col .social-links a i {
+  color: #24262b;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
 /*responsive*/
 @media (max-width: 767px) {
   .footer-col {

@@ -1,0 +1,79 @@
+.hero-container {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+.hero-row1 {
+  width: 50%;
+  height: 100%;
+}
+.hero-row1 h1 {
+  /* Bold/100px */
+
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  width: 400px;
+  font-size: 70px;
+  line-height: 60px;
+  /* or 100% */
+
+  letter-spacing: -1px;
+
+  /* General Color/3 */
+
+  color: #ffffff;
+}
+.lines {
+  width: 80px;
+  height: 0px;
+  margin-left: 300px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+
+  /* Yellow */
+
+  border: 3px solid #ffc947;
+}
+.hero-row1 p {
+  width: 400px;
+  height: 36px;
+
+  /* Medium/21px */
+
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+
+  /* or 162% */
+
+  /* General Color/3 */
+
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+.hero-row2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-row2 img {
+  width: 424px;
+  height: 466px;
+}
+.erect {
+  position: relative;
+  clear: both;
+  bottom: -100px;
+}
+.erect a {
+  text-decoration: none;
+}

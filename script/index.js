@@ -11,10 +11,10 @@ var slider = tns({
   nav: false,
   responsive: {
     360: {
-      items: 2.4,
+      items: 1.2,
     },
     600: {
-      items: 3.6,
+      items: 1.8,
     },
     900: {
       items: 2.5,

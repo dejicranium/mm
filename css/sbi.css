@@ -90,9 +90,28 @@
     width: 100%;
     height: 50%;
   }
+  .hero-row1 h1 {
+    font-size: 50px;
+    width: 60%;
+  }
   .hero-row2 {
     width: 100%;
     height: 50%;
-    align-items: center;
+    align-items: flex-start;
+  }
+  .lines {
+    width: 60px;
+    height: 0px;
+    margin-left: 130px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    /* Yellow */
+
+    border: 1.5px solid #ffc947;
+  }
+  .hero-row2 img {
+    width: 324px;
+    height: 366px;
   }
 }

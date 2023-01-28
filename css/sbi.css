@@ -79,7 +79,7 @@
 }
 @media (max-width: 899px) {
   .hero {
-    height: 200vh !important;
+    height: 150vh !important;
   }
   .hero-container {
     flex-direction: column;

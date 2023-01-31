@@ -109,6 +109,8 @@
 }
 .about2 {
   flex-direction: column;
+  height: auto !important;
+  padding-bottom: 30px;
 }
 .about2 h1 {
   font-family: "Cardo";
@@ -197,6 +199,15 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
+}
+@media (max-width: 1000px) {
+  .story-content-wrap {
+    flex-direction: column;
+  }
+  .story-item-wrap,
+  .section-title {
+    width: 100%;
+  }
 }
 .section-title {
   padding-left: 180px;

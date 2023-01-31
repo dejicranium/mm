@@ -200,7 +200,6 @@
     flex-direction: column;
   }
   .article,
-  .hero,
   .quote {
     height: auto !important;
     padding: 30px 50px !important;

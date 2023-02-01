@@ -55,6 +55,8 @@ p {
 .flow ul,
 .flow ol {
   color: #1b3764;
+  font-size: 14px;
+  padding-left: 30px;
 }
 .flow ul li {
   color: #1b3764;
@@ -593,7 +595,7 @@ section,
   height: 60px;
 
   margin-top: 27px;
-
+  margin-bottom: 5px;
   font-family: "Cardo";
   font-style: normal;
   font-weight: 700;

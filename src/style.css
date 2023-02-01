@@ -33,7 +33,10 @@
     --fs-700: 3rem;
   }
 }
-
+p {
+  color: #969aa0;
+  font-size: 15px;
+}
 /* //////////////////////
   RESET - source: https://piccalil.li/blog/a-modern-css-reset
   /////////////////////// */
@@ -807,6 +810,13 @@ button {
   margin: 1rem 0;
   font-size: var(--fs-300);
   opacity: 0.9;
+}
+figcaption {
+  color: #1b3764;
+}
+b,
+strong {
+  color: #1b3764;
 }
 
 /* //////////////////////

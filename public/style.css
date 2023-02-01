@@ -52,9 +52,15 @@ p {
   width: 1368px;
   height: 1052px;
 }
-ul {
-  color: #ffca42;
+.flow ul,
+.flow ol {
+  color: #1b3764;
 }
+.flow ul li {
+  color: #1b3764;
+  list-style-image: url("/public/assets/Vector.png");
+}
+*/
 /* Remove default margin */
 body,
 h1,
@@ -67,7 +73,9 @@ dl,
 dd {
   margin: 0;
 }
-
+.li {
+  list-style: none !important;
+}
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul:where([role="list"]),
 ol:where([role="list"]) {

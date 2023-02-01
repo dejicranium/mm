@@ -24,10 +24,7 @@ It is a long established fact that a reader will be distracted by the readable c
 
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has less normal distribution of letters, as opposed.
 
-1 . It has roots in a piece of classical Latin literature from 45 BC,
-
-2 . To generate Lorem Ipsum which looks reasonable
-
-3 . The first line of Lorem Ipsum, "Lorem ipsum” dolor sit amet
-
-4 . Be standard chunk of Lorem used since the 1500s
+1. It has roots in a piece of classical Latin literature from 45 BC,
+2. To generate Lorem Ipsum which looks reasonable
+3. The first line of Lorem Ipsum, "Lorem ipsum” dolor sit amet
+4. Be standard chunk of Lorem used since the 1500s

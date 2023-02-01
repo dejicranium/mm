@@ -1,0 +1,24 @@
+
+<section class="article-section">
+ <div class="card_container">
+        <div class="card_image">
+          <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" />
+        </div>
+        <div class="card_details">
+          <div class="product_name">
+            <h3 class="a-h3"><a href="{{ post.url }}" class="color">{{ post.data.title }}</a></h3>
+            <div>
+              <p class="a-p">
+                {{post.data.description}}
+              </p>
+            </div>
+          </div>
+          <div class="a-details">
+            <ul>
+              <li>  <a href="{{ post.url }}" >Read more</a></li>
+              <li>{{post.data.author}}- {{ post.date | postDate }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </section>

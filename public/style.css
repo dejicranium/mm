@@ -52,6 +52,9 @@ p {
   width: 1368px;
   height: 1052px;
 }
+ul {
+  color: #ffca42;
+}
 /* Remove default margin */
 body,
 h1,

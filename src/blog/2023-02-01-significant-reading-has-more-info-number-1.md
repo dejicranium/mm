@@ -19,11 +19,9 @@ There are many variations of passages of Lorem Ipsum available, but the majorith
 
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has less normal distribution of letters, as opposed.
 
-It has roots in a piece of classical Latin literature from 45 BC,
-
-To generate Lorem Ipsum which looks reasonable
-
-The first line of Lorem Ipsum, "Lorem ipsum” dolor sit amet
+* It has roots in a piece of classical Latin literature from 45 BC,
+* To generate Lorem Ipsum which looks reasonable
+* The first line of Lorem Ipsum, "Lorem ipsum” dolor sit amet
 
 # **The perfect book for all**
 

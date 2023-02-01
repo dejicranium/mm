@@ -44,7 +44,9 @@
 *::after {
   box-sizing: border-box;
 }
-
+.article-img {
+  margin-top: 40px;
+}
 /* Remove default margin */
 body,
 h1,

@@ -76,6 +76,8 @@
 .product-section {
   padding-top: 80px;
   padding-bottom: 0;
+  padding-left: 10px;
+   padding-right: 10px;
 }
 .product-item {
   margin-bottom: 60px;

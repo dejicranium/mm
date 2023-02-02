@@ -214,7 +214,7 @@
 @media (max-width: 1000px) {
   .story-detail-content {
     color: #969aa0;
-    width: 60vh;
+    width: 300px;
     font-size: 14px;
   }
   .story-content-wrap {

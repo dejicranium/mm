@@ -974,7 +974,7 @@ strong {
 }
 .footer-col .social-links a:hover {
   color: #24262b;
-  background-color: #24262b;
+  background: #ffca42;
 }
 .footer-col .social-links a:hover .footer-col .social-links a i {
   color: #24262b;
@@ -1025,14 +1025,4 @@ strong {
   letter-spacing: -0.01em;
 
   color: #b4c7e7;
-}
-
-/*nav prob resolved*/
-.show,
-.show a {
-  display: flex;
-  flex-direction: row;
-}
-.show img {
-  margin-left: 3px;
 }

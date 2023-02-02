@@ -103,7 +103,7 @@
 }
 .footer-col .social-links a:hover {
   color: #24262b;
-  background-color: #24262b;
+  background: #ffca42;
 }
 .footer-col .social-links a:hover .footer-col .social-links a i {
   color: #24262b;

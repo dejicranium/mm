@@ -219,10 +219,13 @@
   }
   .story-content-wrap {
     flex-direction: column;
+    height: auto;
   }
   .story-item-wrap,
   .section-title {
     width: 80%;
+    height: auto;
+    margin: 30px 0;
   }
 }
 .section-title {

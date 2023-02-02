@@ -9,8 +9,6 @@ body {
 @media (max-width: 650px) {
   body {
     background: #f4f8ff;
-    overflow: hidden;
-    width: 100vw;
   }
 }
 /*hero section*/

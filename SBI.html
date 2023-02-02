@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="./css/sbi.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/popup.css" />
+
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
+    <script src="./script/popup.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <title>SBI</title>
   </head>
   <body>
@@ -63,7 +67,7 @@
               on how to make smart investments and navigate the industry to
               avoid pitfalls.
             </p>
-            <div class="get , erect"><a href="">Get Started</a></div>
+            <div class="get , erect"><a href="" class="me">Get Started</a></div>
           </div>
 
           <div class="hero-row2">
@@ -146,6 +150,92 @@
           </div>
         </div>
       </section>
+      <!--
+
+
+        ==
+        popup
+        ==
+      -->
+      <div class="center modal-box">
+        <div class="fas fa-times"></div>
+
+        <section class="contact-section">
+          <!--<div class="contact-form">
+           <h3 class="contact-head">Subscribe to our Newsletter!</h3>
+           <p class="contact-para">
+             Get actionable business insights directly in your inbox every
+             Tuesday and Friday.
+           </p>
+           <div class="side-by-side">
+             <div id="leftDiv">
+               <input
+                 type="text"
+                 name="firstName"
+                 value="firstName"
+                 placeholder="Firstname"
+               />
+             </div>
+             <div id="rightDiv">
+               <input
+                 type="text"
+                 name="lastName"
+                 value="lastName"
+                 placeholder="Lastname"
+               />
+             </div>
+           </div>
+           <input type="number" placeholder="Phone Number" />
+           <input type="text" placeholder="Enter your email address" />
+           <input type="text" placeholder="Let’s Get Started" />
+         </div>
+ 
+         
+ 
+ 
+           ss
+         -->
+          <div class="subscribe">
+            <h2 class="subscribe__title">Subscribe to our Newsletter!</h2>
+            <p class="subscribe__copy">
+              Get actionable business insights directly in your inbox every
+              Tuesday and Friday.
+            </p>
+            <div class="form">
+              <div class="side-by-side">
+                <input
+                  type="text"
+                  class="form__email , side"
+                  placeholder="First Name"
+                  required
+                />
+                <input
+                  type="text"
+                  class="form__email"
+                  placeholder="Last Name"
+                  style="margin-left: 10px"
+                  required
+                />
+              </div>
+              <input
+                type="text"
+                class="form__email"
+                placeholder="Phone Number"
+                required
+              />
+              <input
+                type="email"
+                class="form__email"
+                placeholder="Enter your email address"
+                required
+              />
+              <div class="b-d">
+                <button class="form__button">Let’s Get Started</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
       <!--
 
 

@@ -50,7 +50,7 @@ p {
 .article-img {
   margin-top: 40px;
   width: 1368px;
-  height: 1052px;
+  height: auto;
 }
 
 @media (max-width: 750px){

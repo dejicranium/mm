@@ -6,6 +6,13 @@
 body {
   background: #f4f8ff;
 }
+@media (max-width: 650px) {
+  body {
+    background: #f4f8ff;
+    overflow: hidden;
+    height: auto !important;
+  }
+}
 /*hero section*/
 .hero {
   padding-top: 30px;

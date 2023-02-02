@@ -52,6 +52,12 @@ p {
   width: 1368px;
   height: 1052px;
 }
+
+@media (max-width: 750px){
+.article-img{
+height: 70vh;
+}
+}
 .flow ul,
 .flow ol {
   color: #1b3764;

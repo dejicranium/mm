@@ -204,6 +204,9 @@
     height: auto !important;
     padding: 30px 50px !important;
   }
+  .quote-text {
+    font-size: 20px;
+  }
 }
 
 .articles-container .article-card img {
@@ -325,4 +328,19 @@
   letter-spacing: -0.02em;
 
   color: #ffffff;
+}
+
+.c-product-tray__heading {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 120%;
+  /* or 54px */
+  margin-top: 30px;
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #1b3764;
 }

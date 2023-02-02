@@ -112,11 +112,14 @@
     font-size: 50px;
     width: 60%;
   }
+  .hero-row1 p {
+    width: 80%;
+    font-size: 16px;
+  }
   .hero-row2 {
     width: 100%;
     height: auto !important;
     align-items: flex-start;
-    margin: 20px 0;
   }
   .lines {
     width: 60px;

@@ -55,7 +55,7 @@ p {
 
 @media (max-width: 750px){
 .article-img{
-height: 70vh;
+height: auto;
 }
 }
 .flow ul,

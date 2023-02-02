@@ -53,10 +53,10 @@ p {
   height: auto;
 }
 
-@media (max-width: 750px){
-.article-img{
-height: auto;
-}
+@media (max-width: 750px) {
+  .article-img {
+    height: auto;
+  }
 }
 .flow ul,
 .flow ol {
@@ -1025,4 +1025,14 @@ strong {
   letter-spacing: -0.01em;
 
   color: #b4c7e7;
+}
+
+/*nav prob resolved*/
+.show,
+.show a {
+  display: flex;
+  flex-direction: row;
+}
+.show img {
+  margin-left: 3px;
 }

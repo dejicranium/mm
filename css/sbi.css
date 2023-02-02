@@ -99,7 +99,7 @@
     margin: 10px 0;
   }
   .hero-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: flex-start;
     height: 100%;
   }

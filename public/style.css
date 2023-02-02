@@ -1026,3 +1026,10 @@ strong {
 
   color: #b4c7e7;
 }
+/*logo*/
+nav .logo img {
+  float: left;
+
+  width: 8cm;
+  height: auto;
+}

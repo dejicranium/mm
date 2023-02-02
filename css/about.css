@@ -3,6 +3,7 @@
   height: 527px !important;
   position: relative;
   overflow: hidden;
+  width: 100vw;
 }
 .main {
   position: absolute;

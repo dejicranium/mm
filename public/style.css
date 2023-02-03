@@ -182,10 +182,15 @@ body {
     width: 80%;
   }
   .line1 {
-    width: 35px;
-    border: 1.5 px solid #ffc947;
-    margin: 20px 0;
+    width: 60px;
+    border: 3px solid #ffc947;
+    margin-top: 25px;
   }
+}
+
+.fa,
+.fas {
+  margin-top: 30px !important;
 }
 h1,
 h2,

@@ -191,6 +191,10 @@ input {
   span.cancel:before {
     content: "\f00d";
   }
+  .logopng {
+    width: 200px;
+    height: auto;
+  }
 }
 /*get started*/
 .get {

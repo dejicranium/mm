@@ -1,7 +1,6 @@
-
 <section class="article-section">
  <div class="card_container">
-        <div class="card_image">
+        <!--<div class="card_image">
           <img src=".{{ post.data.image }}" alt="{{ post.data.imageAlt }}" />
         </div>
         <div class="card_details">
@@ -15,10 +14,53 @@
           </div>
           <div class="a-details">
             <ul>
-              <li class="li">  <a href=".{{ post.url }}" >Read more</a></li>
+              <li class="li">  <a href="{{post.data.description}}" >Read more</a></li>
               <li class="li">{{post.data.author}}- {{ post.date | postDate }}</li>
             </ul>
           </div>
         </div>
       </div>
+<!--
+
+       <div class="articles-container">
+          <div class="article-card">
+            <img src=".{{ post.data.image }}" alt="{{ post.data.imageAlt }}" />
+            <div class="article-context">
+              <h3>{{ post.data.title }}</h3>
+              <p>
+                {{post.data.description}}
+              </p>
+              <div class="details">
+                <div><a href="https://shobowale.netlify.app/public/blog/2023-02-01-significant-reading-has-more-info-number/">Read more</a></div>
+                <div class="date">{{post.data.author}}- {{ post.date | postDate }}</div>
+              </div>
+            </div>
+          </div>
+          <div class="article-card">
+            <img src=".{{ post.data.image }}" alt="{{ post.data.imageAlt }}" />
+            <div class="article-context">
+              <h3>{{ post.data.title }}</h3>
+              <p>
+                {{post.data.description}}
+              </p>
+              <div class="details">
+                <div><a href="{{post.data.description}">Read more</a></div>
+                <div class="date">{{post.data.author}}- {{ post.date | postDate }} </div>
+              </div>
+            </div>
+          </div>
+          <div class="article-card">
+            <img src=".{{ post.data.image }}" alt="{{ post.data.imageAlt }}" />
+            <div class="article-context">
+              <h3>{{ post.data.title }}</h3>
+              <p>
+                {{post.data.description}}
+              </p>
+              <div class="details">
+                <div><a href="{{post.data.description}}">Read more</a></div>
+                <div class="date">{{post.data.author}}- {{ post.date | postDate }}</div>
+              </div>
+            </div>
+          </div>
+        </div>-->
       </section>

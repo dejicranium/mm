@@ -209,15 +209,12 @@
     height: auto !important;
     padding: 30px 50px !important;
   }
-
-  .quote-text {
-    font-size: 22px !important;
-  }
-}
-@media (max-width: 1100px) {
   .quote {
     height: auto;
-    background-size: cover;
+    background-size: 100% auto !important;
+  }
+  .quote-text {
+    font-size: 22px !important;
   }
 }
 

@@ -291,7 +291,7 @@
 /*quote section*/
 .quote {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
 
   background: linear-gradient(
       0deg,
@@ -311,7 +311,8 @@
   font-family: "Cardo";
   font-style: normal;
   font-weight: 400;
-  font-size: 75px;
+  font-size: 130px;
+  padding: 30px;
   line-height: 120%;
   /* or 96px */
 

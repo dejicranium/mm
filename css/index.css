@@ -349,11 +349,4 @@
 
   color: #1b3764;
 }
-
-/*twitter slider*/
-.c-product-tray {
-  height: 60vh;
-}
-.o-slider-product-tray a {
-  display: none !important;
-}
+/*tweet link dis-able*/

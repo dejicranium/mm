@@ -9,6 +9,9 @@
 
   clear: both;
 }
+body {
+  overflow: hidden visible;
+}
 .main {
   position: absolute;
   width: 100%;

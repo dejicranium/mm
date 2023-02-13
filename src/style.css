@@ -1027,6 +1027,7 @@ strong {
   color: #b4c7e7;
 }
 
+/* importants*/
 .show {
   width: auto !important;
   margin: 10px !important;
@@ -1036,4 +1037,9 @@ strong {
 .drop {
   float: right !important;
   margin-top: 30px !important;
+}
+
+.article-section {
+  margin: 15px !important;
+  padding: 15px !important;
 }

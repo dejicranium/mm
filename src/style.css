@@ -1026,3 +1026,14 @@ strong {
 
   color: #b4c7e7;
 }
+
+.show {
+  width: auto !important;
+  margin: 10px !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.drop {
+  float: right !important;
+  margin-top: 30px !important;
+}

@@ -21,6 +21,6 @@ Aenean luctus eu neque ut congue. Nullam pretium magna in mollis porta. Cras cur
 
 > Nunc eget mi risus. Aliqua
 >
-> ![sf](/assets/blog/article-1.jpg)
+> ![sf](/src/assets/blog/article-1.jpg)
 >
 > da, ligula eu suscipit aliquet, magna nunc efficitur dui, ut ornare lectus nunc ut lacus. Nam feugiat imperdiet consequat. Nunc at massa in orci semper gravida. Fusce lobortis tincidunt lacus. Proin tincidunt accumsan faucibus. Phasellus in sem vel nulla consequat consequat. Nunc congue elementum scelerisque.

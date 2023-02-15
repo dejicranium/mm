@@ -1043,3 +1043,9 @@ strong {
   margin: 15px !important;
   padding: 15px !important;
 }
+
+@media (max-width: 600px) {
+  .a-details ul * {
+    font-size: 12px !important;
+  }
+}

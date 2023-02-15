@@ -1043,6 +1043,9 @@ strong {
   margin: 15px !important;
   padding: 15px !important;
 }
+body {
+  overflow: hidden visible;
+}
 
 @media (max-width: 600px) {
   .a-details ul * {

@@ -13,8 +13,8 @@ body {
   overflow: hidden visible;
 }
 @media (max-width: 800px) {
-  body {
-    overflow: visible !important;
+  .article-card {
+    margin: 20px 0 !important;
   }
 }
 .main {

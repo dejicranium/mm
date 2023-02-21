@@ -140,7 +140,7 @@ body {
 }
 
 .scroll {
-  animation: scroll 10s linear infinite;
+  animation: scroll 30s linear infinite;
 }
 .reverse {
   animation-direction: reverse;

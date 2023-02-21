@@ -16,6 +16,9 @@ body {
   .article-card {
     margin: 20px 0 !important;
   }
+  .hero {
+    background-size: cover !important;
+  }
 }
 .main {
   position: absolute;

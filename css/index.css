@@ -16,7 +16,8 @@ body {
   .article-card {
     margin: 20px 0 !important;
   }
-  .hero {
+  .hero,
+  .quote {
     background-size: cover !important;
   }
 }

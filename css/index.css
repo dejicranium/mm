@@ -223,6 +223,7 @@ body {
 @media (max-width: 800px) {
   .articles-container {
     flex-direction: column;
+    padding-right: 50px !important;
   }
   .article,
   .quote {

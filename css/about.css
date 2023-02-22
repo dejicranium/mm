@@ -6,7 +6,7 @@
   width: 100vw;
 }
 body {
-  overflow: visible hidden !important;
+  overflow: hidden visible !important;
 }
 .main {
   position: absolute;

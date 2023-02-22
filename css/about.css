@@ -93,9 +93,14 @@ body {
   }
   .about1,
   .about2 {
-    width: 80% !important;
     height: 50% !important;
     padding: 20px !important;
+  }
+  .about1 {
+    width: 80% !important;
+  }
+  .about2 {
+    width: 100% !important;
   }
 }
 .about1,
@@ -223,12 +228,12 @@ body {
   }
   .story-content-wrap {
     flex-direction: column;
-    height: auto;
+    height: auto !important;
   }
   .story-item-wrap,
   .section-title {
     width: 80%;
-    height: auto;
+    height: auto !important;
     margin: 0 0;
     margin-bottom: 10px !important;
   }

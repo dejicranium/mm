@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shobowale's Business Insight</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Work+Sans&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css"
@@ -228,7 +230,7 @@
 
 
 -->
-
+<span class="alert">Copied!</span>
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -236,17 +238,17 @@
             <h4>Keep in Touch</h4>
             <ul>
               <li>
-                <a href="#"
-                  >address:<span>
+                <a href="#" id="copyButton1"
+                  >address:<span id="text1"> 
                     24A Kingston St, Los Vegas NC 28202, New York.</span
                   ></a
                 >
               </li>
               <li>
-                <a href="#">Mail :<span> support@email.com</span></a>
+                <a href="#" id="copyButton2">Mail :<span id="text2"> support@email.com</span></a>
               </li>
               <li>
-                <a href="#">Phone :<span> (+22) 123 - 4567 - 900</span></a>
+                <a href="#" id="copyButton3">Phone :<span id="text3"> (+22) 123 - 4567 - 900</span></a>
               </li>
             </ul>
           </div>
@@ -310,6 +312,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/min/tiny-slider.js"></script>
     <script src="./script.js"></script>
     <script src="./script/navscript.js"></script>
+    <script src="./script/copy.js"></script>
 
     <script>
       async function getTweets() {

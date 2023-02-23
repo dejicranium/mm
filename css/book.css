@@ -3,6 +3,9 @@
   height: 527px !important;
   position: relative;
 }
+.product-listing-wrap{
+  padding: 50px !important;
+}
 .main {
   position: absolute;
   width: 100%;

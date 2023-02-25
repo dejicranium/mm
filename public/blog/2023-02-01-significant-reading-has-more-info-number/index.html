@@ -7,6 +7,8 @@
   <title>Significant reading has more info number</title>
   <link rel="stylesheet" href="/src/style.css">
   <link rel="stylesheet" href="/css/nav.css">
+   <link rel="stylesheet" href="/css/footer.css">
+   <script href="/script/navscript.js">
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <link
       rel="stylesheet"
@@ -103,18 +105,23 @@
           <div class="footer-col">
             <h4>Keep in Touch</h4>
             <ul>
-              <li class="li">
-                <a href="#"
-                  >address:<span>
-                    24A Kingston St, Los Vegas NC 28202, New York.</span
-                  ></a
-                >
+              <li>
+                <button class="copyButton" id="copyButton1">
+                  address:
+                  <span id="text1"
+                    >24A Kingston St, Los Vegas NC 28202, New York.</span
+                  >
+                </button>
               </li>
-              <li class="li">
-                <a href="#">Mail :<span> support@email.com</span></a>
+              <li>
+                <button class="copyButton" id="copyButton2">
+                  Mail :<span id="text2"> support@email.com</span>
+                </button>
               </li>
-              <li class="li">
-                <a href="#">Phone :<span> (+22) 123 - 4567 - 900</span></a>
+              <li>
+                <button class="copyButton" id="copyButton3">
+                  Phone :<span id="text3"> (+22) 123 - 4567 - 900</span>
+                </button>
               </li>
             </ul>
           </div>

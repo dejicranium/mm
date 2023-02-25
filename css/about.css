@@ -207,6 +207,9 @@ body {
   background: #ffca42;
 }
 /*expertise*/
+.expertise {
+  clear: both !important;
+}
 .story-count,
 .story-detail-title {
   color: #1b3764;

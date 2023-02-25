@@ -19,10 +19,17 @@
      <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=0de490638f36f' async='true'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/min/tiny-slider.js"></script>
+      <link
+      href="https://fonts.googleapis.com/css?family=Poppins|Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script href="./script/navscript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/footer.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css"
@@ -238,17 +245,22 @@
             <h4>Keep in Touch</h4>
             <ul>
               <li>
-                <a href="#" id="copyButton1"
-                  >address:<span id="text1"> 
-                    24A Kingston St, Los Vegas NC 28202, New York.</span
-                  ></a
-                >
+                <button class="copyButton" id="copyButton1">
+                  address: <span id="text1">24A Kingston St, Los Vegas NC 28202, New York.</span>
+                </button>
+                
               </li>
               <li>
-                <a href="#" id="copyButton2">Mail :<span id="text2"> support@email.com</span></a>
+                <button class="copyButton" id="copyButton2">
+                  Mail :<span id="text2"> support@email.com</span>
+                </button>
+               
               </li>
               <li>
-                <a href="#" id="copyButton3">Phone :<span id="text3"> (+22) 123 - 4567 - 900</span></a>
+                <button class="copyButton" id="copyButton3">
+                  Phone :<span id="text3"> (+22) 123 - 4567 - 900</span>
+                </button>
+              
               </li>
             </ul>
           </div>
@@ -344,6 +356,28 @@
   
       getTweets();*/
       }
+    </script>
+    <!--copy
+    -->
+     <script>
+      function copy(copyId) {
+        var $inp = $("<input>");
+        $("body").append($inp);
+        $inp.val($("" + copyId).text()).select();
+        document.execCommand("copy");
+        $inp.remove();
+        $(".alert").fadeIn(500, function () {
+          $(".alert").fadeOut();
+        });
+      }
+      $(document).ready(function () {
+        $("#copyButton1").click(function () {
+          copy("#text1");
+        });
+        $("#copyButton2").click(function () {
+          copy("#text2");
+        });
+      });
     </script>
   </body>
 </html>

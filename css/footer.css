@@ -56,12 +56,16 @@
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
-.footer-col ul li a {
+.footer-col ul li a,
+.footer-col ul li button {
   font-size: 16px;
   text-transform: capitalize;
   color: #ffffff;
   text-decoration: none;
   font-weight: 300;
+  border: none;
+  background: transparent;
+  cursor: pointer;
 
   display: block;
   transition: all 0.3s ease;
@@ -82,6 +86,10 @@
 }
 
 .footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col ul li button:hover {
   color: #ffffff;
   padding-left: 8px;
 }

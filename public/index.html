@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="/css/nav.css">
   <link rel="stylesheet" href="/css/footer.css">
   <script href="/script/navscript.js">
+  <script href="/script/article.js">
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <link
       rel="stylesheet"
@@ -69,7 +70,7 @@
     
        
 
-<ul role="list" class="articles__list flow">
+<ul role="list" class="articles__list flow" id="slides-container-li">
 <section class="article-section , grid" >
  <div class="card_container">
         <div class="card_image">
@@ -283,10 +284,11 @@
 </div>
 
 
-
-        <button onclick="showPrev()"> Show Prev</button>
-<button onclick="showNext()"> Show Next</button>
-
+<div class="n-btn">
+         <button class="Previous-btn" id="Previous-btn" onclick="clickPrevious()">Previous</button>
+  <button class="slide-btn" id="slide-btn" onclick="clickNext()">Next</button><div>
+<br/>
+<br/>
 
 
   </main>
@@ -360,22 +362,14 @@
       <div class="b-line-c"><div class="b-line"></div></div>
       <div class="b-c"><div class="b-text">© SHOBOWALE LUKEMAN</div></div>
     </footer>
-    <script>$(".icon").click(function () {
-  $("span").toggleClass("cancel");
-});
-</script>
+    
 
   <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
 
+
+
+
+  </script>
 
 
 

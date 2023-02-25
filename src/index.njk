@@ -5,7 +5,7 @@ layout: 'base.njk'
 
        
 
-<ul role="list" class="articles__list flow">
+<ul role="list" class="articles__list flow" id="slides-container-li">
 
   {%- for post in collections.post | reverse -%}
     {% include 'article-snippet.njk' %}
@@ -24,8 +24,9 @@ layout: 'base.njk'
   <a href="/blog/another-article/" class="btn btn--primary">Continue Reading</a>
 </article>
         </li> #}
-
-        <button onclick="showPrev()"> Show Prev</button>
-<button onclick="showNext()"> Show Next</button>
-
+<div class="n-btn">
+         <button class="Previous-btn" id="Previous-btn" onclick="clickPrevious()">Previous</button>
+  <button class="slide-btn" id="slide-btn" onclick="clickNext()">Next</button><div>
+<br/>
+<br/>
 

@@ -115,6 +115,8 @@
     align-items: flex-start;
     height: 100%;
     justify-content: flex-end;
+    position: absolute;
+    top: 100px;
   }
   .hero-row1 {
     width: 86%;
@@ -126,6 +128,8 @@
   .hero-row2 {
     margin-top: 90px !important;
     width: 100% !important;
+    position: absolute;
+    top: 50vh;
   }
   .hero-row2 img {
     margin-top: 25% !important;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/popup.css" />
     <script href="./script/navscript.js"></script>
+
     <link
       rel="stylesheet"
       type="text/css"
@@ -57,7 +58,7 @@
         </nav>
 
         <!--hero content-->
-        <div class="hero-container">
+        <div class="hero-container"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <div class="hero-row1">
             <h1>Shobowale's Business Insights</h1>
             <div class="lines"></div>
@@ -76,7 +77,7 @@
           </div>
         </div>
       </section>
-      <section id="contact" class="contact-section">
+      <section id="contact" class="contact-section"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <!--<div class="contact-form">
           <h3 class="contact-head">Subscribe to our Newsletter!</h3>
           <p class="contact-para">
@@ -111,25 +112,30 @@
 
           ss
         -->
-        <div class="subscribe">
-          <h2 class="subscribe__title">Subscribe to our Newsletter!</h2>
+        <form action="https://gmail.us21.list-manage.com/subscribe/post?u=27394fc99fee66cd87a40cebe&amp;id=de95cf6915&amp;f_id=0091d5e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"  class="subscribe">
           <p class="subscribe__copy">
             Get actionable business insights directly in your inbox every
             Tuesday and Friday.
           </p>
           <div class="form">
             <div class="side-by-side">
+            
               <input
                 type="text"
                 class="form__email , side"
                 placeholder="First Name"
+                id="mce-FNAME"
                 required
               />
+
+          
               <input
+              
                 type="text"
                 class="form__email"
                 placeholder="Last Name"
                 style="margin-left: 10px"
+                id="mce-MMERGE3"
                 required
               />
             </div>
@@ -137,19 +143,23 @@
               type="text"
               class="form__email"
               placeholder="Phone Number"
+              value="" id="mce-PHONE"
               required
             />
+           
             <input
               type="email"
               class="form__email"
+              id="mce-EMAIL"
               placeholder="Enter your email address"
               required
             />
             <div class="b-d">
-              <button class="form__button">Let’s Get Started</button>
+              
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="form__button">
             </div>
           </div>
-        </div>
+        </form>
       </section>
       <!--
 
@@ -309,6 +319,60 @@
                   alt=""
               /></a>
             </h4>
+            <!----><!----><!----><!---->
+
+
+
+
+
+
+
+
+
+
+
+            <!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+            <!----><!-- Begin Mailchimp Signup Form -->
+
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+	<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+</div>
+<div class="mc-field-group">
+	
+	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME" required>
+	<span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+</div>
+<div class="mc-field-group">
+
+	<input type="text" value="" name="MMERGE3" class="required" id="mce-MMERGE3" required>
+	<span id="mce-MMERGE3-HELPERTEXT" class="helper_text"></span>
+</div>
+<div class="mc-field-group size1of2">
+	<label for="mce-PHONE">Phone Number  <span class="asterisk">*</span>
+</label>
+	<input type="text" name="PHONE" class="required" value="" id="mce-PHONE" required>
+	<span id="mce-PHONE-HELPERTEXT" class="helper_text"></span>
+	
+</div>
+	<div id="mce-responses" class="clear foot">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_27394fc99fee66cd87a40cebe_de95cf6915" tabindex="-1" value=""></div>
+        <div class="optionalParent">
+            <div class="clear foot">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <p class="brandingLogo"><a href="http://eepurl.com/ihQn0L" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+            <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+
+            <!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
               <div class="social-links">
                 <ul class="social">
                   <li>
@@ -332,7 +396,11 @@
         <div class="b-c"><div class="b-text">© SHOBOWALE LUKEMAN</div></div>
       </footer>
     </section>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <script src="./script/navscript.js"></script>
   </body>
 </html>

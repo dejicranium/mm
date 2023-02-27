@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
     <link rel="stylesheet" href="./css/about.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -64,7 +65,12 @@
 
     <br />
     <br />
-    <section class="about-section">
+    <section
+      class="about-section"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
       <div class="about1">
         <img src="./asset/image/DSC02132 1.png" alt="" />
       </div>
@@ -104,7 +110,12 @@
     <br />
     <br />
     <br />
-    <section class="expertise">
+    <section
+      class="expertise"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
       <div class="box-container">
         <div class="story-content-wrap">
           <div class="section-title left">
@@ -242,7 +253,10 @@
       <div class="b-line-c"><div class="b-line"></div></div>
       <div class="b-c"><div class="b-text">© SHOBOWALE LUKEMAN</div></div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./script/navscript.js"></script>
   </body>
 </html>

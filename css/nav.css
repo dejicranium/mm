@@ -6,6 +6,9 @@
 body {
   background: #f4f8ff;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @media (max-width: 650px) {
   body {
@@ -57,6 +60,7 @@ nav ul li a {
   line-height: 70px;
   text-decoration: none;
   font-size: 18px;
+
   padding: 8px 15px;
 }
 nav ul li a:hover {
@@ -67,6 +71,7 @@ nav ul ul li a:hover {
 }
 nav ul ul {
   position: absolute;
+  z-index: 99999999999999999;
   list-style: none;
   top: 90px;
   border: none !important;

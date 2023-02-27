@@ -11,6 +11,7 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script href="./script/navscript.js"></script>
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/footer.css" />
@@ -61,7 +62,7 @@
         </p>
       </div>
     </section>
-    <div class="product-listing-wrap">
+    <div class="product-listing-wrap"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <div class="w-dyn-list">
         <div role="list" class="w-dyn-items w-row">
           <div
@@ -489,7 +490,10 @@
       <div class="b-line-c"><div class="b-line"></div></div>
       <div class="b-c"><div class="b-text">© SHOBOWALE LUKEMAN</div></div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <script src="./script/navscript.js"></script>
   </body>
 </html>

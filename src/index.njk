@@ -5,7 +5,7 @@ layout: 'base.njk'
 
        
 
-<ul role="list" class="articles__list flow" id="slides-container-li"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+<ul role="list" class="articles__list flow" id="slides-container-li"  data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
 
   {%- for post in collections.post | reverse -%}
     {% include 'article-snippet.njk' %}

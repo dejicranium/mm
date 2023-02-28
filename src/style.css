@@ -630,7 +630,7 @@ section,
 }
 .a-details ul {
   margin-top: 20px;
-  width: 80%;
+  width: 90%;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -647,7 +647,7 @@ section,
   align-items: center;
   text-align: center;
   letter-spacing: 0.02em;
-
+  margin-right: 10px;
   color: #1b3764;
 }
 

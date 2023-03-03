@@ -24,6 +24,10 @@
  
   {% include 'header.njk'  %}
   <main>
+  <div class="search-container">
+  <input type="text" placeholder="Search..." id="search-bar">
+  <button type="button" id="search-button">Search</button>
+</div>
     {{ content | safe }}
   </main>
   {% include 'footer.njk' %}
@@ -41,51 +45,56 @@
 
 
 ///////////////////////////////const itemsPerPage = 4;
-const articlesList = document.querySelector('#slides-container-li');
-const pagination = document.querySelector('#pagination');
-const articles = [...articlesList.children];
+// Get the article list and the pagination container
+const articleList = document.getElementById("slides-container-li");
+const paginationContainer = document.getElementById("pagination");
 
-function showPage(pageNumber) {
-  // Calculate the starting and ending index of the items to show on the page
-  const startIndex = (pageNumber - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
+// Get the number of articles and calculate the number of pages
+const numArticles = articleList.children.length;
+const numPages = Math.ceil(numArticles / 4);
 
-  // Loop through all the items and show/hide them based on the index
-  articles.forEach((article, index) => {
-    if (index >= startIndex && index < endIndex) {
-      article.style.display = 'block';
-    } else {
-      article.style.display = 'none';
+// Loop through each page and create a pagination button
+for (let i = 1; i <= numPages; i++) {
+  const button = document.createElement("li");
+  const link = document.createElement("a");
+  link.href = "#";
+  link.textContent = i;
+  button.appendChild(link);
+  paginationContainer.appendChild(button);
+
+  // Add an event listener to the button that shows the corresponding articles
+  button.addEventListener("click", () => {
+    // Hide all articles
+    for (let j = 0; j < numArticles; j++) {
+      articleList.children[j].style.display = "none";
     }
+
+    // Show the articles for the current page
+    const startIndex = (i - 1) * 4;
+    const endIndex = Math.min(startIndex + 4, numArticles);
+    for (let j = startIndex; j < endIndex; j++) {
+      articleList.children[j].style.display = "block";
+    }
+
+    // Update the active class for the pagination buttons
+    const activeButton = document.querySelector(".pagination li.active");
+    if (activeButton) {
+      activeButton.classList.remove("active");
+    }
+    button.classList.add("active");
   });
 }
 
-function createPaginationButtons() {
-  // Calculate the total number of pages
-  const totalPages = Math.ceil(articles.length / itemsPerPage);
-
-  // Loop through all the pages and create a button for each
-  for (let i = 1; i <= totalPages; i++) {
-    const button = document.createElement('button');
-    button.textContent = i;
-    button.addEventListener('click', () => {
-      showPage(i);
-      setActiveButton(i);
-    });
-    pagination.appendChild(button);
-  }
-
-  // Set the first button to active by default
-  setActiveButton(1);
+// Show the first page of articles and set the first pagination button as active
+for (let i = 0; i < 4 && i < numArticles; i++) {
+  articleList.children[i].style.display = "block";
 }
-
-function setActiveButton(pageNumber)
-
+paginationContainer.children[0].classList.add("active");
 
 /////////////
 
  </script>
-
+<script href="/script/article.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
     AOS.init();

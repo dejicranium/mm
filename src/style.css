@@ -1054,30 +1054,65 @@ body {
 }
 
 /*n-btn*/
-.n-btn {
+.pagination-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  background: #f4f8ff;
-  padding: 10px;
+  margin-top: 20px;
 }
 
 .pagination {
   display: flex;
-  justify-content: center;
-  margin-top: 40px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.pagination button {
+.pagination li {
   margin: 0 5px;
+}
+
+.pagination a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+/*search*/
+.search-container {
+  display: flex;
+  align-items: center;
+  display: block !important;
+  margin-bottom: 20px;
+}
+
+#search-box {
+  width: 1000px;
   padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display: block !important;
+}
+
+#search-button {
+  padding: 10px;
+  font-size: 16px;
+  display: block !important;
+  background-color: #1b3764;
+  color: white;
+  display: block !important;
   border: none;
-  background-color: #f2f2f2;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.pagination button.active {
-  background-color: #4caf50;
-  color: #fff;
+#search-button:hover {
+  background-color: #45a049;
 }

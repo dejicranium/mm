@@ -1084,35 +1084,76 @@ body {
   background-color: #ddd;
 }
 /*search*/
-.search-container {
-  display: flex;
-  align-items: center;
-  display: block !important;
-  margin-bottom: 20px;
+.search-box {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
 }
-
-#search-box {
-  width: 1000px;
+.input-search {
+  height: 50px;
+  width: 50px;
+  border-style: none;
   padding: 10px;
-  margin-right: 10px;
-  font-size: 16px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  display: block !important;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all 0.5s ease-in-out;
+  background-color: #22a6b3;
+  padding-right: 40px;
+  color: black;
 }
-
-#search-button {
-  padding: 10px;
-  font-size: 16px;
-  display: block !important;
-  background-color: #1b3764;
-  color: white;
-  display: block !important;
-  border: none;
-  border-radius: 4px;
+.input-search::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.btn-search {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
   cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color: #000;
+  background-color: transparent;
+  pointer-events: painted;
 }
+.btn-search:focus ~ .input-search {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid #1b3764;
+  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
+.input-search:focus {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid #1b3764;
+  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+header {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-#search-button:hover {
-  background-color: #45a049;
+  font-family: "Lato" !important;
+}
+input[type="text"] {
+  display: block !important;
+}
+.input-search {
+  background-color: #1b3764;
+  color: #000;
 }

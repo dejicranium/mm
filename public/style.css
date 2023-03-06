@@ -837,7 +837,15 @@ button {
 .main-article {
   margin-bottom: 3rem;
 }
-
+blockquote {
+  padding-left: 40px;
+  border-left: 2px solid rgba(128, 128, 128, 0.4);
+}
+@media (max-width: 800px) {
+  blockquote {
+    padding-left: 25px;
+  }
+}
 .main-article__figure figcaption {
   margin: 1rem 0;
   font-size: var(--fs-300);

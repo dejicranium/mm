@@ -217,13 +217,11 @@ nav .logo {
   padding-left: 60px;
 }
 nav ul {
-  float: right;
   margin-right: 40px;
   list-style: none;
   position: relative;
 }
 nav ul li {
-  float: left;
   display: inline-block;
   background: transparent;
   margin: 0 5px;
@@ -824,6 +822,9 @@ button {
 .featured-articles {
   background-color: var(--clr-primary-200);
 }
+main {
+  padding-left: 5rem;
+}
 
 .articles__list {
   --flow-spacer: 3rem;
@@ -1177,3 +1178,6 @@ input[type="text"] {
 }
 
 /* Your other CSS styles here */
+.articles__list > section.article-section:nth-child(n + 5) {
+  display: none;
+}

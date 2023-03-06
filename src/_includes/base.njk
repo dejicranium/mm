@@ -25,13 +25,13 @@
  
   {% include 'header.njk'  %}
  
-  <header>
+  <!--<header>
     <div class="search-box">
     <button class="btn-search"><i class="fas fa-search"></i></button>
     <input type="text" class="input-search" placeholder="Type to Search...">
   </div>
 <div id="data-display"></div>
-      </header>
+      </header>-->
   <main>
  
   <div id="data-display"></div>
@@ -102,6 +102,26 @@ paginationContainer.children[0].classList.add("active");
 window.onload = function exampleFunction() {
   button.classList.add("active");
 };
+
+
+
+let items = document.querySelectorAll('.article-section');
+let pagination = paginate(items, 1, 4);
+
+let listContainer = document.getElementById('slides-container-li');
+
+pagination.data.forEach((item) => {
+  listContainer.appendChild(item);
+});
+const wrapper = document.querySelector('.articles-wrapper');
+const articles = wrapper.querySelectorAll('section');
+
+for (let i = 4; i < articles.length; i++) {
+  articles[i].classList.add('hidden');
+}
+
+
+
 
 /////////////
 

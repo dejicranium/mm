@@ -24,16 +24,17 @@
  
  
   {% include 'header.njk'  %}
+ 
   <header>
     <div class="search-box">
     <button class="btn-search"><i class="fas fa-search"></i></button>
     <input type="text" class="input-search" placeholder="Type to Search...">
   </div>
-
+<div id="data-display"></div>
       </header>
   <main>
  
-
+  <div id="data-display"></div>
 
     {{ content | safe }}
   </main>
@@ -51,7 +52,8 @@
   }
 
 
-///////////////////////////////const itemsPerPage = 4;
+///////////////////////////////
+const itemsPerPage = 4;
 // Get the article list and the pagination container
 const articleList = document.getElementById("slides-container-li");
 const paginationContainer = document.getElementById("pagination");
@@ -97,6 +99,9 @@ for (let i = 0; i < 4 && i < numArticles; i++) {
   articleList.children[i].style.display = "block";
 }
 paginationContainer.children[0].classList.add("active");
+window.onload = function exampleFunction() {
+  button.classList.add("active");
+};
 
 /////////////
 

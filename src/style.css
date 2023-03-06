@@ -825,7 +825,11 @@ button {
 main {
   padding-left: 5rem;
 }
-
+@media (max-width: 800px) {
+  main {
+    padding-left: 3.5rem;
+  }
+}
 .articles__list {
   --flow-spacer: 3rem;
   margin: 6rem 0;

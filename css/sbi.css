@@ -58,6 +58,12 @@
 
   border: 3px solid #ffc947;
 }
+.first {
+  display: block;
+}
+.second {
+  display: none;
+}
 .hero-row1 p {
   width: 400px;
   height: auto;
@@ -109,7 +115,12 @@
     width: 40px;
     margin: 10px 0;
   }
-
+  .first {
+    display: none;
+  }
+  .second {
+    display: block;
+  }
   .hero-container {
     flex-direction: column;
     align-items: flex-start;
@@ -133,7 +144,7 @@
     top: 50vh;
   }
   .hero-row2 img {
-    margin-top: 25% !important;
+    margin-top: 20% !important;
   }
   .hero-row1 h1 {
     font-size: 50px;

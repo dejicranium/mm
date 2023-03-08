@@ -257,6 +257,7 @@
   align-items: center;
   justify-content: center;
   background: #ffca42;
+  margin-top: 39px;
 
   width: 952px;
   height: 482px;
@@ -279,7 +280,6 @@
 }
 .form {
   margin-bottom: 25px;
-  position: fixed !important;
 }
 .form__email {
   padding: 20px 25px;

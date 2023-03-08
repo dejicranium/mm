@@ -210,14 +210,14 @@ input {
   align-items: center;
 
   gap: 10px;
-  height: 50px;
+  height: 50px !important;
   width: 167px;
 
   background: #ffca42;
 }
 .get a {
   width: 100% !important;
-  height: 100% !important;
+  height: 50px !important;
 
   font-family: "Cardo" !important;
   display: flex;

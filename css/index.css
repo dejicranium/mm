@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
 .hero {
   padding-top: 30px;
-  background: url(../asset/image/background.png);
+  background: #1b3764 !important;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
@@ -24,24 +24,33 @@ body {
 .main {
   position: absolute;
   width: 100%;
-  height: 280px;
+  height: auto;
   text-align: center;
   top: 200px;
-
-  font-family: "Space Grotesk";
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
+  font-family: "Gilroy";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 300;
   /* font-size: 150px;*/
-  font-size: clamp(60px, 10vw, 150px);
+  font-size: clamp(30px, 10vw, 80px);
   line-height: 140px;
   /* or 93% */
 
-  text-align: center;
+  text-align: left;
   letter-spacing: -1px;
 
   /* General Color/3 */
 
   color: #ffffff;
+}
+.image {
+  width: 575px;
+  height: 601px;
+
+  background: url("/asset/image/home.png");
+  border-radius: 30px;
 }
 .line1 {
   position: absolute;

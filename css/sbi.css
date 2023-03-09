@@ -60,6 +60,7 @@
 }
 .first {
   display: block;
+  margin-top: 15px;
 }
 .second {
   display: none;

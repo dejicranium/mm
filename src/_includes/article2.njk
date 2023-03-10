@@ -1,0 +1,19 @@
+<div class="article-card">
+            <img src="/public{{ image }}" alt="{{ imageAlt }}"" />
+            <div class="article-context">
+              <h3>{{ post.data.title }}</h3>
+              <p>
+                {{post.data.description}}
+              </p>
+              <div class="details">
+                <div>
+                  <a
+                   href=".{{ post.url }}"
+                    >Read more</a
+                  >
+                </div>
+                <div class="date">{{post.data.author}}- {{ post.date | postDate }}</div>
+              </div>
+            </div>
+          </div>
+          

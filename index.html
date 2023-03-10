@@ -104,10 +104,9 @@
         </nav>
 
         <!--hero content-->
-        <div class="main"><div class="text">
-         Harnessing the power of possibility.
-          <div class="line1"></div></div>
-          <div class="image"><div class="roll"><img src="./asset/image/Arrow 1.png"  alt=""></div></div>
+        <div class="main">
+          Shobowale<br />Lukeman <br />
+          <div class="line1"></div>
         </div>
       </section>
 
@@ -360,6 +359,26 @@
   
       getTweets();*/
       }
+      
+    </script>
+    <script >
+const nunjucks = require('nunjucks');
+
+const env = nunjucks.configure('templates', {
+  autoescape: true,
+  express: app
+});
+///////////////////
+res.render('article2.njk', {title: 'Nunjucks', sub: 'Using nunjucks'});
+
+app.get('/', function(req, res) {
+  const context = { name: 'John' };
+  const html = env.render('article2.njk', context);
+
+  res.send(html);
+});
+
+
     </script>
        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
        <script>

@@ -33,7 +33,7 @@ body {
   font-weight: 700;
   /* font-size: 150px;*/
   font-size: clamp(60px, 10vw, 150px);
-  line-height: 50px;
+  line-height: 100px;
   /* or 93% */
 
   text-align: center;

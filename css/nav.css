@@ -237,3 +237,24 @@ input {
 
   color: #1b3764;
 }
+/*preloader*/
+.spinner-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999999;
+}
+
+.spinner {
+  background: url(/asset/image/2796ed81999693.5d10c0872415e.gif);
+  background-size: auto auto;
+  width: 100vw;
+  background-position: center;
+  height: 100vh;
+}

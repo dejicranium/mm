@@ -331,39 +331,7 @@
     <script src="./script.js"></script>
     <script src="./script/navscript.js"></script>
     <script src="./script/copy.js"></script>
-
-    <script>
-      async function getTweets() {
-        async function getTweets() {
-          const response = await fetch(
-            "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=PRESERVEOLADIP2&count=5"
-          );
-          const tweets = await response.json();
-
-          const tweetElements = tweets.map((tweet) => {
-            return `<li>${tweet.text}</li>`;
-          });
-
-          document.querySelector("#recent-tweets").innerHTML =
-            tweetElements.join("");
-        }
-
-        getTweets();
-        /* async function getTweets() {
-        const response = await fetch("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=lukmanshobowale&count=5");
-        const tweets = await response.json();
-  
-        const tweetElements = tweets.map(tweet => {
-          return `<li>${tweet.text}</li>`;
-        });
-  
-        document.querySelector("#recent-tweets").innerHTML = tweetElements.join("");
-      }
-  
-      getTweets();*/
-      }
-      
-    </script>
+    <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=0de490638f36f' async='true'></script>
     <script >
 const nunjucks = require('nunjucks');
 

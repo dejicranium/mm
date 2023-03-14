@@ -19,6 +19,7 @@
 @media (max-width: 800px) {
   .hero {
     background-size: cover !important;
+    height: 1280px !important;
   }
 }
 

@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
-  <link rel="stylesheet" href="/public/style.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="/public/style.css">
-  <link rel="stylesheet" href="/css/nav.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <script href="/script/navscript.js"></script>
-  
-  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="/public/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/public/style.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <script href="/script/navscript.js"></script>
+
+    <script
+      defer
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
+    <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-</head>
-<body>
- 
- 
-   <section class="hero">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="hero">
       <!--nav bar-->
-      <nav>
+      <nav id="nav">
         <div class="logo">
-          <a href="/index.html"><img
-            src="/asset/image/Shobowale Lukeman.png"
-            class="logopng"
-            alt=""
+          <a href="/index.html"
+            ><img
+              src="/asset/image/Shobowale Lukeman.png"
+              class="logopng"
+              alt=""
           /></a>
         </div>
         <label for="btn" class="icon">
@@ -42,10 +47,12 @@
           <li><a href="/SBI.html">SBI</a></li>
           <li>
             <label for="btn-1" class="show"
-              >Resources <img src="/asset/image/Vector 13.svg" alt="" class="drop"
+              >Resources
+              <img src="/asset/image/Vector 13.svg" alt="" class="drop"
             /></label>
             <a href="#"
-              >Resources <img src="/asset/image/Vector 13.svg" alt="" class="drop"
+              >Resources
+              <img src="/asset/image/Vector 13.svg" alt="" class="drop"
             /></a>
             <input type="checkbox" id="btn-1" />
             <ul>
@@ -58,7 +65,7 @@
           <li class="get"><a href="/SBI.html/#contact">Get Started</a></li>
         </ul>
       </nav>
-       <div class="main">
+      <div class="main">
         Articles
         <div class="line1"></div>
         <p>
@@ -67,245 +74,356 @@
         </p>
       </div>
     </section>
-   
- 
-  <!--<header>
+
+    <!--<header>
     <div class="search-box">
     <button class="btn-search"><i class="fas fa-search"></i></button>
     <input type="text" class="input-search" placeholder="Type to Search...">
   </div>
 <div id="data-display"></div>
       </header>-->
-  <main>
- 
-  <div id="data-display"></div>
+    <main>
+      <div id="data-display"></div>
 
-    
-       
+      <ul
+        role="list"
+        class="articles__list flow"
+        id="slides-container-li"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <section class="article-section , grid">
+          <div class="card_container">
+            <div class="card_image">
+              <img src="./assets/blog/photo-2-.png" alt="" />
+            </div>
+            <div class="card_details">
+              <div class="product_name">
+                <h3 class="a-h3">
+                  <a
+                    href="./blog/2021-06-15-my-fifth-article copy/"
+                    class="color , list-group-item"
+                    >Yet another article</a
+                  >
+                </h3>
+                <div>
+                  <p class="a-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis accusantium sit illo neque rem omnis quaerat,
+                    nam similique vitae delectus ad magni vel quo maxime, magnam
+                    placeat. Reprehenderit, distinctio aliquam?
+                  </p>
+                </div>
+              </div>
+              <div class="a-details">
+                <ul>
+                  <li>
+                    <a href="./blog/2021-06-15-my-fifth-article copy/"
+                      >Read more</a
+                    >
+                  </li>
+                  <li>Kevin Powell- Feb 2, 2023</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="article-section , grid">
+          <div class="card_container">
+            <div class="card_image">
+              <img
+                src="./assets/blog/photo-2-.png"
+                alt="October 6, 2021 / Classics "
+              />
+            </div>
+            <div class="card_details">
+              <div class="product_name">
+                <h3 class="a-h3">
+                  <a
+                    href="./blog/2023-02-01-significant-reading-has-more-info-number/"
+                    class="color , list-group-item"
+                    >Significant reading has more info number</a
+                  >
+                </h3>
+                <div>
+                  <p class="a-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam eget enim ex. Quisque mollis, nisi et tempor gravida,
+                    leo ipsum lobortis tortor, condimentum euismod metus mauris
+                    sed orci. Aliquam ornare elit libero, et pulvinar nunc
+                    feugiat
+                  </p>
+                </div>
+              </div>
+              <div class="a-details">
+                <ul>
+                  <li>
+                    <a
+                      href="./blog/2023-02-01-significant-reading-has-more-info-number/"
+                      >Read more</a
+                    >
+                  </li>
+                  <li>Preserve- Feb 1, 2023</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="article-section , grid">
+          <div class="card_container">
+            <div class="card_image">
+              <img src="./assets/blog/img_20230116_004928_401.jpg" alt="Me" />
+            </div>
+            <div class="card_details">
+              <div class="product_name">
+                <h3 class="a-h3">
+                  <a
+                    href="./blog/2023-01-17-how-to-make-money/"
+                    class="color , list-group-item"
+                    >How to make money</a
+                  >
+                </h3>
+                <div>
+                  <p class="a-p">
+                    Nulla varius ornare nisi, nec tincidunt nisi. Duis et ex
+                    quam. Mauris a tellus viverra, eleifend felis eu, convallis
+                    mauris. Proin rutrum ut justo nec sodales. Pellentesque a
+                    diam maximus, malesuada velit id, porta arcu. Phasellus eget
+                    metus convallis, sollicitudin mauris sit amet, placerat
+                    orci. Quisque vitae blandit tellus. Nam pretium sem et dui
+                    dapibus feugiat.
+                  </p>
+                </div>
+              </div>
+              <div class="a-details">
+                <ul>
+                  <li>
+                    <a href="./blog/2023-01-17-how-to-make-money/">Read more</a>
+                  </li>
+                  <li>Myself- Jan 17, 2023</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="article-section , grid">
+          <div class="card_container">
+            <div class="card_image">
+              <img src="./assets/blog/photo-2-.png" alt="looking at inset" />
+            </div>
+            <div class="card_details">
+              <div class="product_name">
+                <h3 class="a-h3">
+                  <a
+                    href="./blog/2021-06-16-hello-world-how-are-you/"
+                    class="color , list-group-item"
+                    >Learn all about CSS inset</a
+                  >
+                </h3>
+                <div>
+                  <p class="a-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Id leo in vitae turpis **massa**. Amet tellus cras
+                    adipiscing enim eu turpis egestas pretium aenean. Ornare
+                    aenean euismod elementum nisi quis eleifend. Amet tellus
+                    cras adipiscing enim eu turpis. Nisi vitae suscipit tellus
+                    mauris.
+                  </p>
+                </div>
+              </div>
+              <div class="a-details">
+                <ul>
+                  <li>
+                    <a href="./blog/2021-06-16-hello-world-how-are-you/"
+                      >Read more</a
+                    >
+                  </li>
+                  <li>Kevin- Jun 16, 2021</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="article-section , grid">
+          <div class="card_container">
+            <div class="card_image">
+              <img src="./assets/blog/article-5.jpg" alt="This is a test" />
+            </div>
+            <div class="card_details">
+              <div class="product_name">
+                <h3 class="a-h3">
+                  <a
+                    href="./blog/2021-06-16-a-new-post/"
+                    class="color , list-group-item"
+                    >My Fifth Article</a
+                  >
+                </h3>
+                <div>
+                  <p class="a-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis accusantium sit illo neque rem omnis quaerat,
+                    nam similique vitae delectus ad magni vel quo maxime, magnam
+                    placeat. Reprehenderit, distinctio aliquam?
+                  </p>
+                </div>
+              </div>
+              <div class="a-details">
+                <ul>
+                  <li><a href="./blog/2021-06-16-a-new-post/">Read more</a></li>
+                  <li>Kevin Powell- Jun 15, 2021</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="article-section , grid">
+          <div class="card_container">
+            <div class="card_image">
+              <img src="./assets/blog/photo-2-.png" alt="This is a test" />
+            </div>
+            <div class="card_details">
+              <div class="product_name">
+                <h3 class="a-h3">
+                  <a
+                    href="./blog/2021-06-01-my-fourth-article/"
+                    class="color , list-group-item"
+                    >My Fourth Article</a
+                  >
+                </h3>
+                <div>
+                  <p class="a-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis accusantium sit illo neque rem omnis quaerat,
+                    nam similique vitae delectus ad magni vel quo maxime, magnam
+                    placeat. Reprehenderit, distinctio aliquam?
+                  </p>
+                </div>
+              </div>
+              <div class="a-details">
+                <ul>
+                  <li>
+                    <a href="./blog/2021-06-01-my-fourth-article/">Read more</a>
+                  </li>
+                  <li>Kevin Powell- Jun 1, 2021</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="article-section , grid">
+          <div class="card_container">
+            <div class="card_image">
+              <img src="./assets/blog/photo-2-.png" alt="This is a test" />
+            </div>
+            <div class="card_details">
+              <div class="product_name">
+                <h3 class="a-h3">
+                  <a
+                    href="./blog/2021-05-28-my-third-article/"
+                    class="color , list-group-item"
+                    >My Third Article</a
+                  >
+                </h3>
+                <div>
+                  <p class="a-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis accusantium sit illo neque rem omnis quaerat,
+                    nam similique vitae delectus ad magni vel quo maxime, magnam
+                    placeat. Reprehenderit, distinctio aliquam?
+                  </p>
+                </div>
+              </div>
+              <div class="a-details">
+                <ul>
+                  <li>
+                    <a href="./blog/2021-05-28-my-third-article/">Read more</a>
+                  </li>
+                  <li>Kevin Powell- May 28, 2021</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="article-section , grid">
+          <div class="card_container">
+            <div class="card_image">
+              <img src="./assets/blog/photo-2-.png" alt="This is a test" />
+            </div>
+            <div class="card_details">
+              <div class="product_name">
+                <h3 class="a-h3">
+                  <a
+                    href="./blog/2021-05-15-my-second-article/"
+                    class="color , list-group-item"
+                    >My Second Article</a
+                  >
+                </h3>
+                <div>
+                  <p class="a-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis accusantium sit illo neque rem omnis quaerat,
+                    nam similique vitae delectus ad magni vel quo maxime, magnam
+                    placeat. Reprehenderit, distinctio aliquam?
+                  </p>
+                </div>
+              </div>
+              <div class="a-details">
+                <ul>
+                  <li>
+                    <a href="./blog/2021-05-15-my-second-article/">Read more</a>
+                  </li>
+                  <li>Kevin Powell- May 15, 2021</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="article-section , grid">
+          <div class="card_container">
+            <div class="card_image">
+              <img src="./assets/blog/photo-2-.png" alt="This is a test" />
+            </div>
+            <div class="card_details">
+              <div class="product_name">
+                <h3 class="a-h3">
+                  <a
+                    href="./blog/2021-05-01-my-first-article/"
+                    class="color , list-group-item"
+                    >My First Article</a
+                  >
+                </h3>
+                <div>
+                  <p class="a-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis accusantium sit illo neque rem omnis quaerat,
+                    nam similique vitae delectus ad magni vel quo maxime, magnam
+                    placeat. Reprehenderit, distinctio aliquam?
+                  </p>
+                </div>
+              </div>
+              <div class="a-details">
+                <ul>
+                  <li>
+                    <a href="./blog/2021-05-01-my-first-article/">Read more</a>
+                  </li>
+                  <li>Kevin Powell- May 1, 2021</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </ul>
 
-<ul role="list" class="articles__list flow" id="slides-container-li"  data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
-<section class="article-section , grid" >
- <div class="card_container">
-        <div class="card_image">
-          <img src="./assets/blog/photo-2-.png" alt="" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3"><a href="./blog/2021-06-15-my-fifth-article copy/" class="color , list-group-item">Yet another article</a></h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li>  <a href="./blog/2021-06-15-my-fifth-article copy/" >Read more</a></li>
-              <li>Kevin Powell- Feb 2, 2023</li>
-            </ul>
-          </div>
-        </div>
+      <div class="pagination-container">
+        <ul class="pagination" id="pagination"></ul>
       </div>
-      </section>
-<section class="article-section , grid" >
- <div class="card_container">
-        <div class="card_image">
-          <img src="./assets/blog/photo-2-.png" alt="October 6, 2021 / Classics " />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3"><a href="./blog/2023-02-01-significant-reading-has-more-info-number/" class="color , list-group-item">Significant reading has more info number</a></h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget enim ex. Quisque mollis, nisi et tempor gravida, leo ipsum lobortis tortor, condimentum euismod metus mauris sed orci. Aliquam ornare elit libero, et pulvinar nunc feugiat
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li>  <a href="./blog/2023-02-01-significant-reading-has-more-info-number/" >Read more</a></li>
-              <li>Preserve- Feb 1, 2023</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </section>
-<section class="article-section , grid" >
- <div class="card_container">
-        <div class="card_image">
-          <img src="./assets/blog/img_20230116_004928_401.jpg" alt="Me" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3"><a href="./blog/2023-01-17-how-to-make-money/" class="color , list-group-item">How to make money</a></h3>
-            <div>
-              <p class="a-p">
-                Nulla varius ornare nisi, nec tincidunt nisi. Duis et ex quam. Mauris a tellus viverra, eleifend felis eu, convallis mauris. Proin rutrum ut justo nec sodales. Pellentesque a diam maximus, malesuada velit id, porta arcu. Phasellus eget metus convallis, sollicitudin mauris sit amet, placerat orci. Quisque vitae blandit tellus. Nam pretium sem et dui dapibus feugiat.
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li>  <a href="./blog/2023-01-17-how-to-make-money/" >Read more</a></li>
-              <li>Myself- Jan 17, 2023</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </section>
-<section class="article-section , grid" >
- <div class="card_container">
-        <div class="card_image">
-          <img src="./assets/blog/photo-2-.png" alt="looking at inset" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3"><a href="./blog/2021-06-16-hello-world-how-are-you/" class="color , list-group-item">Learn all about CSS inset</a></h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis **massa**. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Ornare aenean euismod elementum nisi quis eleifend. Amet tellus cras adipiscing enim eu turpis. Nisi vitae suscipit tellus mauris.
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li>  <a href="./blog/2021-06-16-hello-world-how-are-you/" >Read more</a></li>
-              <li>Kevin- Jun 16, 2021</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </section>
-<section class="article-section , grid" >
- <div class="card_container">
-        <div class="card_image">
-          <img src="./assets/blog/article-5.jpg" alt="This is a test" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3"><a href="./blog/2021-06-16-a-new-post/" class="color , list-group-item">My Fifth Article</a></h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li>  <a href="./blog/2021-06-16-a-new-post/" >Read more</a></li>
-              <li>Kevin Powell- Jun 15, 2021</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </section>
-<section class="article-section , grid" >
- <div class="card_container">
-        <div class="card_image">
-          <img src="./assets/blog/photo-2-.png" alt="This is a test" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3"><a href="./blog/2021-06-01-my-fourth-article/" class="color , list-group-item">My Fourth Article</a></h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li>  <a href="./blog/2021-06-01-my-fourth-article/" >Read more</a></li>
-              <li>Kevin Powell- Jun 1, 2021</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </section>
-<section class="article-section , grid" >
- <div class="card_container">
-        <div class="card_image">
-          <img src="./assets/blog/photo-2-.png" alt="This is a test" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3"><a href="./blog/2021-05-28-my-third-article/" class="color , list-group-item">My Third Article</a></h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li>  <a href="./blog/2021-05-28-my-third-article/" >Read more</a></li>
-              <li>Kevin Powell- May 28, 2021</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </section>
-<section class="article-section , grid" >
- <div class="card_container">
-        <div class="card_image">
-          <img src="./assets/blog/photo-2-.png" alt="This is a test" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3"><a href="./blog/2021-05-15-my-second-article/" class="color , list-group-item">My Second Article</a></h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li>  <a href="./blog/2021-05-15-my-second-article/" >Read more</a></li>
-              <li>Kevin Powell- May 15, 2021</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </section>
-<section class="article-section , grid" >
- <div class="card_container">
-        <div class="card_image">
-          <img src="./assets/blog/photo-2-.png" alt="This is a test" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3"><a href="./blog/2021-05-01-my-first-article/" class="color , list-group-item">My First Article</a></h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li>  <a href="./blog/2021-05-01-my-first-article/" >Read more</a></li>
-              <li>Kevin Powell- May 1, 2021</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </section> 
- 
-</ul>
-
-
-
-<div class="pagination-container">
-    <ul class="pagination" id="pagination"></ul>
-  </div>
-  <br/>
-  <br/><br/>
-  <br/><br/>
-  
-  
-  </main>
-     <!--footer-->
+      <br />
+      <br /><br />
+      <br /><br />
+    </main>
+    <!--footer-->
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -352,7 +470,14 @@
             </ul>
           </div>
           <div class="footer-col">
-             <h4><a href="/index.html"><img src="/asset/image/Shobowale Lukeman.png" style="width: 150px;" alt=""></a></h4>
+            <h4>
+              <a href="/index.html"
+                ><img
+                  src="/asset/image/Shobowale Lukeman.png"
+                  style="width: 150px"
+                  alt=""
+              /></a>
+            </h4>
             <div class="social-links">
               <ul class="social">
                 <li class="li">
@@ -375,99 +500,90 @@
       <div class="b-line-c"><div class="b-line"></div></div>
       <div class="b-c"><div class="b-text">© SHOBOWALE LUKEMAN</div></div>
     </footer>
-    
 
-  <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
         });
       }
-    });
-  }
 
+      ///////////////////////////////
+      const itemsPerPage = 4;
+      // Get the article list and the pagination container
+      const articleList = document.getElementById("slides-container-li");
+      const paginationContainer = document.getElementById("pagination");
 
-///////////////////////////////
-const itemsPerPage = 4;
-// Get the article list and the pagination container
-const articleList = document.getElementById("slides-container-li");
-const paginationContainer = document.getElementById("pagination");
+      // Get the number of articles and calculate the number of pages
+      const numArticles = articleList.children.length;
+      const numPages = Math.ceil(numArticles / 4);
 
-// Get the number of articles and calculate the number of pages
-const numArticles = articleList.children.length;
-const numPages = Math.ceil(numArticles / 4);
+      // Loop through each page and create a pagination button
+      for (let i = 1; i <= numPages; i++) {
+        const button = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = "#";
+        link.textContent = i;
+        button.appendChild(link);
+        paginationContainer.appendChild(button);
 
-// Loop through each page and create a pagination button
-for (let i = 1; i <= numPages; i++) {
-  const button = document.createElement("li");
-  const link = document.createElement("a");
-  link.href = "#";
-  link.textContent = i;
-  button.appendChild(link);
-  paginationContainer.appendChild(button);
+        // Add an event listener to the button that shows the corresponding articles
+        button.addEventListener("click", () => {
+          // Hide all articles
+          for (let j = 0; j < numArticles; j++) {
+            articleList.children[j].style.display = "none";
+          }
 
-  // Add an event listener to the button that shows the corresponding articles
-  button.addEventListener("click", () => {
-    // Hide all articles
-    for (let j = 0; j < numArticles; j++) {
-      articleList.children[j].style.display = "none";
-    }
+          // Show the articles for the current page
+          const startIndex = (i - 1) * 4;
+          const endIndex = Math.min(startIndex + 4, numArticles);
+          for (let j = startIndex; j < endIndex; j++) {
+            articleList.children[j].style.display = "block";
+          }
 
-    // Show the articles for the current page
-    const startIndex = (i - 1) * 4;
-    const endIndex = Math.min(startIndex + 4, numArticles);
-    for (let j = startIndex; j < endIndex; j++) {
-      articleList.children[j].style.display = "block";
-    }
+          // Update the active class for the pagination buttons
+          const activeButton = document.querySelector(".pagination li.active");
+          if (activeButton) {
+            activeButton.classList.remove("active");
+          }
+          button.classList.add("active");
+        });
+      }
 
-    // Update the active class for the pagination buttons
-    const activeButton = document.querySelector(".pagination li.active");
-    if (activeButton) {
-      activeButton.classList.remove("active");
-    }
-    button.classList.add("active");
-  });
-}
+      // Show the first page of articles and set the first pagination button as active
+      for (let i = 0; i < 4 && i < numArticles; i++) {
+        articleList.children[i].style.display = "block";
+      }
+      paginationContainer.children[0].classList.add("active");
+      window.onload = function exampleFunction() {
+        button.classList.add("active");
+      };
 
-// Show the first page of articles and set the first pagination button as active
-for (let i = 0; i < 4 && i < numArticles; i++) {
-  articleList.children[i].style.display = "block";
-}
-paginationContainer.children[0].classList.add("active");
-window.onload = function exampleFunction() {
-  button.classList.add("active");
-};
+      let items = document.querySelectorAll(".article-section");
+      let pagination = paginate(items, 1, 4);
 
+      let listContainer = document.getElementById("slides-container-li");
 
+      pagination.data.forEach((item) => {
+        listContainer.appendChild(item);
+      });
+      const wrapper = document.querySelector(".articles-wrapper");
+      const articles = wrapper.querySelectorAll("section");
 
-let items = document.querySelectorAll('.article-section');
-let pagination = paginate(items, 1, 4);
+      for (let i = 4; i < articles.length; i++) {
+        articles[i].classList.add("hidden");
+      }
 
-let listContainer = document.getElementById('slides-container-li');
-
-pagination.data.forEach((item) => {
-  listContainer.appendChild(item);
-});
-const wrapper = document.querySelector('.articles-wrapper');
-const articles = wrapper.querySelectorAll('section');
-
-for (let i = 4; i < articles.length; i++) {
-  articles[i].classList.add('hidden');
-}
-
-
-
-
-/////////////
-
- </script>
-<script href="/script/article.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-    AOS.init();
+      /////////////
     </script>
-
-</body>
+    <script href="/script/article.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

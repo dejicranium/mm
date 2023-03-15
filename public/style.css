@@ -1191,6 +1191,6 @@ input[type="text"] {
   background: #1b3764 !important;
   position: fixed !important;
   top: 0 !important;
-
+  height: 50px;
   z-index: 99999 !important;
 }

@@ -15,11 +15,12 @@
     <script href="./script/navscript.js"></script>
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <script src="./script/navscript.js"></script>
   </head>
   <body>
     <section class="hero">
       <!--nav bar-->
-      <nav>
+      <nav id="nav">
         <div class="logo">
           <a href="./index.html"><img
             src="./asset/image/Shobowale Lukeman.png"
@@ -495,5 +496,20 @@
     AOS.init();
     </script>
     <script src="./script/navscript.js"></script>
+    <script src="./script/navscript.js"></script>
+    <script>//////////////////////////////////
+      ////////////////////////////////////////nav sticky/////////////
+      document.addEventListener("DOMContentLoaded", function () {
+        var nav = document.getElementById("nav");
+        var current_pos = nav.offsetTop;
+        window.onscroll = function () {
+          var window_pos = document.documentElement.scrollTop;
+          if (window_pos >= current_pos) {
+            nav.classList.add("sticky");
+          } else {
+            nav.classList.remove("sticky");
+          }
+        };
+      });</script>
   </body>
 </html>

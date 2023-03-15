@@ -14,12 +14,13 @@
     />
     <link rel="stylesheet" href="./css/nav.css" />
     <script href="./script/navscript.js"></script>
+    <script src="./script/navscript.js"></script>
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
     <section class="hero">
       <!--nav bar-->
-      <nav>
+      <nav id="nav">
         <div class="logo">
           <a href="./index.html"
             ><img
@@ -256,6 +257,21 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+
+      //////////////////////////////////
+      ////////////////////////////////////////nav sticky/////////////
+      document.addEventListener("DOMContentLoaded", function () {
+        var nav = document.getElementById("nav");
+        var current_pos = nav.offsetTop;
+        window.onscroll = function () {
+          var window_pos = document.documentElement.scrollTop;
+          if (window_pos >= current_pos) {
+            nav.classList.add("sticky");
+          } else {
+            nav.classList.remove("sticky");
+          }
+        };
+      });
     </script>
     <script src="./script/navscript.js"></script>
   </body>

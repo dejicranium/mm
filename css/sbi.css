@@ -408,3 +408,11 @@
     background: #1b3764;
   }
 }
+/*////////////////////////////////////////nav sticky//////////////////////*/
+.sticky {
+  width: 100%;
+  background: #1b3764;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}

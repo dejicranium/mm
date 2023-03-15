@@ -19,6 +19,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="/script/navscript.js"></script>
 </head>
 <body>
  
@@ -121,6 +122,21 @@ for (let i = 4; i < articles.length; i++) {
   articles[i].classList.add('hidden');
 }
 
+
+//////////////////////////////////
+////////////////////////////////////////nav sticky/////////////
+document.addEventListener("DOMContentLoaded", function () {
+  var nav = document.getElementById("nav");
+  var current_pos = nav.offsetTop;
+  window.onscroll = function () {
+    var window_pos = document.documentElement.scrollTop;
+    if (window_pos >= current_pos) {
+      nav.classList.add("sticky");
+    } else {
+      nav.classList.remove("sticky");
+    }
+  };
+});
 
 
 

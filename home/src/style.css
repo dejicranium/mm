@@ -1053,7 +1053,6 @@ strong {
 }
 
 .article-section {
-  margin: 15px !important;
   padding: 15px !important;
 }
 body {
@@ -1188,9 +1187,9 @@ input[type="text"] {
 
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
-  width: 100%;
-  background: #1b3764;
-  position: fixed;
-  top: 0;
-  z-index: 99999;
+  width: 100% !important;
+  background: #1b3764 !important;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 99999 !important;
 }

@@ -11,6 +11,7 @@
    <link rel="stylesheet" href="/css/footer.css">
    <script href="/script/navscript.js">
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+   <script src="/script/navscript.js"></script>
   <link
       rel="stylesheet"
       type="text/css"
@@ -21,8 +22,7 @@
 
   <section class="hero">
       <!--nav bar-->
-      <nav>
-        <div class="logo">
+      <nav id="nav"><div class="logo">
           <a href="/index.html"><img
             src="/asset/image/Shobowale Lukeman.png"
             class="logopng"
@@ -185,6 +185,23 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
     AOS.init();
+
+
+
+    //////////////////////////////////
+////////////////////////////////////////nav sticky/////////////
+document.addEventListener("DOMContentLoaded", function () {
+  var nav = document.getElementById("nav");
+  var current_pos = nav.offsetTop;
+  window.onscroll = function () {
+    var window_pos = document.documentElement.scrollTop;
+    if (window_pos >= current_pos) {
+      nav.classList.add("sticky");
+    } else {
+      nav.classList.remove("sticky");
+    }
+  };
+});
     </script>
 </body>
 </html>

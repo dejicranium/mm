@@ -268,12 +268,6 @@ button {
   padding: 10px 20px !important;
   background: #1b3764 !important;
 }
-button:hover {
-  background: #325894 !important;
-}
-button:active {
-  background: #85abe8 !important;
-}
 @media (max-width: 950px) {
   .containerform {
     width: 85%;
@@ -287,9 +281,6 @@ button:active {
   }
   input {
     width: 70% !important;
-  }
-  button {
-    width: 93px;
   }
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/

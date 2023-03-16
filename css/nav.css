@@ -261,6 +261,7 @@ input {
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
+  padding-top: 15px;
   width: 100%;
   background: #1b3764;
   position: fixed;

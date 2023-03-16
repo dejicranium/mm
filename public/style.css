@@ -1187,6 +1187,7 @@ input[type="text"] {
 
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
+  padding-top: 5px;
   width: 100% !important;
   background: #1b3764 !important;
   position: fixed !important;

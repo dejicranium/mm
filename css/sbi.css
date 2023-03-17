@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
 
 .hero-container {
-  width: 100%;
-  height: 75%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 60px;
+  width: 100% !important;
+  height: 75% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0 60px !important;
 }
 .hero {
   height: 100vh !important;
-  padding-bottom: 50px;
+  padding-bottom: 50px !important;
 }
 .get {
   height: 50px !important;
@@ -24,10 +24,10 @@
 }
 
 .hero-row1 {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  width: 50% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 .hero-row1 h1 {
   /* Bold/100px */
@@ -42,68 +42,68 @@
   margin: 30px 0 !important;
   /* or 100% */
 
-  letter-spacing: -1px;
+  letter-spacing: -1px !important;
 
   /* General Color/3 */
 
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .lines {
-  width: 80px;
-  height: 0px;
-  margin-left: 300px;
-  margin-top: -30px;
-  margin-bottom: 30px;
+  width: 80px !important;
+  height: 0px !important;
+  margin-left: 300px !important;
+  margin-top: -30px !important;
+  margin-bottom: 30px !important;
 
   /* Yellow */
 
-  border: 3px solid #ffc947;
+  border: 3px solid #ffc947 !important;
 }
 .first {
-  display: block;
-  margin-top: 15px;
+  display: block !important;
+  margin-top: 15px !important;
 }
 .second {
-  display: none;
+  display: none !important;
 }
 .hero-row1 p {
-  width: 400px;
-  height: auto;
+  width: 400px !important;
+  height: auto !important;
 
   /* Medium/21px */
 
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 21px;
+  font-family: "Space Grotesk" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 21px !important;
 
   /* or 162% */
 
   /* General Color/3 */
 
-  color: #ffffff;
+  color: #ffffff !important;
 
-  opacity: 0.8;
+  opacity: 0.8 !important;
 }
 .hero-row2 {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 50% !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 .hero-row2 img {
   width: 424px !important;
   height: 466px !important;
 }
 .erect {
-  position: relative;
-  clear: both;
-  margin-top: 5px;
+  position: relative !important;
+  clear: both !important;
+  margin-top: 5px !important;
 }
 
 .erect a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 @media (max-width: 899px) {
   .hero {
@@ -114,89 +114,89 @@
     width: 86% !important;
   }
   .lines {
-    width: 40px;
-    margin: 10px 0;
+    width: 40px !important;
+    margin: 10px 0 !important;
   }
   .first {
-    display: none;
+    display: none !important;
   }
   .second {
-    display: block;
+    display: block !important;
     box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15) !important;
-    border-radius: 15px;
+    border-radius: 15px !important;
   }
   .hero-container {
-    flex-direction: column;
-    align-items: flex-start;
-    height: 100%;
-    justify-content: flex-end;
-    position: absolute;
-    top: 100px;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    height: 100% !important;
+    justify-content: flex-end !important;
+    position: absolute !important;
+    top: 100px !important;
   }
   .hero-row1 {
-    width: 86%;
+    width: 86% !important;
     height: auto !important;
-    margin-bottom: 90px;
-    position: absolute;
-    top: 100px;
+    margin-bottom: 90px !important;
+    position: absolute !important;
+    top: 100px !important;
   }
   .hero-row2 {
     margin-top: 90px !important;
     width: 85% !important;
-    position: absolute;
-    justify-content: flex-start;
-    top: 50vh;
+    position: absolute !important;
+    justify-content: flex-start !important;
+    top: 50vh !important;
   }
   .hero-row2 img {
     margin-top: 20% !important;
   }
   .hero-row1 h1 {
-    font-size: 50px;
-    width: 60%;
+    font-size: 50px !important;
+    width: 60% !important;
   }
   .hero-row1 p {
     width: 86% !important;
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .hero-row2 {
-    width: 100%;
+    width: 100% !important;
     height: auto !important;
-    align-items: flex-start;
+    align-items: flex-start !important;
   }
   .lines {
-    width: 60px;
-    height: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    width: 60px !important;
+    height: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
 
     /* Yellow */
 
-    border: 1.5px solid #ffc947;
+    border: 1.5px solid #ffc947 !important;
   }
   .hero-row2 {
-    justify-content: flex-start;
+    justify-content: flex-start !important;
   }
   .hero-row2 img {
     width: 324px !important;
     height: 366px !important;
   }
   .erect {
-    position: relative;
-    clear: both;
+    position: relative !important;
+    clear: both !important;
     margin: 0 !important;
   }
 }
 /* contact form*/
 #contact {
-  position: relative;
+  position: relative !important;
 }
 .contact-section {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100% !important;
+  height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .containerform {
@@ -278,7 +278,7 @@ button:active {
 }
 @media (max-width: 950px) {
   .containerform {
-    width: 85%;
+    width: 85% !important;
     padding: 35px 50px !important;
   }
   .form {
@@ -291,16 +291,16 @@ button:active {
     width: 70% !important;
   }
   button {
-    width: 93px;
+    width: 93px !important;
   }
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
-  width: 100%;
-  background: #1b3764;
-  position: fixed;
-  top: 0;
-  z-index: 99999;
+  width: 100% !important;
+  background: #1b3764 !important;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 99999 !important;
 }
 
 /*////////////////////////////////////////heigth//////////////////////*/

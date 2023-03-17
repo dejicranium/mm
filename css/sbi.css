@@ -32,14 +32,14 @@
 .hero-row1 h1 {
   /* Bold/100px */
 
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 700;
-  width: 400px;
-  font-size: 70px;
+  font-family: "Space Grotesk" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  width: 400px !important;
+  font-size: 70px !important;
   height: auto !important;
-  line-height: 60px;
-  margin: 30px 0;
+  line-height: 60px !important;
+  margin: 30px 0 !important;
   /* or 100% */
 
   letter-spacing: -1px;
@@ -122,6 +122,8 @@
   }
   .second {
     display: block;
+    box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 15px;
   }
   .hero-container {
     flex-direction: column;
@@ -299,4 +301,19 @@ button:active {
   position: fixed;
   top: 0;
   z-index: 99999;
+}
+
+/*////////////////////////////////////////heigth//////////////////////*/
+
+.heigth {
+  display: none;
+}
+@media (max-width: 1100px) {
+  .heigth {
+    display: block !important;
+    height: 40vh !important;
+    clear: both;
+    width: 100%;
+    position: relative;
+  }
 }

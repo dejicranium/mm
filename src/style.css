@@ -23,6 +23,9 @@
   --clr-neutral-500: hsla(0, 0%, 60%, 1);
   --clr-neutral-900: hsla(0, 0%, 10%, 1);
 }
+html {
+  scroll-behavior: smooth !important;
+}
 
 @media (min-width: 35em) {
   :root {
@@ -63,6 +66,12 @@ p {
   color: #1b3764;
   font-size: 14px;
   padding-left: 30px;
+}
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .flow ul li {
   color: #1b3764;
@@ -327,8 +336,6 @@ input {
     cursor: pointer;
   }
 
-  .show:hover {
-  }
   .icon {
     display: block;
     color: white;
@@ -1192,11 +1199,11 @@ input[type="text"] {
   background: #1b3764 !important;
   position: fixed !important;
   top: 0 !important;
-  height: 70px;
-  z-index: 99999 !important;
+  height: 80px;
+  z-index: 99999999999 !important;
 }
 @media (max: 800px) {
   .sticky {
-    height: 50px;
+    height: 50px !important;
   }
 }

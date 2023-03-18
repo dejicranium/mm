@@ -7,7 +7,7 @@ body {
   background: #f4f8ff;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 @media (max-width: 650px) {
@@ -158,8 +158,6 @@ input {
     cursor: pointer;
   }
 
-  .show:hover {
-  }
   .icon {
     display: block;
     color: white;

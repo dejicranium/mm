@@ -67,12 +67,6 @@ p {
   font-size: 14px;
   padding-left: 30px;
 }
-.flow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 .flow ul li {
   color: #1b3764;
   list-style-image: url("/public/assets/Vector.png");

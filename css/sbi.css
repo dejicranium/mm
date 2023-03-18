@@ -144,7 +144,9 @@
     margin-top: 90px !important;
     width: 85% !important;
     position: absolute !important;
-    justify-content: flex-start !important;
+    justify-content: center !important;
+    height: auto !important;
+    align-items: center;
     top: 50vh !important;
   }
   .hero-row2 img {
@@ -158,11 +160,7 @@
     width: 86% !important;
     font-size: 16px !important;
   }
-  .hero-row2 {
-    width: 100% !important;
-    height: auto !important;
-    align-items: flex-start !important;
-  }
+
   .lines {
     width: 60px !important;
     height: 0px !important;
@@ -174,9 +172,7 @@
 
     border: 1.5px solid #ffc947 !important;
   }
-  .hero-row2 {
-    justify-content: flex-start !important;
-  }
+
   .hero-row2 img {
     width: 324px !important;
     height: 366px !important;

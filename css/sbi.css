@@ -260,16 +260,16 @@ form input {
   background: transparent !important;
   display: block !important;
 }
-button {
+.form button {
   border: none !important;
   width: 193px !important;
   padding: 10px 20px !important;
   background: #1b3764 !important;
 }
-button:hover {
+.form button:hover {
   background: #325894 !important;
 }
-button:active {
+.form button:active {
   background: #85abe8 !important;
 }
 @media (max-width: 950px) {
@@ -287,7 +287,7 @@ button:active {
   input {
     width: 70% !important;
   }
-  button {
+  .form button {
     width: 93px !important;
   }
 }

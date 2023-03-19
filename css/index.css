@@ -321,7 +321,7 @@ body {
       rgba(27, 55, 100, 0.8)
     ),
     url(../asset/image/DSC02136\ 1.png);
-  background-size: 100% 100%;
+  background-size: cover !important;
   text-align: center;
   display: flex;
   flex-direction: column;

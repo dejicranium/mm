@@ -19,4 +19,4 @@ imageAlt: This is a test
 > \
 > That's why I want to take you by the hand and show you how to thrive in the real estate market, no matter the economic conditions. Throughout 2023, I will be sharing all of my insights and tips for making smart, informed decisions and avoiding the pitfalls of the industry. All you have to do is add this email address to your approved contacts list and check your inbox every Tuesday and Friday.\
 > \
-> Don't get caught in the cycle of risky investments. Follow me on social media and take control of your financial future. Together, we can create generational wealth.
+> Don't get caught in the cycle of risky investments. Follow me on social media and take control of your financial future. Together, we can create generational wealth..

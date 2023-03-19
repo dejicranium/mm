@@ -596,8 +596,8 @@ section,
   flex-direction: column;
 }
 .a-h3 {
-  width: 80%;
-  height: 60px;
+  width: 100%;
+  height: auto;
 
   margin-top: 27px;
   margin-bottom: 5px;

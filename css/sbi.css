@@ -308,7 +308,34 @@ form input {
 }
 
 /*//////////////////////////////////contact tag////////////////////////////////////*/
-#contact a {
+#contact a * {
+  display: none !important;
+  z-index: -9999999999999999999999 !important;
+  position: absolute !important;
+  opacity: 0 !important;
+  top: -39499px !important;
+}
+#contact a svg {
+  display: none !important;
+  z-index: -9999999999999999999999 !important;
+  position: absolute !important;
+  opacity: 0 !important;
+  top: -39499px !important;
+}
+
+.FormLayout__Container-sc-2kg2eg-0 .eHgFyW {
+  display: none;
+}
+.FormLayout__FieldsGrid-sc-2kg2eg-8 .dDExMr {
+  z-index: 999999999999999999 !important;
+}
+#my-custom-id {
+  display: none !important;
+}
+#my-custom-id * {
+  display: none !important;
+}
+#contact a * {
   display: none !important;
 }
 .Content__Font-sc-3sh3bs-0 a {

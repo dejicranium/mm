@@ -18,6 +18,7 @@
     <script src="./script/popup.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <title>SBI</title>
+    
   </head>
   <body>
     <section>
@@ -236,6 +237,30 @@
     <script>
     AOS.init();
     </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          var elfsightLink = document.querySelector('.elfsight-link');
+          if (elfsightLink) {
+              elfsightLink.style.setProperty('display', 'none', 'important');
+          }
+      });
+  </script>
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var anchor = document.querySelector('a[href="https://elfsight.com/contact-form-widget/?utm_source=websites&amp;utm_medium=clients&amp;utm_content=contact-form&amp;utm_term=shobowale.netlify.app&amp;utm_campaign=free-widget"]');
+      anchor.id = 'my-custom-id';
+      anchor.style.setProperty('display', 'none', 'important');
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+  var elementToHide = document.getElementById('my-custom-id');
+  if (elementToHide) {
+    elementToHide.style.display = 'none';
+  }
+});
+
+  </script>
+  
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <!--End mc_embed_signup-->
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>

@@ -306,3 +306,11 @@ form input {
     margin-top: 50vh;
   }
 }
+
+/*//////////////////////////////////contact tag////////////////////////////////////*/
+#contact a {
+  display: none !important;
+}
+.Content__Font-sc-3sh3bs-0 a {
+  display: none !important;
+}

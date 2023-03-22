@@ -231,7 +231,7 @@
   position: relative !important;
   margin: 30px auto 0 auto !important;
 }
-.row {
+.rowf {
   width: 100% !important;
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
@@ -260,16 +260,16 @@ form input {
   background: transparent !important;
   display: block !important;
 }
-.form button {
+.formbutton {
   border: none !important;
   width: 193px !important;
   padding: 10px 20px !important;
   background: #1b3764 !important;
 }
-.form button:hover {
+.formbutton:hover {
   background: #325894 !important;
 }
-.form button:active {
+.formbutton:active {
   background: #85abe8 !important;
 }
 @media (max-width: 950px) {
@@ -305,39 +305,4 @@ form input {
   #contact {
     margin-top: 50vh;
   }
-}
-
-/*//////////////////////////////////contact tag////////////////////////////////////*/
-#contact a * {
-  display: none !important;
-  z-index: -9999999999999999999999 !important;
-  position: absolute !important;
-  opacity: 0 !important;
-  top: -39499px !important;
-}
-#contact a svg {
-  display: none !important;
-  z-index: -9999999999999999999999 !important;
-  position: absolute !important;
-  opacity: 0 !important;
-  top: -39499px !important;
-}
-
-.FormLayout__Container-sc-2kg2eg-0 .eHgFyW {
-  display: none;
-}
-.FormLayout__FieldsGrid-sc-2kg2eg-8 .dDExMr {
-  z-index: 999999999999999999 !important;
-}
-#my-custom-id {
-  display: none !important;
-}
-#my-custom-id * {
-  display: none !important;
-}
-#contact a * {
-  display: none !important;
-}
-.Content__Font-sc-3sh3bs-0 a {
-  display: none !important;
 }

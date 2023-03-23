@@ -9,7 +9,7 @@ description: Join our newsletter to unlock the secrets of real estate investing
   foundation for generational wealth. Follow this newsletter to take the first
   step towards financial freedom.
 author: Shobowale Lukman
-date: 2023-01-03T05:00:00.000Z
+date: 2023-03-23T00:08:58.382Z
 image: /assets/blog/photo-2-.png
 imageAlt: This is a test
 ---

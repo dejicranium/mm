@@ -15,6 +15,8 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
     <script src="./script/popup.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <title>SBI</title>
@@ -82,7 +84,7 @@
       
       <section id="contact" class="contact-section"  data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <!--<div class="contact-form">-->
-          <div class="containerform">
+         <!-- <div class="containerform">
             <h1 class="h1">Subscribe to our Newsletter</h1>
             <p class="p">
               Get actionable business insights directly in your inbox every Tuesday
@@ -91,32 +93,68 @@
             <form class="form">
               <div class="rowf">
                 <div class="column">
-                  <input type="text" id="name" name="FNAME" placeholder="First Name" required />
+                  <input type="text" id="name" placeholder="First Name" required />
                 </div>
                 <div class="column">
-                  <input type="text" id="name" name="MMERGE3" placeholder="Last Name" required />
+                  <input type="text" id="name" placeholder="Last Name" required />
                 </div>
               </div>
               <div class="rowf">
                 <div class="column">
-                  <input type="email" id="email"  name="EMAIL" placeholder="email" required />
+                  <input type="email" id="email" placeholder="email" required />
                 </div>
               </div>
               <div class="rowf">
                 <div class="column">
                   <input
                     type="tel"
-                    id="contact" name="PHONE" 
+                    id="contact"
                     placeholder="Phone Number"
                     required
                   />
                 </div>
               </div>
-     
-              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"  class="formbutton">
+              <button class="buttonform">Submit</button>
             </form>
-          </div>
+          </div>-->
+
+          <!--/////////////////////////////////
+          ///////////////////////////////-->
       
+          <div class="containerform">
+            <h1 class="h1">Subscribe to our Newsletter</h1>
+            <p class="p">
+              Get actionable business insights directly in your inbox every Tuesday
+              and Friday.
+            </p>
+            <form action="https://gmail.us21.list-manage.com/subscribe/post?u=27394fc99fee66cd87a40cebe&amp;id=de95cf6915&amp;f_id=0091d5e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form validate" target="_blank" novalidate>
+              <div class="rowf">
+                <div class="column">
+                  <input type="text" id="mce-FNAME" name="FNAME" placeholder="First Name" required class="required" />
+                </div>
+                <div class="column">
+                  <input type="text" id="mce-MMERGE3" name="MMERGE3" placeholder="Last Name" required class="required" />
+                </div>
+              </div>
+              <div class="rowf">
+                <div class="column">
+                  <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="email" required class="required email" />
+                </div>
+                </div>
+                <div class="rowf">
+                <div class="column">
+                <input type="tel" id="mce-PHONE" name="PHONE" placeholder="Phone Number" required class="required" />
+                </div>
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_27394fc99fee66cd87a40cebe_de95cf6915" tabindex="-1" value="">
+                </div>
+                <button type="submit" class="buttonform" id="formbutton">Submit</button>
+                
+                  </form>
+                </div>
+          
+
       </section>
           <!--
 
@@ -235,10 +273,26 @@
     <script>
     AOS.init();
     </script>
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-    <!--End mc_embed_signup-->
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+<script type='text/javascript'>
+  ////////////////////////////
+  (function ($) {
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[1] = 'FNAME';
+    ftypes[1] = 'text';
+    fnames[3] = 'MMERGE3';
+    ftypes[3] = 'text';
+    fnames[0] = 'EMAIL';
+    ftypes[0] = 'email';
+    fnames[4] = 'PHONE';
+    ftypes[4] = 'phone';
+  })(jQuery);
+  var $mcj = jQuery.noConflict(true);
+</script>
+    <!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+   End mc_embed_signu
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>p-->
     <script src="./script/navscript.js"></script>
     <script src="./script/navscript.js"></script>
   </body>

@@ -1,5 +1,5 @@
 .hero {
-  background: #1b3764 !important;
+  background: #1b4e64 !important;
   height: 527px !important;
   position: relative;
 }
@@ -120,7 +120,7 @@
 
   letter-spacing: -0.02em;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 .a-p {
   font-family: "Inter";
@@ -156,7 +156,7 @@
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 
 .a-details ul li {
@@ -170,7 +170,7 @@
   align-items: center;
   text-align: right;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 
 @media all and (max-width: 1100px) {

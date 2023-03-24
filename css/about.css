@@ -1,5 +1,5 @@
 .hero {
-  background: #1b3764 !important;
+  background: #1b4e64 !important;
   height: 527px !important;
   position: relative;
   overflow: hidden;
@@ -134,7 +134,7 @@ body {
 
   letter-spacing: -0.02em;
 
-  color: #1b3764;
+  color: #1b4e64;
   text-align: left;
   width: 100%;
   margin-bottom: 20px;
@@ -212,7 +212,7 @@ body {
 }
 .story-count,
 .story-detail-title {
-  color: #1b3764;
+  color: #1b4e64;
 }
 .story-detail-content {
   color: #969aa0;
@@ -267,7 +267,7 @@ body {
   font-weight: 700;
   text-transform: capitalize;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 .title-text.white-text {
   color: #fff;
@@ -285,7 +285,7 @@ body {
   margin-left: 0;
 }
 .title-separator.blue-line {
-  background-color: #1b3764;
+  background-color: #1b4e64;
 }
 .section-title-content {
   padding-top: 25px;
@@ -303,7 +303,7 @@ body {
   text-align: left;
 }
 .section-title-content.primary-title-content {
-  color: #1b3764;
+  color: #1b4e64;
   font-weight: 400;
 }
 .about-content-details {
@@ -432,7 +432,7 @@ addition
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
   width: 100%;
-  background: #1b3764;
+  background: #1b4e64;
   position: fixed;
   top: 0;
   z-index: 99999;

@@ -75,7 +75,7 @@ nav ul ul {
   list-style: none;
   top: 90px;
   border: none !important;
-  background-color: #1b3764;
+  background-color: #1b4e64;
   opacity: 0;
   visibility: hidden;
   transition: top 0.3s;
@@ -233,7 +233,7 @@ input {
   text-align: center !important;
   letter-spacing: 0.02em;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 /*preloader*/
 .spinner-wrapper {
@@ -261,7 +261,7 @@ input {
 .sticky {
   padding-top: 15px;
   width: 100%;
-  background: #1b3764;
+  background: #1b4e64;
   position: fixed;
   top: 0;
   z-index: 99999;

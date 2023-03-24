@@ -251,7 +251,7 @@ input {
   font-weight: 400 !important;
   padding: 8px 10px !important;
 
-  border: 1.2px solid #1b3764 !important;
+  border: 1.2px solid #1b4e64 !important;
   margin-top: 5px !important;
 }
 textarea {
@@ -271,7 +271,7 @@ form input {
   border: none !important;
   width: 193px !important;
   padding: 10px 20px !important;
-  background: #1b3764 !important;
+  background: #1b4e64 !important;
 }
 .formbutton:hover {
   background: #325894 !important;
@@ -308,7 +308,7 @@ form input {
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
   width: 100% !important;
-  background: #1b3764 !important;
+  background: #1b4e64 !important;
   position: fixed !important;
   top: 0 !important;
   z-index: 99999 !important;

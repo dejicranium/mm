@@ -14,7 +14,7 @@
   list-style: none;
 }
 .footer {
-  background: #1b3764;
+  background: #1b4e64;
 
   padding: 70px 0;
 }
@@ -183,7 +183,7 @@
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
   width: 100%;
-  background: #1b3764;
+  background: #1b4e64;
   position: fixed;
   top: 0;
   z-index: 99999;

@@ -63,12 +63,12 @@ p {
 }
 .flow ul,
 .flow ol {
-  color: #1b3764;
+  color: #1b4e64;
   font-size: 14px;
   padding-left: 30px;
 }
 .flow ul li {
-  color: #1b3764;
+  color: #1b4e64;
   list-style-image: url("/public/assets/Vector.png");
 }
 */
@@ -109,7 +109,7 @@ body {
 /*hero section*/
 .hero {
   padding-top: 30px;
-  background: #1b3764 !important;
+  background: #1b4e64 !important;
   height: 527px !important;
   position: relative;
   width: 100%;
@@ -117,7 +117,7 @@ body {
   clear: both;
 }
 .hero {
-  background: #1b3764 !important;
+  background: #1b4e64 !important;
   height: 527px !important;
   position: relative;
 }
@@ -196,10 +196,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1b3764;
+  color: #1b4e64;
 }
 figcaption {
-  color: #1b3764;
+  color: #1b4e64;
   font-weight: 700;
 }
 /*nav bar*/
@@ -247,7 +247,7 @@ nav ul ul {
   list-style: none;
   top: 90px;
   border: none !important;
-  background-color: #1b3764;
+  background-color: #1b4e64;
   opacity: 0;
   visibility: hidden;
   transition: top 0.3s;
@@ -402,7 +402,7 @@ input {
   text-align: center !important;
   letter-spacing: 0.02em;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 
 /* Set core body defaults */
@@ -610,7 +610,7 @@ section,
 
   letter-spacing: -0.02em;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 .a-p {
   font-family: "Inter";
@@ -647,7 +647,7 @@ section,
   text-align: center;
   letter-spacing: 0.02em;
   margin-right: 10px;
-  color: #1b3764;
+  color: #1b4e64;
 }
 
 .a-details ul li {
@@ -661,10 +661,10 @@ section,
   align-items: center;
   text-align: right;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 .color {
-  color: #1b3764 !important;
+  color: #1b4e64 !important;
   text-decoration: none !important;
 }
 
@@ -688,7 +688,7 @@ section,
     width: 100px;
   }
   .a-h3 {
-    color: #1b3764;
+    color: #1b4e64;
     text-decoration: none;
   }
   .a-p {
@@ -858,11 +858,11 @@ blockquote {
   opacity: 0.9;
 }
 figcaption {
-  color: #1b3764;
+  color: #1b4e64;
 }
 b,
 strong {
-  color: #1b3764;
+  color: #1b4e64;
 }
 
 /* //////////////////////
@@ -899,7 +899,7 @@ strong {
   list-style: none;
 }
 .footer {
-  background: #1b3764;
+  background: #1b4e64;
 
   padding: 70px 0;
 }
@@ -1117,7 +1117,7 @@ body {
   color: black;
 }
 .input-search::placeholder {
-  color: #1b3764;
+  color: #1b4e64;
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: 100;
@@ -1140,16 +1140,16 @@ body {
 .btn-search:focus ~ .input-search {
   width: 300px;
   border-radius: 0px;
-  color: #1b3764;
+  color: #1b4e64;
   background-color: transparent;
-  border-bottom: 1px solid #1b3764;
+  border-bottom: 1px solid #1b4e64;
   transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
 }
 .input-search:focus {
   width: 300px;
   border-radius: 0px;
   background-color: transparent;
-  border-bottom: 1px solid #1b3764;
+  border-bottom: 1px solid #1b4e64;
   transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
 }
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
@@ -1169,12 +1169,12 @@ input[type="text"] {
   display: block !important;
 }
 .input-search {
-  background-color: #1b3764;
+  background-color: #1b4e64;
   color: #000;
 }
 /*/////////////////////////////////////////////data display/////////////////////////*/
 #data-display {
-  color: #1b3764;
+  color: #1b4e64;
   padding: 1rem;
 }
 #data-display p {
@@ -1190,7 +1190,7 @@ input[type="text"] {
 .sticky {
   padding-top: 5px;
   width: 100% !important;
-  background: #1b3764 !important;
+  background: #1b4e64 !important;
   position: fixed !important;
   top: 0 !important;
   height: 80px;

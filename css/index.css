@@ -260,7 +260,7 @@ body {
 
   letter-spacing: -0.02em;
 
-  color: #1b3764;
+  color: #1b4e64;
 
   /* Inside auto layout */
 }
@@ -298,7 +298,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 
 .article .articles-container .article-card .article-context .details .date {
@@ -313,7 +313,7 @@ body {
   align-items: center;
   text-align: right;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 /*quote section*/
 .quote {
@@ -376,7 +376,7 @@ body {
   text-align: center;
   letter-spacing: -0.02em;
 
-  color: #1b3764;
+  color: #1b4e64;
 }
 /*tweet link dis-able*/
 @media (min-width: 600px) {
@@ -392,7 +392,7 @@ body {
 .sticky {
   width: 100%;
   padding-top: 15px;
-  background: #1b3764;
+  background: #1b4e64;
   position: fixed;
   top: 0;
   z-index: 99999;

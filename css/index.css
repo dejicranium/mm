@@ -315,6 +315,7 @@ body {
 
   color: #1b4e64;
 }
+
 /*quote section*/
 .quote {
   width: 100%;
@@ -324,13 +325,13 @@ body {
   background: linear-gradient(
       0deg,
       rgba(27, 78, 100, 0.8),
-      rgba(27, 78, 100, 0.8)
+      rgb(27, 78, 100, 0.8)
     ),
     url(../asset/image/DSC02136\ 1.png);
   background-size: cover !important;
   text-align: center;
   display: flex;
-  padding: 130px 0 !important;
+  padding: 250px 0 !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;

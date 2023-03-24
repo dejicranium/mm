@@ -212,6 +212,12 @@
   text-align: center !important;
   color: #1c093c !important;
 }
+@media (max-width: 700px) {
+  .h1 {
+    font-size: 28px !important;
+    text-align: justify !important;
+  }
+}
 .p {
   position: relative !important;
   margin: auto !important;
@@ -227,6 +233,7 @@
   min-width: 320px !important;
   display: flex !important;
   align-items: center !important;
+  justify-content: center !important;
   flex-direction: column !important;
   position: relative !important;
   margin: 30px auto 0 auto !important;
@@ -292,7 +299,7 @@ form input {
     text-align: left !important;
   }
   input {
-    width: 70% !important;
+    width: 100% !important;
   }
   .formbutton,
   #formbutton {
@@ -306,6 +313,14 @@ form input {
   position: fixed !important;
   top: 0 !important;
   z-index: 99999 !important;
+}
+nav {
+  margin-bottom: 50px !important;
+}
+@media (max-width: 990px) {
+  nav {
+    margin-bottom: 0 !important;
+  }
 }
 
 /*////////////////////////////////////////heigth//////////////////////*/

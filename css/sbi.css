@@ -2,7 +2,7 @@
 
 .hero-container {
   width: 100% !important;
-  height: 75% !important;
+  height: 50% !important;
   display: flex !important;
   flex-direction: row !important;
   justify-content: space-between !important;
@@ -61,7 +61,7 @@
 }
 .first {
   display: block !important;
-  margin-top: 15px !important;
+  margin-top: 135px !important;
 }
 .second {
   display: none !important;
@@ -89,7 +89,7 @@
   height: 100% !important;
   display: flex !important;
   align-items: center !important;
-  justify-content: flex-start !important;
+  justify-content: center !important;
 }
 .hero-row2 img {
   width: 424px !important;
@@ -251,7 +251,7 @@ input {
   font-weight: 400 !important;
   padding: 8px 10px !important;
 
-  border: 1.2px solid #1b4e64 !important;
+  border: 1.2px solid rgb(27, 78, 100) !important;
   margin-top: 5px !important;
 }
 textarea {

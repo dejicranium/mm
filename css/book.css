@@ -1,5 +1,5 @@
 .hero {
-  background: #1B4E64 !important;
+  background: #1b4e64 !important;
   height: 527px !important;
   position: relative;
 }
@@ -59,8 +59,8 @@
   color: #b4c7e7;
 }
 @media all and (max-width: 1100px) {
-  .hero{
-    height: 40vh !important;
+  .hero {
+    height: 50vh !important;
   }
   .main {
     font-size: 40px;
@@ -499,7 +499,6 @@ textarea {
   margin: 0;
 }
 
-
 select {
   text-transform: none;
 }
@@ -777,7 +776,7 @@ fieldset {
   border: 0;
 }
 [type="button"],
-[type="reset"]{
+[type="reset"] {
   border: 0;
   cursor: pointer;
   -webkit-appearance: button;
@@ -3972,7 +3971,7 @@ textarea.w-select {
 h1 {
   margin: 20px 0 10px;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 65px;
   line-height: 1.2;
   font-weight: 700;
@@ -3981,7 +3980,7 @@ h2 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 55px;
   line-height: 1.2;
   font-weight: 700;
@@ -3990,7 +3989,7 @@ h3 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 45px;
   line-height: 1.2;
   font-weight: 700;
@@ -3999,7 +3998,7 @@ h4 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 32px;
   line-height: 1.4;
   font-weight: 700;
@@ -4008,7 +4007,7 @@ h5 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 28px;
   line-height: 1.3;
   font-weight: 700;
@@ -4017,7 +4016,7 @@ h6 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 24px;
   line-height: 1.4;
   font-weight: 700;
@@ -4035,7 +4034,7 @@ a {
   background-color: transparent;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  color: #1B4E64;
+  color: #1b4e64;
   letter-spacing: 0.01em;
   text-decoration: none;
 }
@@ -4051,7 +4050,7 @@ ul {
 li {
   padding-top: 5px;
   padding-bottom: 5px;
-  color: #1B4E64;
+  color: #1b4e64;
   letter-spacing: 0.01em;
 }
 blockquote {
@@ -4060,7 +4059,7 @@ blockquote {
   padding: 80px 60px 60px;
   border-left-style: none;
   border-radius: 5px;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
   background-image: url("../61f38a397323f05ac4dbc7ee_quote-icon.svg");
   background-position: 16px 0;
   background-size: auto;
@@ -4073,7 +4072,7 @@ blockquote {
 .banner-title-area {
   position: relative;
   padding-bottom: 90px;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .nav-menu {
   float: none;
@@ -4091,7 +4090,7 @@ blockquote {
   padding-left: 0;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 17px;
   font-weight: 500;
   letter-spacing: 0.01em;
@@ -4208,7 +4207,7 @@ blockquote {
 .dropdown-title-text {
   display: block;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -4300,7 +4299,7 @@ blockquote {
 }
 .subtitle {
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 28px;
   line-height: 1.5;
   font-weight: 700;
@@ -4319,7 +4318,7 @@ blockquote {
   -webkit-transition: color 0.2s, background-color 0.2s;
   transition: color 0.2s, background-color 0.2s;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 19px;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -4338,7 +4337,7 @@ blockquote {
   justify-content: center;
   border-radius: 0;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 19px;
 }
 .button.header-button:hover {
@@ -4365,7 +4364,7 @@ blockquote {
   -webkit-transition: color 0.2s, background-color 0.2s;
   transition: color 0.2s, background-color 0.2s;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 19px;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -4385,13 +4384,13 @@ blockquote {
   margin-top: 0;
   padding-top: 18px;
   padding-bottom: 18px;
-  border-color: #1B4E64;
-  background-color: #1B4E64;
+  border-color: #1b4e64;
+  background-color: #1b4e64;
   color: #fff;
 }
 .button-large.mailchimp-button:hover {
   background-color: transparent;
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .button-large.full-width {
   width: 100%;
@@ -4461,7 +4460,7 @@ blockquote {
 }
 .color-box {
   height: 200px;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .color-box.secondary-color {
   height: 200px;
@@ -4472,7 +4471,7 @@ blockquote {
 }
 .color-name {
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 28px;
   font-weight: 700;
   text-align: center;
@@ -4644,7 +4643,7 @@ blockquote {
   margin-top: 0;
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .footer-social-block {
   display: -webkit-box;
@@ -4720,7 +4719,7 @@ blockquote {
 .footer-section {
   padding-top: 40px;
   padding-bottom: 0;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .footer-menu-link {
   display: block;
@@ -4767,7 +4766,7 @@ blockquote {
 .hero-section {
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
   background-clip: border-box;
   -webkit-text-fill-color: inherit;
 }
@@ -4953,7 +4952,7 @@ blockquote {
   margin-left: 0;
 }
 .title-separator.blue-line {
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .about-author-intro {
   padding-top: 100px;
@@ -4996,7 +4995,7 @@ blockquote {
   text-align: left;
 }
 .section-title-content.primary-title-content {
-  color: #1B4E64;
+  color: #1b4e64;
   font-weight: 400;
 }
 .about-content-details {
@@ -5040,7 +5039,7 @@ blockquote {
 }
 .about-content {
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 55px;
   line-height: 1.4;
   font-weight: 700;
@@ -5139,7 +5138,7 @@ blockquote {
   padding-right: 35px;
   padding-bottom: 10px;
   padding-left: 35px;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.11);
 }
 .client-wrap {
@@ -5466,7 +5465,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .getin-touch-content {
   -webkit-transition: color 0.2s;
@@ -5527,13 +5526,13 @@ blockquote {
 }
 .dropdown-question {
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 24px;
   font-weight: 700;
 }
 .accordion-icon {
   margin-top: 15px;
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .faq-content-wrap {
   padding-right: 25px;
@@ -5620,7 +5619,7 @@ blockquote {
 }
 .error-heading {
   margin-bottom: 0;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 220px;
   line-height: 0.9;
   font-weight: 700;
@@ -5736,13 +5735,13 @@ blockquote {
   margin-top: 0;
   margin-bottom: 0;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 30px;
 }
 .changelog-content {
   padding-top: 15px;
   padding-left: 0;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 19px;
 }
 .license-website-name {
@@ -5753,7 +5752,7 @@ blockquote {
 .bold-link {
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .bold-link:hover {
   color: #ffca42;
@@ -5772,14 +5771,14 @@ blockquote {
   margin-right: 10px;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  color: #1B4E64;
+  color: #1b4e64;
   text-decoration: none;
 }
 .text-link-wrap:hover {
   color: #ffca42;
 }
 .primary-bold-text {
-  color: #1B4E64;
+  color: #1b4e64;
   font-weight: 500;
 }
 .primary-bold-text.extra-bold {
@@ -5811,7 +5810,7 @@ blockquote {
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 22px;
   line-height: 1.4;
   font-weight: 700;
@@ -5852,7 +5851,7 @@ blockquote {
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 19px;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -5864,7 +5863,7 @@ blockquote {
 }
 .readmore-link {
   padding-bottom: 1px;
-  border-bottom: 2px solid #1B4E64;
+  border-bottom: 2px solid #1b4e64;
   -webkit-transition: border-color 0.2s;
   transition: border-color 0.2s;
   line-height: 1.2;
@@ -5907,7 +5906,7 @@ blockquote {
 .category-link-block {
   padding-left: 0;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 22px;
   font-weight: 700;
 }
@@ -5921,14 +5920,14 @@ blockquote {
   padding-right: 20px;
   padding-left: 20px;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 24px;
   line-height: 1.3;
   font-weight: 700;
 }
 .blog-date {
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 24px;
   font-weight: 700;
 }
@@ -5949,7 +5948,7 @@ blockquote {
   color: #deae86;
 }
 .category-link {
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .category-link.w--current {
   color: #ffca42;
@@ -6106,7 +6105,7 @@ blockquote {
 }
 .book-detail-title {
   padding-right: 20px;
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .option-list {
   margin-bottom: 40px;
@@ -6134,7 +6133,7 @@ blockquote {
   text-transform: uppercase;
 }
 .tab-link-tab:hover {
-  background-color: #1B4E64;
+  background-color: #1b4e64;
   color: #fff;
 }
 .tab-link-tab.w--current {
@@ -6142,7 +6141,7 @@ blockquote {
   padding-right: 40px;
   padding-bottom: 17px;
   padding-left: 40px;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
   font-family: Cardo, sans-serif;
   color: #fff;
   font-size: 15px;
@@ -6188,10 +6187,10 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .trust-title {
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -6210,16 +6209,16 @@ blockquote {
 }
 .checkout-field-text {
   font-family: Inter, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-weight: 600;
 }
 .checkout-field-shipping {
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .checkout-field-billing,
 .checkout-field-payment {
   font-family: Inter, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-weight: 600;
 }
 .order-item {
@@ -6240,7 +6239,7 @@ blockquote {
   margin-top: 7px;
 }
 .flat-rate {
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .shipping-method {
   background-color: transparent;
@@ -6251,7 +6250,7 @@ blockquote {
   background-color: #fff;
 }
 .paypal-rate {
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .black-title {
   color: #141414;
@@ -6353,14 +6352,14 @@ blockquote {
 }
 .subscribe-success-message {
   margin-top: 20px;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .subscribe-success-text {
   color: #fff;
 }
 .mailchimp-error-message {
   padding: 20px;
-  color: #1B4E64;
+  color: #1b4e64;
   text-align: center;
 }
 .about-author-grid {
@@ -6379,20 +6378,20 @@ blockquote {
   -webkit-transition: background-color 0.2s, color 0.2s;
   transition: background-color 0.2s, color 0.2s;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 19px;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
 .button-transparent:hover {
   background-color: #ffca42;
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .button-transparent.order-button {
   color: #fff;
 }
 .button-transparent.order-button:hover {
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .button-large-transparent {
   margin-top: 10px;
@@ -6404,14 +6403,14 @@ blockquote {
   -webkit-transition: color 0.2s, background-color 0.2s;
   transition: color 0.2s, background-color 0.2s;
   font-family: Cardo, sans-serif;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 19px;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
 .button-large-transparent:hover {
   background-color: #ffca42;
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .header-cart-icon {
   padding-top: 4px;
@@ -6459,7 +6458,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .author-intro-details {
   padding-left: 40px;
@@ -6505,7 +6504,7 @@ blockquote {
 .order-section {
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .order-grid {
   -webkit-box-align: center;
@@ -6599,7 +6598,7 @@ blockquote {
 .contact-quick-link {
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .contact-quick-link:hover {
   color: #141414;
@@ -6642,7 +6641,7 @@ blockquote {
   font-size: 22px;
 }
 .customer-rating {
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .testimonial-feedback-area {
   display: -webkit-box;
@@ -6668,7 +6667,7 @@ blockquote {
   -webkit-order: -1;
   -ms-flex-order: -1;
   order: -1;
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 17px;
 }
 .blog-image-link {
@@ -6740,10 +6739,10 @@ blockquote {
 .header-section {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .shop-trust-content {
-  color: #1B4E64;
+  color: #1b4e64;
   font-size: 18px;
 }
 .product-category-link {
@@ -6781,7 +6780,7 @@ blockquote {
   width: 100%;
   margin-top: 20px;
   padding: 20px;
-  color: #1B4E64;
+  color: #1b4e64;
 }
 .authors-book-section {
   padding-top: 90px;
@@ -6807,13 +6806,13 @@ blockquote {
   width: 50%;
 }
 .form-success-message {
-  background-color: #1B4E64;
+  background-color: #1b4e64;
   color: #f6f8fc;
 }
 .form-error-message {
   margin-top: 20px;
   padding: 20px;
-  color: #1B4E64;
+  color: #1b4e64;
   text-align: center;
 }
 .mailchimp-grid {
@@ -6854,7 +6853,7 @@ blockquote {
   width: 100%;
 }
 .utility-header-section {
-  background-color: #1B4E64;
+  background-color: #1b4e64;
 }
 .more-template-badge {
   position: fixed;
@@ -7146,7 +7145,7 @@ blockquote {
     padding-bottom: 90px;
   }
   .book-detail-title {
-    color: #1B4E64;
+    color: #1b4e64;
   }
   .shop-trust-section {
     padding-top: 100px;
@@ -7325,7 +7324,7 @@ blockquote {
     max-width: 1300px;
   }
   .button.cart {
-    color: #1B4E64;
+    color: #1b4e64;
   }
   .colors-grid {
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -7337,7 +7336,7 @@ blockquote {
     padding-top: 10px;
   }
   .color-name {
-    color: #1B4E64;
+    color: #1b4e64;
     font-size: 28px;
     line-height: 1.5;
     font-weight: 700;
@@ -9571,7 +9570,7 @@ blockquote {
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
   width: 100%;
-  background: #1B4E64;
+  background: #1b4e64;
   position: fixed;
   top: 0;
   z-index: 99999;

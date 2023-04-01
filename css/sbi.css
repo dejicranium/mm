@@ -32,17 +32,14 @@
 .hero-row1 h1 {
   /* Bold/100px */
 
-  font-family: "Space Grotesk" !important;
-  font-style: normal !important;
-  font-weight: 700 !important;
-  width: 400px !important;
-  font-size: 70px !important;
-  height: auto !important;
-  line-height: 60px !important;
-  margin: 30px 0 !important;
-  /* or 100% */
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 105px;
+  line-height: 100px;
+  /* or 95% */
 
-  letter-spacing: -1px !important;
+  letter-spacing: -1px;
 
   /* General Color/3 */
 
@@ -92,8 +89,8 @@
   justify-content: center !important;
 }
 .hero-row2 img {
-  width: 424px !important;
-  height: 466px !important;
+  width: 528px !important;
+  height: 545px !important;
 }
 .erect {
   position: relative !important;

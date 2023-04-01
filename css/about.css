@@ -61,11 +61,12 @@ body {
   color: #b4c7e7;
 }
 @media all and (max-width: 1100px) {
-  .hero{
+  .hero {
     height: 40vh !important;
   }
   .main {
     font-size: 40px;
+    top: 150px !important;
   }
   .text-block {
     font-size: 15px;

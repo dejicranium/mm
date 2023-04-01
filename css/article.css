@@ -61,6 +61,7 @@
   }
   .main {
     font-size: 40px;
+    top: 150px !important;
   }
   .text-block {
     font-size: 15px;

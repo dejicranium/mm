@@ -166,7 +166,7 @@
 
 /*alert*/
 button span {
-  text-align: left;
+  text-align: left !important;
 }
 
 .alert {

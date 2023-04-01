@@ -575,7 +575,7 @@ section,
 }
 .a-card {
   display: flex;
-  width: 90%;
+  min-width: 100%;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
@@ -1054,7 +1054,7 @@ strong {
 }
 
 .article-section {
-  padding: 15px !important;
+  padding: 7px !important;
 }
 body {
   overflow: hidden visible;

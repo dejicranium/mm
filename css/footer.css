@@ -166,9 +166,6 @@
 }
 
 /*alert*/
-button {
-  text-align: left !important;
-}
 
 .alert {
   position: absolute;

@@ -64,6 +64,7 @@
   text-decoration: none;
   font-weight: 300;
   border: none;
+  text-align: left !important;
   background: transparent;
   cursor: pointer;
 
@@ -165,7 +166,7 @@
 }
 
 /*alert*/
-button span {
+button {
   text-align: left !important;
 }
 

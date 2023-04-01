@@ -426,7 +426,6 @@ picture {
 
 /* Inherit fonts for inputs and buttons */
 input,
-button,
 textarea,
 select {
   font: inherit;
@@ -743,7 +742,6 @@ section,
 }
 
 button {
-  padding: 10px 20px;
   border: none;
   outline: none;
   border-radius: 8px;
@@ -813,7 +811,6 @@ button {
   /* max-height: max(15rem, 40vh); */
   object-fit: cover;
 }
-
 @media (min-width: 45em) {
   .hero > div {
     grid-auto-flow: column;

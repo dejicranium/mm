@@ -494,10 +494,8 @@ textarea {
   font: inherit;
   margin: 0;
 }
-button {
-  overflow: visible;
-}
-button,
+
+
 select {
   text-transform: none;
 }
@@ -775,8 +773,7 @@ fieldset {
   border: 0;
 }
 [type="button"],
-[type="reset"],
-button {
+[type="reset"]{
   border: 0;
   cursor: pointer;
   -webkit-appearance: button;
@@ -1249,7 +1246,7 @@ textarea.w-select {
 .w-widget-map .gm-style-iw {
   text-align: center;
 }
-.w-widget-map .gm-style-iw > button {
+.w-widget-map .gm-style-iw > {
   display: none !important;
 }
 .w-widget-twitter {

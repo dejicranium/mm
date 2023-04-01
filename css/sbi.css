@@ -108,9 +108,12 @@
   .hero {
     height: 100vh !important;
   }
+  .hero-row1 h1 {
+    line-height: 00px !important;
+  }
   h1 {
     font-size: 40px !important;
-    line-height: 00px;
+
     width: 86% !important;
   }
   .lines {

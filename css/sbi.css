@@ -126,7 +126,7 @@
   }
   .second {
     display: block !important;
-    box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15) !important;
+    margin-left: -60px;
     border-radius: 15px !important;
   }
   .hero-container {

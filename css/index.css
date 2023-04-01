@@ -322,6 +322,7 @@ body {
 .quote {
   width: 100%;
   height: auto;
+  padding: 200px 20%;
   background-position: center !important;
 
   background: linear-gradient(
@@ -333,7 +334,7 @@ body {
   background-size: cover !important;
   text-align: center;
   display: flex;
-  padding: 250px 0 !important;
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -342,8 +343,9 @@ body {
 .quote-text {
   font-family: "Cardo";
   font-style: normal;
+
   font-weight: 400;
-  font-size: 75px;
+  font-size: 50px;
   line-height: 120%;
   /* or 96px */
 

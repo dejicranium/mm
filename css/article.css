@@ -305,3 +305,12 @@ button {
     width: 100%;
   }
 }
+/*////////////////////////////////////////nav sticky//////////////////////*/
+.sticky {
+  width: 100%;
+  padding-top: 15px;
+  background: #1b4e64;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}

@@ -18,7 +18,7 @@
   <body>
     <section class="hero">
       <!--nav bar-->
-      <nav>
+      <nav id="nav">
         <div class="logo">
           <a href="./index.html"
             ><img
@@ -49,13 +49,13 @@
           </li>
 
           <li><a href="./about.html">About</a></li>
-          <li><a href="./about.html">Book Me</a></li>
+          <li><a href="./Bookme.html">Book Me</a></li>
 
           <li class="get"><a href="./SBI.html/#contact">Get Started</a></li>
         </ul>
       </nav>
       <div class="main">
-        Articles
+        Book Me
         <div class="line1"></div>
         <p>
           There are many variations of passages of Lorem Ipsum available, have
@@ -63,104 +63,7 @@
         </p>
       </div>
     </section>
-    <section class="article-section">
-      <div class="card_container">
-        <div class="card_image">
-          <img src="asset/image/Photo (2).png" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3">Significant reading has more info number</h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                eget enim ex. Quisque mollis, nisi et tempor gravida, leo ipsum
-                lobortis tortor, condimentum euismod metus mauris sed orci.
-                Aliquam ornare elit libero, et pulvinar nunc feugiat
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li><a href="#">Read more</a></li>
-              <li>Author - 23.05.2022</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="card_container">
-        <div class="card_image">
-          <img src="asset/image/Photo (2).png" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3">Significant reading has more info number</h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                eget enim ex. Quisque mollis, nisi et tempor gravida, leo ipsum
-                lobortis tortor, condimentum euismod metus mauris sed orci.
-                Aliquam ornare elit libero, et pulvinar nunc feugiat
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li><a href="#">Read more</a></li>
-              <li>Author - 23.05.2022</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="card_container">
-        <div class="card_image">
-          <img src="asset/image/Photo (2).png" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3">Significant reading has more info number</h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                eget enim ex. Quisque mollis, nisi et tempor gravida, leo ipsum
-                lobortis tortor, condimentum euismod metus mauris sed orci.
-                Aliquam ornare elit libero, et pulvinar nunc feugiat
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li><a href="#">Read more</a></li>
-              <li>Author - 23.05.2022</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="card_container">
-        <div class="card_image">
-          <img src="asset/image/Photo (2).png" />
-        </div>
-        <div class="card_details">
-          <div class="product_name">
-            <h3 class="a-h3">Significant reading has more info number</h3>
-            <div>
-              <p class="a-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                eget enim ex. Quisque mollis, nisi et tempor gravida, leo ipsum
-                lobortis tortor, condimentum euismod metus mauris sed orci.
-                Aliquam ornare elit libero, et pulvinar nunc feugiat
-              </p>
-            </div>
-          </div>
-          <div class="a-details">
-            <ul>
-              <li><a href="#">Read more</a></li>
-              <li>Author - 23.05.2022</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="article-section"></section>
     <!--
 
 
@@ -258,6 +161,22 @@
       <div class="b-c"><div class="b-text">© SHOBOWALE LUKEMAN</div></div>
     </footer>
 
+    <script>
+      //////////////////////////////////
+      ////////////////////////////////////////nav sticky/////////////
+      document.addEventListener("DOMContentLoaded", function () {
+        var nav = document.getElementById("nav");
+        var current_pos = nav.offsetTop;
+        window.onscroll = function () {
+          var window_pos = document.documentElement.scrollTop;
+          if (window_pos >= current_pos) {
+            nav.classList.add("sticky");
+          } else {
+            nav.classList.remove("sticky");
+          }
+        };
+      });
+    </script>
     <script src="./script/navscript.js"></script>
   </body>
 </html>

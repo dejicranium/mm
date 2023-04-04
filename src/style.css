@@ -291,8 +291,8 @@ input {
 }
 @media all and (max-width: 1100px) {
   .logopng {
-    width: 8cm;
-    height: 1.5cm;
+    width: 24px;
+    height: auto;
   }
   nav ul {
     margin-right: 0px;

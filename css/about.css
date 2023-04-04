@@ -240,7 +240,7 @@ body {
 @media (max-width: 1000px) {
   .story-detail-content {
     color: #969aa0;
-    width: 100%;
+    width: 70vw;
     font-size: 14px;
   }
   .story-content-wrap {

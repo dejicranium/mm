@@ -1191,13 +1191,13 @@ input[type="text"] {
 .sticky {
   padding-top: 5px;
   width: 100% !important;
-  background: #1b4e64 !important;
+
   position: fixed !important;
   top: 0 !important;
   height: 80px;
   z-index: 99999999999 !important;
 }
-@media (max: 800px) {
+@media (max-: 800px) {
   .sticky {
     height: 50px !important;
   }

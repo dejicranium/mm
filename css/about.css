@@ -446,7 +446,7 @@ addition
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
   width: 100%;
-  background: #1b4e64;
+
   position: fixed;
   top: 0;
   z-index: 99999;

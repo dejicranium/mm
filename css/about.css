@@ -246,6 +246,7 @@ body {
   .story-content-wrap {
     flex-direction: column;
     height: auto !important;
+    align-items: flex-start !important;
   }
   .story-item-wrap,
   .section-title {

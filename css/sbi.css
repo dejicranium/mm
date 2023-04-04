@@ -36,7 +36,7 @@
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 700;
-  font-size: 105px;
+  font-size: 95px;
   line-height: 100px;
   /* or 95% */
 
@@ -143,6 +143,7 @@
     margin-bottom: 80px !important;
     position: absolute !important;
     top: 100px !important;
+    padding-left: 3px;
   }
   .hero-row2 {
     margin-top: 90px !important;
@@ -158,7 +159,7 @@
   }
   .hero-row1 h1 {
     font-size: 50px !important;
-    width: 60% !important;
+    width: 100% !important;
   }
   .hero-row1 p {
     width: 86% !important;

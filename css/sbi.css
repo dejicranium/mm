@@ -313,13 +313,7 @@ form input {
   }
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/
-.sticky {
-  width: 100% !important;
-  background: #1b4e64 !important;
-  position: fixed !important;
-  top: 0 !important;
-  z-index: 99999 !important;
-}
+
 nav {
   margin-bottom: 50px !important;
 }

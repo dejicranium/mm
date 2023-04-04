@@ -92,11 +92,3 @@ h1 {
   text-align: center;
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/
-.sticky {
-  width: 100%;
-  padding-top: 15px;
-
-  position: fixed;
-  top: 0;
-  z-index: 99999;
-}

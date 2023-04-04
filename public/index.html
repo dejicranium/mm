@@ -416,14 +416,14 @@
 
 
 ///////////////////////////////
-const itemsPerPage = 5;
+const itemsPerPage = 4;
 // Get the article list and the pagination container
 const articleList = document.getElementById("slides-container-li");
 const paginationContainer = document.getElementById("pagination");
 
 // Get the number of articles and calculate the number of pages
 const numArticles = articleList.children.length;
-const numPages = Math.ceil(numArticles / 5);
+const numPages = Math.ceil(numArticles / 4);
 
 // Loop through each page and create a pagination button
 for (let i = 1; i <= numPages; i++) {
@@ -442,8 +442,8 @@ for (let i = 1; i <= numPages; i++) {
     }
 
     // Show the articles for the current page
-    const startIndex = (i - 1) * 5;
-    const endIndex = Math.min(startIndex + 5, numArticles);
+    const startIndex = (i - 1) * 4;
+    const endIndex = Math.min(startIndex + 4, numArticles);
     for (let j = startIndex; j < endIndex; j++) {
       articleList.children[j].style.display = "block";
     }
@@ -458,7 +458,7 @@ for (let i = 1; i <= numPages; i++) {
 }
 
 // Show the first page of articles and set the first pagination button as active
-for (let i = 0; i < 5 && i < numArticles; i++) {
+for (let i = 0; i < 4 && i < numArticles; i++) {
   articleList.children[i].style.display = "block";
 }
 paginationContainer.children[0].classList.add("active");
@@ -469,7 +469,7 @@ window.onload = function exampleFunction() {
 
 
 let items = document.querySelectorAll('.article-section');
-let pagination = paginate(items, 1, 5);
+let pagination = paginate(items, 1, 4);
 
 let listContainer = document.getElementById('slides-container-li');
 
@@ -479,7 +479,7 @@ pagination.data.forEach((item) => {
 const wrapper = document.querySelector('.articles-wrapper');
 const articles = wrapper.querySelectorAll('section');
 
-for (let i = 5; i < articles.length; i++) {
+for (let i = 4; i < articles.length; i++) {
   articles[i].classList.add('hidden');
 }
 

@@ -149,7 +149,7 @@ body {
     padding: 30px 0;
   }
   .section-title {
-    margin: 30px 0;
+    margin: 0 0 !important;
   }
   .about2 h1 {
     font-size: 20px !important;
@@ -247,12 +247,17 @@ body {
     flex-direction: column;
     height: auto !important;
     align-items: flex-start !important;
+    justify-content: flex-start !important;
   }
   .story-item-wrap,
   .section-title {
-    width: 80%;
+    width: 100%;
+    text-align: left;
     height: auto !important;
     margin: 0 0;
+
+    padding-left: 10px !important;
+    padding: 0 0;
     margin-bottom: 10px !important;
   }
 }

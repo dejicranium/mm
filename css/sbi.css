@@ -217,9 +217,9 @@
   text-align: center !important;
   color: #1c093c !important;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .h1 {
-    font-size: 28px !important;
+    font-size: 25px !important;
     text-align: justify !important;
   }
 }
@@ -235,7 +235,7 @@
 }
 .form {
   width: 100% !important;
-  min-width: 320px !important;
+
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -294,8 +294,8 @@ form input {
 }
 @media (max-width: 950px) {
   .containerform {
-    width: 85% !important;
-    padding: 35px 50px !important;
+    width: 95% !important;
+    padding: 35px 5px !important;
   }
   .form {
     padding: 0 10px !important;

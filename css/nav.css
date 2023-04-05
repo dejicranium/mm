@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #f4f8ff;
+  background: #f5f5f5;
 }
 html {
   scroll-behavior: smooth !important;
@@ -12,7 +12,7 @@ html {
 
 @media (max-width: 650px) {
   body {
-    background: #f4f8ff;
+    background: #f5f5f5;
   }
 }
 /*hero section*/

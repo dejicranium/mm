@@ -124,3 +124,7 @@ form input {
   transform: translate(0, 4px) scale(0.75);
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/
+
+.sec {
+  padding: 10px !important;
+}

@@ -131,7 +131,7 @@ form input {
 }
 @media (max-width: 900px) {
   .sec {
-    padding: 10px !important;
+    padding: 30px 10px !important;
   }
   .sec form {
     padding: 10px !important;

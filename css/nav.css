@@ -3,18 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
-  background: #f5f5f5;
+  background: #f4f8ff;
 }
+
 html {
   scroll-behavior: smooth !important;
 }
 
 @media (max-width: 650px) {
   body {
-    background: #f5f5f5;
+    background: #f4f8ff;
   }
 }
+
 /*hero section*/
 .hero {
   padding-top: 30px;
@@ -26,15 +29,18 @@ html {
 
   clear: both;
 }
+
 /*nav bar*/
 nav {
   background: transparent;
 }
+
 nav:after {
   content: "";
   clear: both;
   display: table;
 }
+
 nav .logo {
   float: left;
   color: white;
@@ -43,24 +49,26 @@ nav .logo {
   line-height: 70px;
   padding-left: 60px;
 }
+
 nav ul {
   float: right;
   margin-right: 40px;
   list-style: none;
   position: relative;
 }
+
 nav ul li {
   float: left;
   display: inline-block;
   background: transparent;
   margin: 0 5px;
 }
+
 nav ul li a {
   color: white;
   line-height: 70px;
   text-decoration: none;
   font-size: 18px;
-
   padding: 8px 15px;
 }
 nav ul li a:hover {
@@ -75,19 +83,23 @@ nav ul ul {
   list-style: none;
   top: 90px;
   border: none !important;
-  background-color: #1b4e64;
+  background-color: #1b4e64e8;
   opacity: 0;
   visibility: hidden;
   transition: top 0.3s;
+  border-radius: 3px;
 }
+
 nav ul ul ul {
   border-top: none;
 }
+
 nav ul li:hover > ul {
   top: 70px;
   opacity: 1;
   visibility: visible;
 }
+
 nav ul ul li {
   position: relative;
   margin: 0px;
@@ -120,8 +132,8 @@ input {
 }
 @media all and (max-width: 1100px) {
   .logopng {
-    width: 20px;
-    height: auto;
+    width: 5cm;
+    height: 1.5cm;
   }
   nav ul {
     margin-right: 0px;
@@ -139,7 +151,7 @@ input {
     width: 100%;
     height: 100vh;
     top: 80px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #1b4e64d9;
     z-index: 999999;
     display: none;
     position: absolute;
@@ -211,14 +223,11 @@ input {
   span.cancel:before {
     content: "\f00d";
   }
+  .logopng {
+    width: 300px;
+    height: auto;
+  }
 }
-/*/////////////logopng//////////////*/
-
-.logopng {
-  width: 300px;
-  height: auto;
-}
-
 /*get started*/
 .get {
   display: flex;
@@ -276,11 +285,26 @@ input {
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
-  padding-top: 15px !important;
-  width: 100% !important;
-  padding-bottom: -15px !important;
-  background: #900698 !important;
-  position: fixed !important;
-  top: 0 !important ;
-  z-index: 99999 !important;
+  padding-top: 15px;
+  width: 100%;
+  background: #1b4e64;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
+
+@media (max-width: 750px) {
+  .logopng {
+    width: 6.5cm;
+    height: auto;
+  }
+
+  .logo {
+    display: flex;
+    margin-top: -15px;
+  }
+
+  .nologo {
+    margin-top: 0px;
+  }
 }

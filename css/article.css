@@ -125,9 +125,12 @@ form input {
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/
 
-.sec {
-  padding: 10px !important;
-}
-.sec form {
-  padding: 10px !important;
+/*////////////////////////////////////////form padding//////////////////////*/
+@media (max-width: 900px) {
+  .sec {
+    padding: 10px !important;
+  }
+  .sec form {
+    padding: 10px !important;
+  }
 }

@@ -128,3 +128,6 @@ form input {
 .sec {
   padding: 10px !important;
 }
+.sec form {
+  padding: 10px !important;
+}

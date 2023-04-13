@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
+
 .hero {
   background: #1b4e64 !important;
   height: 527px !important;
@@ -128,6 +130,17 @@ form input {
 /*////////////////////////////////////////form padding//////////////////////*/
 .sec {
   padding-bottom: 30px !important;
+}
+
+.sec h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  /* identical to box height */
+
+  color: #000000;
 }
 @media (max-width: 900px) {
   .sec {

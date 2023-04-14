@@ -27,7 +27,7 @@ body {
   font-style: normal;
   font-weight: 700;
   /* font-size: 150px;*/
-  font-size: clamp(60px, 10vw, 150px);
+  font-size: clamp(60px, 10vw, 100px);
   line-height: 100px;
   /* or 93% */
 
@@ -38,9 +38,10 @@ body {
 
   color: #ffffff;
 }
+
 .hero-container {
   width: 100% !important;
-  height: 50% !important;
+  height: 100% !important;
   display: flex !important;
   flex-direction: row !important;
   justify-content: flex-end !important;
@@ -48,6 +49,7 @@ body {
   padding: 0 60px !important;
   bottom: 0px !important;
   position: relative;
+  object-position: center bottom !important;
 }
 .hero {
   height: 100vh !important;
@@ -55,7 +57,9 @@ body {
   overflow: hidden;
 }
 .hero-img {
+  bottom: 0px !important;
   position: relative !important;
+  object-position: 100% 10%;
 }
 .get {
   height: 50px !important;
@@ -73,6 +77,7 @@ body {
   height: 100% !important;
   display: flex !important;
   flex-direction: column !important;
+  object-position: center bottom !important;
 }
 .hero-row1 h1 {
   /* Bold/100px */
@@ -134,6 +139,7 @@ body {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  object-position: center bottom !important;
 }
 .hero-row2 img {
   margin-top: 10px;

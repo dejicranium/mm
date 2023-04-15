@@ -206,7 +206,7 @@ data-aos-duration="1000"
 </section>
 
 
-  <!--footer
+ <!--footer
 
 
 -->
@@ -298,8 +298,50 @@ data-aos-duration="1000"
 <script src="./script/navscript.js"></script>
 <script src="./script/copy.js"></script>
 <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=0de490638f36f' async='true'></script>
+<script >
+const nunjucks = require('nunjucks');
+
+const env = nunjucks.configure('templates', {
+autoescape: true,
+express: app
+});
+///////////////////
+res.render('article2.njk', {title: 'Nunjucks', sub: 'Using nunjucks'});
+
+app.get('/', function(req, res) {
+const context = { name: 'John' };
+const html = env.render('article2.njk', context);
+
+res.send(html);
+});
 
 
-      <script src="./script/navscript.js"></script>
+</script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+   AOS.init();
+   </script>
+<!--copy-->
+<script type="text/javascript"  src="https://apiv2.popupsmart.com/api/Bundle/402104" async></script>
+ <script>
+  function copy(copyId) {
+    var $inp = $("<input>");
+    $("body").append($inp);
+    $inp.val($("" + copyId).text()).select();
+    document.execCommand("copy");
+    $inp.remove();
+    $(".alert").fadeIn(500, function () {
+      $(".alert").fadeOut();
+    });
+  }
+  $(document).ready(function () {
+    $("#copyButton1").click(function () {
+      copy("#text1");
+    });
+    $("#copyButton2").click(function () {
+      copy("#text2");
+    });
+  });
+</script>      <script src="./script/navscript.js"></script>
 </body>
 </html>

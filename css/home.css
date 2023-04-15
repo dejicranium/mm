@@ -13,7 +13,6 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
-  height: 100vh;
 
   clear: both;
 }
@@ -49,16 +48,15 @@ body {
   height: 100% !important;
   display: flex !important;
   flex-direction: row !important;
-  justify-content: flex-start !important;
-  align-items: flex-start !important;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
   padding: 0 60px !important;
   bottom: 0px !important;
-  position: relative;
+  position: relative !important;
   object-position: center bottom !important;
 }
+
 .hero {
-  height: 100vh !important;
-  padding-bottom: 50px !important;
   overflow: hidden;
 }
 .hero-img {
@@ -83,20 +81,24 @@ body {
 }
 .hero-row1 h1 {
   /* Bold/100px */
+  margin-bottom: 0 !important;
 
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 150px;
-  line-height: 100px;
-  /* or 95% */
-  margin: 0 !important;
+  font-family: "Space Grotesk" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 131px !important;
 
-  letter-spacing: -1px;
+  /* or 76% */
 
-  /* General Color/3 */
+  letter-spacing: -1px !important;
 
   color: #ffffff !important;
+
+  /* Inside auto layout */
+
+  flex: none !important;
+  order: 0 !important;
+  flex-grow: 0 !important;
 }
 
 .first {
@@ -107,22 +109,16 @@ body {
   display: none !important;
 }
 .hero-row1 p {
-  width: 400px !important;
-  height: auto !important;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
 
-  /* Medium/21px */
+  /* or 159% */
 
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 35px !important;
+  letter-spacing: -1px;
 
-  /* or 162% */
-
-  /* General Color/3 */
-
-  color: #ffffff !important;
-
-  opacity: 0.8 !important;
+  color: #ffffff;
 }
 .hero-row2 {
   width: 50% !important;
@@ -148,9 +144,7 @@ body {
   .hero {
     height: 100vh !important;
   }
-  .hero-row1 h1 {
-    line-height: 1em !important;
-  }
+
   .hero-row1 h1 {
     font-size: 40px !important;
   }
@@ -225,10 +219,7 @@ body {
   align-items: center !important;
   padding: 0 60px !important;
 }
-.hero {
-  height: 100vh !important;
-  padding-bottom: 50px !important;
-}
+
 .get {
   height: 50px !important;
 }
@@ -316,9 +307,7 @@ body {
   .hero {
     height: 100vh !important;
   }
-  .hero-row1 h1 {
-    line-height: 1em !important;
-  }
+
   .hero h1 {
     font-size: 40px !important;
 
@@ -355,7 +344,7 @@ body {
     justify-content: center !important;
     height: auto !important;
     align-items: center;
-    bottom: 0px !important;
+    bottom: 200px !important;
   }
   .hero-row2 img {
     margin-left: 15px;
@@ -643,77 +632,4 @@ about us
   height: 50px;
 
   background: #ffca42;
-}
-
-/*quote section*/
-.quote {
-  width: 100% !important;
-  height: auto !important;
-  padding: 200px 20% !important;
-  background-position: center !important;
-
-  background: linear-gradient(
-      0deg,
-      rgba(27, 78, 100, 0.8),
-      rgb(27, 78, 100, 0.8)
-    ),
-    url(../asset/image/DSC02136\ 1.png);
-  background-size: cover !important;
-  text-align: center;
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-}
-.quote-text {
-  font-family: "Cardo";
-  font-style: normal;
-
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 120%;
-  /* or 96px */
-
-  text-align: center;
-  letter-spacing: -0.02em;
-
-  color: #ffffff;
-}
-.small-name {
-  font-family: "Cardo";
-  font-style: normal;
-  margin-top: 20px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 120%;
-  /* or 30px */
-
-  text-align: center;
-  letter-spacing: -0.02em;
-
-  color: #ffffff;
-}
-
-@media (max-width: 800px) {
-  .quote {
-    height: auto !important;
-    padding: 30px 50px !important;
-    background-size: cover;
-    background-position: center;
-  }
-  .quote-text {
-    font-size: 22px !important;
-    padding: 30px 0 !important;
-  }
-  .quote {
-    background-size: cover !important;
-    background-position: center !important;
-  }
-  .quote {
-    padding: 30px 0;
-    background-size: contain !important;
-    background-position: center !important;
-  }
 }

@@ -146,11 +146,11 @@
   margin: 10px 0;
 }
 .b-line {
-  width: 80%;
-  height: 0px;
+  width: 80% !important;
+  height: 0px !important;
 
-  opacity: 0.2;
-  border: 1px solid #ffffff;
+  opacity: 0.2 !important;
+  border: 1px solid #ffffff !important;
 }
 .b-text {
   font-family: "Inter";

@@ -626,3 +626,65 @@ about us
 
   background: #ffca42;
 }
+
+/*quote section*/
+.quote {
+  width: 100%;
+  height: auto;
+  padding: 200px 20%;
+  background-position: center !important;
+
+  background: linear-gradient(
+      0deg,
+      rgba(27, 78, 100, 0.8),
+      rgb(27, 78, 100, 0.8)
+    ),
+    url(../asset/image/DSC02136\ 1.png);
+  background-size: cover !important;
+  text-align: center;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+.quote-text {
+  font-family: "Cardo";
+  font-style: normal;
+
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 120%;
+  /* or 96px */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.small-name {
+  font-family: "Cardo";
+  font-style: normal;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  /* or 30px */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .quote {
+    height: auto !important;
+    padding: 30px 50px !important;
+  }
+  .quote-text {
+    font-size: 22px !important;
+    padding: 30px 0 !important;
+  }
+}

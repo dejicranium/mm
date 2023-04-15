@@ -319,7 +319,7 @@ body {
   .hero-row1 h1 {
     line-height: 1em !important;
   }
-  h1 {
+  .hero h1 {
     font-size: 40px !important;
 
     width: 86% !important;
@@ -503,10 +503,10 @@ about us
   .about1,
   .about2 {
     height: 50% !important;
-    padding: 20px !important;
   }
   .about1 {
     width: 80% !important;
+    padding: 20px !important;
   }
   .about2 {
     width: 100% !important;

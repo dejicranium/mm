@@ -499,7 +499,7 @@ about us
 }
 @media (max-width: 1100px) {
   .about-section {
-    flex-direction: column !important;
+    flex-direction: column-reverse !important;
     display: flex;
   }
   .about1,
@@ -545,10 +545,29 @@ about us
 
   letter-spacing: -0.02em;
 
-  color: #1b4e64;
+  color: #000000;
   text-align: left;
   width: 100%;
   margin-bottom: 20px;
+}
+.about2 .h2 {
+  font-family: "Cardo";
+  font-style: normal;
+  width: 123px;
+  height: 38px;
+  color: #ffca42;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
+
+  letter-spacing: -0.02em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: left !important;
 }
 @media (max-width: 1100px) {
   .about1 img {
@@ -559,6 +578,9 @@ about us
     margin: 0 0 !important;
   }
   .about2 h1 {
+    font-size: 20px !important;
+  }
+  .about2 .h2 {
     font-size: 20px !important;
   }
   .about2 .p {
@@ -686,5 +708,14 @@ about us
   .quote-text {
     font-size: 22px !important;
     padding: 30px 0 !important;
+  }
+  .quote {
+    background-size: cover !important;
+    background-position: center !important;
+  }
+  .quote {
+    padding: 30px 0;
+    background-size: contain !important;
+    background-position: center !important;
   }
 }

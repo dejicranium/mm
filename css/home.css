@@ -3,7 +3,13 @@
   opacity: 1 !important;
 }
 .hero {
+  position: relative;
+  width: 100%;
+  margin-bottom: 45px;
+  padding: 120px 0 0 0;
+  overflow: hidden;
   padding-top: 30px;
+
   background: url(../asset/image/background.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -77,7 +83,7 @@ body {
   height: 100% !important;
   display: flex !important;
   flex-direction: column !important;
-  object-position: center bottom !important;
+  object-position: left top !important;
 }
 .hero-row1 h1 {
   /* Bold/100px */
@@ -95,17 +101,7 @@ body {
 
   color: #ffffff !important;
 }
-.lines {
-  width: 80px !important;
-  height: 0px !important;
-  margin-left: 400px !important;
-  margin-top: 10px !important;
-  margin-bottom: 30px !important;
 
-  /* Yellow */
-
-  border: 3px solid #ffc947 !important;
-}
 .first {
   display: block !important;
   margin-top: 135px !important;
@@ -130,7 +126,6 @@ body {
   color: #ffffff !important;
 
   opacity: 0.8 !important;
-  margin-bottom: 10px;
 }
 .hero-row2 {
   padding-top: 10% !important;

@@ -5,7 +5,7 @@
 .hero {
   position: relative;
   width: 100%;
-  margin-bottom: 45px;
+
   padding: 120px 0 0 0;
   overflow: hidden;
   padding-top: 30px;
@@ -88,7 +88,7 @@ body {
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 700;
-  font-size: 95px;
+  font-size: 150px;
   line-height: 100px;
   /* or 95% */
   margin: 0 !important;
@@ -182,23 +182,22 @@ body {
   .hero-row1 {
     width: 100% !important;
     height: auto !important;
-    margin-bottom: 80px !important;
+
     position: absolute !important;
     top: 100px !important;
     padding-left: 30px !important;
   }
   .hero-row2 {
-    margin-top: 90px !important;
     width: 85% !important;
     position: absolute !important;
     justify-content: center !important;
     height: auto !important;
     align-items: center;
-    top: 50vh !important;
   }
   .hero-row2 img {
-    margin-top: 20% !important;
-    margin-left: 15px;
+    margin-left: 15px !important;
+    width: 246.99px !important;
+    height: 269.49px !important;
   }
   .hero-row1 h1 {
     font-size: 50px !important;

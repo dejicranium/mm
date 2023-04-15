@@ -647,9 +647,9 @@ about us
 
 /*quote section*/
 .quote {
-  width: 100%;
-  height: auto;
-  padding: 200px 20%;
+  width: 100% !important;
+  height: auto !important;
+  padding: 200px 20% !important;
   background-position: center !important;
 
   background: linear-gradient(
@@ -700,6 +700,8 @@ about us
   .quote {
     height: auto !important;
     padding: 30px 50px !important;
+    background-size: cover;
+    background-position: center;
   }
   .quote-text {
     font-size: 22px !important;

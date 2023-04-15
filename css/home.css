@@ -79,10 +79,7 @@ body {
 
 .hero-row1 {
   padding-left: 30px;
-  width: 50% !important;
-  height: 100% !important;
-  display: flex !important;
-  flex-direction: column !important;
+
   object-position: left top !important;
 }
 .hero-row1 h1 {
@@ -94,6 +91,7 @@ body {
   font-size: 95px;
   line-height: 100px;
   /* or 95% */
+  margin: 0 !important;
 
   letter-spacing: -1px;
 
@@ -131,9 +129,7 @@ body {
   padding-top: 10% !important;
   width: 50% !important;
   height: 100% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+
   object-position: center bottom !important;
 }
 .hero-row2 img {
@@ -273,8 +269,8 @@ body {
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 700;
-  font-size: 95px;
-  line-height: 100px;
+  font-size: 80px;
+  line-height: auto;
   /* or 95% */
 
   letter-spacing: -1px;

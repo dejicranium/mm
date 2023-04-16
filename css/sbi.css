@@ -250,8 +250,8 @@
   width: 100% !important;
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
-  grid-gap: 20px 30px !important;
-  margin-bottom: 20px !important;
+  grid-gap: 5px 30px !important;
+  margin-bottom: 5px !important;
 }
 
 textarea,
@@ -274,11 +274,13 @@ input:focus {
 form input {
   background: transparent !important;
   display: block !important;
+  height: 65px;
 }
 .formbutton,
 #formbutton {
   border: none !important;
-  width: 193px !important;
+  width: 293px !important;
+  height: 65px !important;
   padding: 10px 20px !important;
   background: #1b4e64 !important;
   color: white;
@@ -301,7 +303,7 @@ form input {
     padding: 35px 5px !important;
   }
   .form {
-    padding: 0 12% !important;
+    padding: 30px 12% !important;
   }
   .p,
   .h1 {
@@ -310,9 +312,13 @@ form input {
   input {
     width: 90% !important;
   }
+
   .formbutton,
   #formbutton {
-    width: 93px !important;
+    position: absolute;
+    bottom: -60px;
+    width: 293px !important;
+    height: 65px !important;
   }
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/

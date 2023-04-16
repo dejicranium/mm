@@ -325,10 +325,3 @@ nav {
     margin-bottom: 0 !important;
   }
 }
-
-/*////////////////////////////////////////heigth//////////////////////*/
-@media (max-width: 990px) {
-  #contact {
-    margin-top: 50vh;
-  }
-}

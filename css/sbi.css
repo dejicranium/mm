@@ -31,16 +31,15 @@
   flex-direction: column !important;
 }
 .hero-row1 h1 {
+  width: 685px;
+  height: 300px;
+
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
-  line-height: 50px;
-  width: 377px;
-  height: 100px;
-  margin-bottom: 50px;
-
-  /* or 111% */
+  font-size: 105px;
+  line-height: 100px;
+  /* or 95% */
 
   letter-spacing: -1px;
 
@@ -106,7 +105,7 @@
 }
 @media (max-width: 899px) {
   .hero {
-    height: 100vh !important;
+    height: 80vh !important;
   }
   .hero-row1 h1 {
     line-height: 1em !important;
@@ -139,7 +138,7 @@
   }
   .hero-row1 {
     width: 100% !important;
-    height: auto !important;
+    height: 50% !important;
     margin-bottom: 80px !important;
     position: absolute !important;
     top: 100px !important;
@@ -152,17 +151,30 @@
     justify-content: center !important;
     height: auto !important;
     align-items: center;
-    top: 50vh !important;
+    top: 50% !important;
   }
   .hero-row2 img {
-    margin-top: 10% !important;
+    margin-top: -100px !important;
     width: 346.99px !important;
     height: 381.32px !important;
     margin-left: 15px;
   }
   .hero-row1 h1 {
-    font-size: 55px !important;
-    width: 100% !important;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    width: 100%;
+    height: 100px;
+
+    /* or 111% */
+
+    letter-spacing: -1px;
+
+    /* General Color/3 */
+
+    color: #ffffff;
   }
   .hero-row1 p {
     width: 86% !important;

@@ -220,10 +220,35 @@
   text-align: center !important;
   color: #1c093c !important;
 }
-@media (max-width: 900px) {
+@media (max-width: 950px) {
+  .form {
+    padding: 10px 5px 30px !important;
+  }
   .h1 {
-    font-size: 25px !important;
-    text-align: justify !important;
+    width: 343px;
+    height: 32px;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px !important;
+    line-height: 32px;
+  }
+  .p {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+
+    color: rgba(0, 0, 0, 0.8);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
   }
 }
 .p {
@@ -300,17 +325,15 @@ form input {
 @media (max-width: 950px) {
   .containerform {
     width: 95% !important;
-    padding: 35px 5px !important;
+    padding: 35px 16px !important;
   }
-  .form {
-    padding: 30px 12% !important;
-  }
+
   .p,
   .h1 {
     text-align: left !important;
   }
   input {
-    width: 90% !important;
+    width: 100% !important;
   }
 
   .formbutton,

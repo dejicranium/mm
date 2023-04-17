@@ -308,3 +308,12 @@ input {
     margin-top: 0px;
   }
 }
+
+/*///////////////////////
+sectionhelp
+//////////////////////*/
+
+section {
+  margin-bottom: 30px;
+  clear: both;
+}

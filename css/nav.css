@@ -314,6 +314,5 @@ sectionhelp
 //////////////////////*/
 
 section {
-  margin-bottom: 30px;
-  clear: both;
+  clear: both !important;
 }

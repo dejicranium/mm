@@ -23,7 +23,7 @@
 <body>
 
   {% include 'a-header.njk'  %}
-  <main>
+  <main data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="ease-in-out">
     {{ content | safe }}
   </main>
   {% include 'footer.njk' %}

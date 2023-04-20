@@ -243,15 +243,15 @@
     font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 500;
-    font-size: 20px !important;
-    line-height: 32px;
-    margin-bottom: 25px !important;
+    font-size: 18px !important;
+    line-height: 20px;
+    margin-bottom: 25px !important;1
   }
   .p {
     font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 14px !important;
     /* or 125% */
 

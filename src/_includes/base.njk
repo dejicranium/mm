@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
      <!--data-->
        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-       
+
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <link
       rel="stylesheet"
@@ -46,6 +46,11 @@
   
   </main>
   {% include 'footer.njk' %}
+<script>
+    AOS.init({
+        once: true, // This option ensures the animation runs only once when the element is revealed.
+    });
+</script>
 
   <script>
   if (window.netlifyIdentity) {

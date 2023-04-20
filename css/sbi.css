@@ -145,7 +145,7 @@
     padding-left: 30px !important;
   }
   .hero-row2 {
-    margin-top: 90px !important;
+    bottom: -190px !important;
     width: 85% !important;
     position: absolute !important;
     justify-content: center !important;
@@ -238,14 +238,14 @@
     padding: 10px 5px 30px !important;
   }
   .h1 {
-    width: 343px;
     height: 32px;
 
     font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 500;
-    font-size: 23px !important;
+    font-size: 20px !important;
     line-height: 32px;
+    margin-bottom: 20px !important;
   }
   .p {
     font-family: "Space Grotesk";
@@ -298,7 +298,7 @@ input {
   font-weight: 400 !important;
   padding: 8px 10px !important;
 
-  border: 1.2px solid rgba(27, 78, 100, 0.8) !important;
+  border: 1.2px solid rgba(27, 78, 100, 0.7) !important;
   margin-top: 5px !important;
 }
 textarea {
@@ -339,12 +339,13 @@ form input {
 @media (max-width: 950px) {
   .containerform {
     width: 95% !important;
+    margin-top: 50px !important;
     padding: 35px 16px !important;
   }
 
   .p,
   .h1 {
-    text-align: left !important;
+    text-align: center !important;
   }
   input {
     width: 100% !important;

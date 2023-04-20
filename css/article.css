@@ -159,12 +159,14 @@ form input {
   border-radius: 0px !important;
 }
 /*//////////////////////////////form////////////////////////////////////////*/
-.WidgetBackground__Container-sc-1ho7q3r-0 .dvYvWd {
-  padding: 29px 10px !important;
-}
-.WidgetBackground__Container-sc-1ho7q3r-0 .dvYvWd {
-  padding: 29px 10px !important;
-}
-.dvYvWd {
-  padding: 29px 10px !important;
+@media (max-width: 900px) {
+  .WidgetBackground__Container-sc-1ho7q3r-0 .dvYvWd {
+    padding: 29px 10px !important;
+  }
+  .WidgetBackground__Container-sc-1ho7q3r-0 .dvYvWd {
+    padding: 29px 10px !important;
+  }
+  .dvYvWd {
+    padding: 29px 10px !important;
+  }
 }

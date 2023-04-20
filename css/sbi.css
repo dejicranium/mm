@@ -141,7 +141,7 @@
     height: 50% !important;
     margin-bottom: 80px !important;
     position: absolute !important;
-    top: 100px !important;
+    top: 70px !important;
     padding-left: 30px !important;
   }
   .hero-row2 {
@@ -252,7 +252,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 14px !important;
     /* or 125% */
 
     color: rgba(0, 0, 0, 0.8);

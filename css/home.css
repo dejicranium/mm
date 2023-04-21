@@ -69,7 +69,8 @@ body {
 }
 @media (max-width: 900px) {
   .hero-row2 {
-    right: 0px !important;
+    right: -19px !important;
+    padding-right: 0px;
   }
 }
 @media (max-width: 800px) {

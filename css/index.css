@@ -133,6 +133,7 @@ body {
 
   color: #000000;
 }
+
 @media (max-width: 800px) {
   .marquee ul li {
     font-size: 22px;

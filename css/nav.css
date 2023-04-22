@@ -295,8 +295,8 @@ input {
 
 @media (max-width: 750px) {
   .logopng {
-    width: 6.5cm;
-    height: auto;
+    width: 217px !important;
+    height: 26px !important;
   }
 
   .logo {

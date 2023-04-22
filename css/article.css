@@ -89,9 +89,9 @@ body {
 h1 {
   font-family: "Space Grotesk";
   font-style: normal;
-  font-weight: 500;
-  font-size: 45px;
-  line-height: 57px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
 
   color: #000000;
   text-align: center;
@@ -162,6 +162,15 @@ form input {
 .liSNdQ {
   margin-top: 30px !important;
 }
+.jNmHVy {
+  width: 293px !important;
+  height: 65px !important;
+  font-family: "Montserrat";
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+}
 @media (max-width: 900px) {
   .sec h1 {
     font-size: 22px !important;
@@ -177,7 +186,9 @@ form input {
   }
   .liSNdQ {
     margin-top: 40px !important;
-    width: 293px !important;
+  }
+  form input {
+    width: 323px !important;
     height: 65px !important;
   }
 }

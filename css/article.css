@@ -178,6 +178,7 @@ form input {
   font-weight: 400 !important;
   font-size: 16px !important;
   line-height: 20px !important;
+  color: #333333 !important;
 }
 @media (max-width: 900px) {
   .sec h1 {
@@ -201,6 +202,7 @@ form input {
     font-weight: 400 !important;
     font-size: 14px !important;
     line-height: 17px !important;
+    color: #333333 !important;
   }
   form input {
     width: 323px !important;

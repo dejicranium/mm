@@ -160,7 +160,7 @@ form input {
 }
 /*//////////////////////////////form////////////////////////////////////////*/
 .liSNdQ {
-  margin-top: 30px !important;
+  margin-top: 50px !important;
 }
 .jNmHVy {
   width: 293px !important;
@@ -172,8 +172,17 @@ form input {
   line-height: 24px !important;
 }
 
-.jLauxp,
-.bzaayB {
+.jLauxp {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: #333333 !important;
+}
+
+.bzaayB,
+.TextControlBase__TextControlBaseInput-sc-17e5ls8-4 {
   font-family: "Montserrat" !important;
   font-style: normal !important;
   font-weight: 400 !important;
@@ -200,7 +209,15 @@ form input {
   .jeDsHq {
     transform: scale(0.4) !important;
   }
-  .jLauxp,
+  .jLauxp {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #333333 !important;
+  }
+
   .bzaayB {
     font-family: "Montserrat" !important;
     font-style: normal !important;

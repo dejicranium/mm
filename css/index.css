@@ -407,7 +407,10 @@ body {
   border: 1px solid #000000;
   border-radius: 16px;
 }
-
+.sk-post-date,
+.sk-secondary-data {
+  color: #536471;
+}
 @media (max-width: 900) {
   .grid-content {
     height: 411px;

@@ -341,11 +341,16 @@ body {
 /*////////////////////////////////////////nav sticky//////////////////////*/
 
 /*twitter tweet*/
-
+.tweet-content {
+  height: 100%;
+  padding-bottom: -10px;
+}
 .poptin-credit {
   display: none;
 }
 .img-thumbnail {
+  height: 30px;
+  width: 30px;
   border-radius: 100% !important;
 }
 
@@ -353,18 +358,9 @@ body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
-  font-size: 21px;
-  line-height: 39px;
-  letter-spacing: -0.01em;
+  font-size: 15px;
 
   color: #000000;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
 }
 @media (max-width: 800px) {
   .sk-tweet-text {
@@ -384,25 +380,24 @@ body {
 .sk_twitter_feed_slider {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 11px;
 
   color: #171717;
 
   /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .grid-content {
-  border: 1px solid #000000;
+  border: 0.5px solid #000000;
   border-radius: 12px;
 }
 .sk-post-date,
 .sk-secondary-data {
   color: #536471;
+  font-size: 13px;
 }
 .sk-tweet-media img {
   height: 100%;
+}
+.sk-post-favorite-count {
 }

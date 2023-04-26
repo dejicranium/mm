@@ -407,11 +407,7 @@ body {
   border: 1px solid #000000;
   border-radius: 16px;
 }
-.sk-post-date {
-  position: absolute;
-  bottom: 52px;
-  left: 16px;
-}
+
 @media (max-width: 900) {
   .grid-content {
     height: 411px;

@@ -339,3 +339,77 @@ body {
 }
 
 /*////////////////////////////////////////nav sticky//////////////////////*/
+
+/*twitter tweet*/
+
+.poptin-credit {
+  display: none;
+}
+.img-thumbnail {
+  border-radius: 100% !important;
+}
+.sk-tweet-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 39px;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+@media (max-width: 800px) {
+  .sk-tweet-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+
+.sk-tweet-media img {
+  display: none;
+}
+.sk_twitter_feed_slider {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #171717;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.grid-content {
+  border: 1px solid #000000;
+  border-radius: 16px;
+}
+@media (max-width: 900) {
+  .grid-content {
+    height: 411px;
+    width: 400px;
+  }
+}

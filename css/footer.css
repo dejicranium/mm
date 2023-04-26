@@ -71,6 +71,10 @@
   display: block;
   transition: all 0.3s ease;
 }
+#text2 {
+  text-transform: none !important;
+  font-size: 13px !important;
+}
 .footer-col ul li a i {
   font-family: "Font Awesome 5 Brands";
   font-style: normal;

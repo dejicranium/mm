@@ -383,11 +383,11 @@ body {
     order: 1;
     flex-grow: 0;
   }
-  .sk-tweet-media img {
-    height: 325px;
-  }
 }
 
+.sk-tweet-media img {
+  display: none;
+}
 .sk_twitter_feed_slider {
   font-family: "Inter";
   font-style: normal;

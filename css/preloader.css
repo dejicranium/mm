@@ -1,7 +1,11 @@
 .loader {
-  position: relative;
+  position: absolute;
   width: 75px;
   height: 100px;
+  z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+.loader * {
+  position: absolute !important;
   z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
 }
 .loader__bar {
@@ -183,4 +187,4 @@
   100% {
     transform: scale(1, 1);
   }
-} /*# sourceMappingURL=style.css.map */
+}

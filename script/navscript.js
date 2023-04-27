@@ -29,6 +29,12 @@ document.addEventListener("DOMContentLoaded", function () {
 //////////////////////////////////
 ////////////////////////////////////////Preloader/////////////
 var loader = document.getElementById("preloader");
+
+// Event listener for page load
 window.addEventListener("load", function () {
-  loader.style.display = "none";
+  // Set a timeout for 4 seconds after the page loads
+  setTimeout(() => {
+    // Hide the preloader after the timeout
+    loader.style.display = "none";
+  }, 3000);
 });

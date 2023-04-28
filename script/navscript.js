@@ -32,9 +32,9 @@ var loader = document.getElementById("preloader");
 
 // Event listener for page load
 window.addEventListener("load", function () {
-  // Set a timeout for 4 seconds after the page loads
+  // Set a timeout for 3 seconds after the page loads
   setTimeout(() => {
     // Hide the preloader after the timeout
-    loader.style.display = "none";
+    loader.style.display = "none !important";
   }, 3000);
 });

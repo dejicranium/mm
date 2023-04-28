@@ -33,7 +33,7 @@
   display: flex !important;
   flex-direction: column !important;
 }
-.hero-row1 .h11 {
+.hero-row1 .head {
   width: 685px !important;
   height: 300px !important;
   margin: 0 !important;
@@ -69,7 +69,7 @@
 .second {
   display: none !important;
 }
-.hero-row1 p {
+.hero-row1 .paragraph {
   width: 352px;
   height: 170px;
   font-family: "Space Grotesk";
@@ -111,10 +111,10 @@
   .hero {
     height: 90vh !important;
   }
-  .hero-row1 .h11 {
+  .hero-row1 .head {
     line-height: 1em !important;
   }
-  .h11 {
+  .head {
     font-size: 30px !important;
 
     width: 86% !important;
@@ -165,7 +165,7 @@
     height: 381.32px !important;
     margin-left: 15px;
   }
-  .hero-row1 .h11 {
+  .hero-row1 .head {
     font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 700;
@@ -182,7 +182,7 @@
 
     color: #ffffff;
   }
-  .hero-row1 p {
+  .hero-row1 .paragraph {
     width: 86% !important;
     font-size: 11px !important;
   }
@@ -241,7 +241,7 @@
   .form {
     padding: 10px 5px 30px !important;
   }
-  .h11 {
+  .h1 {
     height: 32px;
 
     font-family: "Space Grotesk";

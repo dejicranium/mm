@@ -8,6 +8,9 @@
   justify-content: space-between !important;
   align-items: center !important;
   padding: 0 60px !important;
+  position: absolute !important;
+  bottom: 200px;
+  transform: scaleY(0.85);
 }
 .hero {
   height: 100vh !important;
@@ -31,21 +34,22 @@
   flex-direction: column !important;
 }
 .hero-row1 h1 {
-  width: 685px;
-  height: 300px;
+  width: 685px !important;
+  height: 300px !important;
+  margin: 0 !important;
+  font-family: "Space Grotesk" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 105px !important;
+  line-height: 100px !important;
 
-  font-family: "Space Grotesk";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 105px;
-  line-height: 100px;
   /* or 95% */
 
-  letter-spacing: -1px;
+  letter-spacing: -1px !important;
 
   /* General Color/3 */
 
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .lines {
   width: 80px !important;

@@ -8,9 +8,13 @@
   justify-content: space-between !important;
   align-items: center !important;
   padding: 0 60px !important;
-  position: absolute !important;
-  bottom: 200px;
-  transform: scaleY(0.85);
+}
+@media (min-width: 1000px) {
+  .hero-container {
+    position: absolute !important;
+    bottom: 200px;
+    transform: scaleY(0.85);
+  }
 }
 .hero {
   height: 100vh !important;

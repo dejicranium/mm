@@ -44,8 +44,8 @@
   font-family: "Space Grotesk" !important;
   font-style: normal !important;
   font-weight: 700 !important;
-  font-size: 105px !important;
-  line-height: 100px !important;
+  font-size: 90px !important;
+  line-height: 80px !important;
 
   /* or 95% */
 
@@ -118,11 +118,7 @@
   .hero-row1 .head {
     line-height: 1em !important;
   }
-  .head {
-    font-size: 30px !important;
 
-    width: 86% !important;
-  }
   .lines {
     width: 40px !important;
     margin: 10px 0 !important;
@@ -173,7 +169,7 @@
     font-family: "Space Grotesk" !important;
     font-style: normal !important;
     font-weight: 700 !important;
-    font-size: 45px !important;
+    font-size: 30px !important;
     line-height: 50px !important;
     width: 100% !important;
     height: 100px !important;

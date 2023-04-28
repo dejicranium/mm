@@ -33,7 +33,7 @@
   display: flex !important;
   flex-direction: column !important;
 }
-.hero-row1 h1 {
+.hero-row1 .h11 {
   width: 685px !important;
   height: 300px !important;
   margin: 0 !important;
@@ -111,10 +111,10 @@
   .hero {
     height: 90vh !important;
   }
-  .hero-row1 h1 {
+  .hero-row1 .h11 {
     line-height: 1em !important;
   }
-  h1 {
+  .h11 {
     font-size: 30px !important;
 
     width: 86% !important;
@@ -165,7 +165,7 @@
     height: 381.32px !important;
     margin-left: 15px;
   }
-  .hero-row1 h1 {
+  .hero-row1 .h11 {
     font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 700;
@@ -232,7 +232,7 @@
   border-radius: 10px !important;
   box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15) !important;
 }
-.h1 {
+.h11 {
   font-size: 30px !important;
   text-align: center !important;
   color: #1c093c !important;
@@ -241,7 +241,7 @@
   .form {
     padding: 10px 5px 30px !important;
   }
-  .h1 {
+  .h11 {
     height: 32px;
 
     font-family: "Space Grotesk";

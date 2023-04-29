@@ -57,9 +57,10 @@ p {
 
 @media (max-width: 750px) {
   .article-img {
-    width: 100%;
+    width: 90%;
+    position: relative;
+    left: 0%;
     height: auto;
-    float: left !important;
   }
 }
 .flow ul,

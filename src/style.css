@@ -51,15 +51,15 @@ p {
   box-sizing: border-box;
 }
 .article-img {
-  margin-top: 40px;
   width: 1368px;
   height: auto;
 }
 
 @media (max-width: 750px) {
   .article-img {
-    width: 80%;
+    width: 100%;
     height: auto;
+    float: left !important;
   }
 }
 .flow ul,
@@ -849,12 +849,11 @@ blockquote {
   padding-left: 40px;
   border-left: 2px solid rgba(128, 128, 128, 0.4);
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   blockquote {
     padding-left: 25px;
   }
   .main-article__figure {
-    margin: 0 !important;
     width: 100%;
   }
 }

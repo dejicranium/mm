@@ -1204,7 +1204,7 @@ input[type="text"] {
   height: 80px;
   z-index: 99999999999 !important;
 }
-@media (max-: 800px) {
+@media (max-width: 800px) {
   .sticky {
     height: 50px !important;
   }

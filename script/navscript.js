@@ -4,7 +4,13 @@ $(".icon").click(function () {
 
 //////////////////////
 //////preloader//////
+//////////////////////
+//////preloader//////
 
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});
 //////////////////////////////////
 ////////////////////////////////////////nav sticky/////////////
 document.addEventListener("DOMContentLoaded", function () {

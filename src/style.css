@@ -850,6 +850,9 @@ blockquote {
   padding-left: 40px;
   border-left: 2px solid rgba(128, 128, 128, 0.4);
 }
+.main-article__figure {
+  margin-top: 1cm !important;
+}
 @media (max-width: 900px) {
   blockquote {
     padding-left: 25px;

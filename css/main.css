@@ -435,7 +435,6 @@ textarea.input100 {
 
 .contact100-form-btn:hover:before {
   background-color: #403866;
-  width: calc(100% + 20px);
 }
 
 /*------------------------------------------------------------------

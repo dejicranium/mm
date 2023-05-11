@@ -20,13 +20,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
     />
+    <link rel="stylesheet" href="./css/main.css">
     <!--preloader-->
      <link rel="stylesheet" href="./css/preloader.css">
      <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+
      <script src="./script/navscript.js"></script>
+     <link rel="stylesheet" href="./css/util.css">
   </head>
   <body>
      <!-- partial:index.partial.html 
@@ -99,75 +103,112 @@
       </section>
       <section class="sec"  >
       <h1>Contact For Any Booking</h1>
-      <br />
-      <br />
-
-      <!-- <div class="w3-content">
-        <form action="/action_page.php" target="_blank">
-          <div id="floatContainer1" class="float-container">
-            <label for="floatField1">Name</label>
+     
+       
+        <div class="wrap-contact100">
+        <form
+          class="contact100-form validate-form"
+          action="https://formsubmit.co/oladipopreserve2003@gmail.com"
+          method="POST"
+        >
+          <div
+            class="wrap-input100 validate-input"
+            data-validate="Please enter your name"
+          >
             <input
+              class="input100"
               type="text"
-              id="floatField1"
-              required
-              data-placeholder="Name"
+              name="Name"
+              placeholder="Name"
             />
+            <span class="focus-input100"></span>
           </div>
 
-          <div id="floatContainer1" class="float-container">
-            <label for="floatField1">Phone Number</label>
+          <div
+            class="wrap-input100 validate-input"
+            data-validate="Please enter your phone"
+          >
             <input
-              type="number"
-              id="floatField1"
-              required
-              data-placeholder="Phone Number"
-            />
-          </div>
-          <div id="floatContainer1" class="float-container">
-            <label for="floatField1">Email</label>
-            <input
-              type="email"
-              id="floatField1"
-              required
-              data-placeholder="Email"
-            />
-          </div>
-          <div id="floatContainer1" class="float-container">
-            <label for="floatField1">Event Title</label>
-            <input
+              class="input100"
               type="text"
-              id="floatField1"
-              required
-              data-placeholder="Event Title"
+              name="Phone"
+              placeholder="Phone"
             />
+            <span class="focus-input100"></span>
           </div>
-          <div id="floatContainer1" class="float-container">
-            <label for="floatField1">Event Start Date</label>
+          <div
+            class="wrap-input100 validate-input"
+            data-validate="Please enter your email: e@a.x"
+          >
             <input
-              type="datetime-local"
-              id="floatField1"
-              placeholder="Event Start Date"
-              required
-              data-placeholder="Event Start Date"
+              class="input100"
+              type="text"
+              name="E-mail"
+              placeholder="E-mail"
             />
+            <span class="focus-input100"></span>
           </div>
-          <div id="floatContainer1" class="float-container">
-            <label for="floatField1">Event End Date</label>
+          <div
+            class="wrap-input100 validate-input"
+            data-validate="Please enter your email: e@a.x"
+          >
             <input
-              type="datetime-local"
-              id="floatField1"
-              required
-              data-placeholder="22"
+              class="input100"
+              type="text"
+              name="Event Title"
+              placeholder="Event Title"
             />
+            <span class="focus-input100"></span>
+          </div>
+          <div
+            class="wrap-input100 validate-input"
+            data-validate="Please enter your email: e@a.x"
+          >
+            <input
+              class="input100"
+              id="date-input"
+              type="date"
+              name="Event Start Date "
+              placeholder="Event start Date "
+            />
+            <span class="focus-input100"></span>
+          </div>
+          <div
+            class="wrap-input100 validate-input"
+            data-validate="Please enter your email: e@a.x"
+          >
+            <input
+              class="input100"
+              id="date-input"
+              type="date"
+              name="Event End Date "
+              placeholder="Event End Date "
+            />
+
+            <span class="focus-input100"></span>
+          </div>
+          <div
+            class="wrap-input100 validate-input"
+            data-validate="Please enter your message"
+          >
+            <textarea
+              class="input100"
+              name="Message"
+              placeholder="Your Message"
+            ></textarea>
+            <span class="focus-input100"></span>
           </div>
 
-          <button class="w3-button w3-light-grey w3-block" type="submit">
-            SEND MESSAGE
-          </button>
+          <div class="container-contact100-form-btn">
+            <button class="contact100-form-btn">
+              <span> Let’s Get Started </span>
+            </button>
+          </div>
         </form>
-      </div>-->
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-      <div class="elfsight-app-5ad8b528-a791-4e44-b40a-274e6f283371"></div>
+      </div>
+    </div>
+      </div>
+      
     </section>
     <br />
     <br />
@@ -297,7 +338,26 @@
         once: true, // This option ensures the animation runs only once when the element is revealed.
       });
     </script>
-
+     <script
+     async
+     src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+   ></script>
+<script>
+  flatpickr("#date-input", {});
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-23581568-13");
+</script>
+<script
+  defer
+  src="beacon.min.js"
+  data-cf-beacon='{"rayId":"797287009c04982b","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}'
+></script>
     <script>
       //////////////////////////////////
       ////////////////////////////////////////nav sticky/////////////

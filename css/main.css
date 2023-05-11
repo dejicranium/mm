@@ -394,6 +394,15 @@ textarea.input100 {
   position: relative;
   z-index: 1;
 }
+.input100.datepicker::before {
+  content: ""; /* you can also use a Unicode character like '\f073' for a Font Awesome calendar */
+  background-image: url("/Vector.svg");
+  background-size: cover;
+  display: inline-block;
+  width: 16px; /* adjust as needed */
+  height: 16px; /* adjust as needed */
+  margin-right: 5px;
+}
 
 .contact100-form-btn::before {
   content: "";

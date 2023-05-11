@@ -101,6 +101,15 @@ input:focus {
   line-height: 20px;
   color: #333333;
 }
+/* Webkit for Chrome, Safari, Opera, and Chrome for Android */
+.input100::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
 
 /* Mozilla Firefox 19+ */
 .input100::-moz-placeholder {

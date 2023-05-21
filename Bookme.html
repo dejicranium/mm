@@ -32,6 +32,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
 
      <script src="./script/navscript.js"></script>
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
      <link rel="stylesheet" href="./css/util.css">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
      <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
@@ -114,6 +115,7 @@
           class="contact100-form validate-form"
           action="https://formsubmit.co/92770804b9b377f8f927ff09beb81946 "
           method="POST"
+          onsubmit="sendEmail(); reset(); return false;"
         >
           <div
             class="wrap-input100 validate-input"
@@ -368,6 +370,21 @@
   src="beacon.min.js"
   data-cf-beacon='{"rayId":"797287009c04982b","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}'
 ></script>
+<script>
+  function sendEmail(){
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "username",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+  }
+</script>
     <script>
       //////////////////////////////////
       ////////////////////////////////////////nav sticky/////////////

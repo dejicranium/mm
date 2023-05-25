@@ -272,8 +272,8 @@ body {
 
   background: linear-gradient(
       0deg,
-      rgba(100, 68, 27, 0.6),
-      rgba(100, 57, 27, 0.6)
+      rgba(29, 25, 13, 0.61),
+      rgba(29, 25, 13, 0.61)
     ),
     url(../asset/image/img\ shobowale2\ 1.png);
   background-size: cover !important;

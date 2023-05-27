@@ -8,7 +8,7 @@ author: Preserve
 date: 2023-02-01T20:36:11.630Z
 tags:
   - post
-image: /assets/blog/photo-2-.png
+image: /assets/blog/rename.png
 imageAlt: "October 6, 2021 / Classics "
 ---
 

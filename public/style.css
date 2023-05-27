@@ -109,20 +109,7 @@ body {
   background: #ffffff;
 }
 /*hero section*/
-.hero {
-  padding-top: 30px;
-  background: #1b4e64 !important;
-  height: 527px !important;
-  position: relative;
-  width: 100%;
 
-  clear: both;
-}
-.hero {
-  background: #1b4e64 !important;
-  height: 527px !important;
-  position: relative;
-}
 .main {
   position: absolute;
   width: 100%;
@@ -1210,5 +1197,380 @@ input[type="text"] {
 @media (max-width: 800px) {
   .sticky {
     height: 50px !important;
+  }
+}
+
+/*////////////////sbi///////////////////////*/
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
+
+.hero-container {
+  width: 100% !important;
+  height: 50% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0 60px !important;
+}
+@media (min-width: 1000px) {
+  .hero-container {
+    position: absolute !important;
+    bottom: 200px;
+    transform: scaleY(0.85);
+  }
+}
+.hero {
+  height: 113vh !important;
+  padding-bottom: 50px !important;
+  background: url("/asset/image/background\ \(2\).png");
+}
+.get {
+  height: 50px !important;
+}
+@media (max-width: 800px) {
+  .hero {
+    background-size: cover !important;
+    height: 1280px !important;
+  }
+}
+
+.hero-row1 {
+  padding-left: 30px;
+  width: 50% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.hero-row1 .head {
+  width: 685px !important;
+  height: 300px !important;
+  margin: 0 !important;
+  font-family: "Space Grotesk" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 100px !important;
+  line-height: 100px !important;
+
+  /* or 95% */
+
+  letter-spacing: -1px !important;
+
+  /* General Color/3 */
+
+  color: #ffffff !important;
+}
+.lines {
+  width: 80px !important;
+  height: 0px !important;
+
+  margin-top: 10px !important;
+  margin-bottom: 40px !important;
+
+  /* Yellow */
+
+  border: 3px solid #ffc947 !important;
+}
+.first {
+  display: block !important;
+  margin-top: 135px !important;
+}
+.second {
+  display: none !important;
+}
+.hero-row1 .paragraph {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 34px;
+
+  /* General Color/3 */
+
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+.hero-row2 {
+  padding-top: 10% !important;
+  width: 50% !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.hero-row2 img {
+  margin-top: 10px;
+  width: 520px !important;
+  height: 600px !important;
+}
+.erect {
+  position: relative !important;
+  clear: both !important;
+  margin-top: 5px !important;
+}
+
+.erect a {
+  text-decoration: none !important;
+}
+@media (max-width: 899px) {
+  .hero {
+    height: 90vh !important;
+  }
+  .hero-row1 .head {
+    line-height: 1em !important;
+  }
+
+  .lines {
+    width: 40px !important;
+    margin: 10px 0 !important;
+  }
+  .first {
+    display: none !important;
+  }
+  .second {
+    display: block !important;
+    margin-left: -60px;
+    border-radius: 15px !important;
+  }
+  .hero-container {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    height: 100% !important;
+    justify-content: flex-end !important;
+    position: absolute !important;
+    top: 100px !important;
+    padding: 0 !important;
+  }
+  .hero-row1 {
+    width: 100% !important;
+    height: 50% !important;
+    margin-bottom: 80px !important;
+    position: absolute !important;
+    top: 45px !important;
+    padding-left: 30px !important;
+  }
+  .hero-row2 {
+    bottom: -190px !important;
+    width: 85% !important;
+    position: absolute !important;
+    justify-content: center !important;
+    height: auto !important;
+    align-items: center;
+
+    top: 50% !important;
+  }
+  .hero-row2 img {
+    margin-top: -60px !important;
+    margin-bottom: 10px;
+    width: 346.99px !important;
+    height: 381.32px !important;
+    margin-left: 15px;
+  }
+  .hero-row1 .head {
+    font-family: "Space Grotesk" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    line-height: 50px !important;
+    width: 100% !important;
+    height: 100px !important;
+
+    /* or 111% */
+
+    letter-spacing: -1px;
+
+    /* General Color/3 */
+
+    color: #ffffff;
+  }
+  .hero-row1 .paragraph {
+    width: 86% !important;
+    font-size: 11px !important;
+  }
+
+  .lines {
+    width: 60px !important;
+    height: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+
+    /* Yellow */
+
+    border: 1.5px solid #ffc947 !important;
+  }
+
+  .erect {
+    position: relative !important;
+    clear: both !important;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 600px) {
+}
+/* contact form*/
+#contact {
+  position: relative !important;
+}
+.contact-section {
+  width: 100% !important;
+  height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.containerform {
+  background-color: #ffca42 !important;
+  width: 70% !important;
+
+  padding: 35px 150px !important;
+  transform: translate(-50%, -50%) !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  border-radius: 10px !important;
+  box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15) !important;
+}
+h1 {
+  font-size: 30px !important;
+  text-align: center !important;
+  color: #1c093c !important;
+}
+@media (max-width: 950px) {
+  .form {
+    padding: 10px 5px 30px !important;
+  }
+  .h1 {
+    height: 32px;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 20px;
+    margin-bottom: 25px !important;
+  }
+  .p {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px !important;
+    /* or 125% */
+
+    color: rgba(0, 0, 0, 0.8);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+.p {
+  position: relative !important;
+  margin: auto !important;
+  font-size: 20px !important;
+  width: 100% !important;
+  text-align: center !important;
+
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+.form {
+  width: 100% !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  position: relative !important;
+  margin: 30px auto 0 auto !important;
+}
+.rowf {
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  grid-gap: 5px 30px !important;
+  margin-bottom: 5px !important;
+}
+
+textarea,
+input {
+  width: 100% !important;
+  font-weight: 400 !important;
+  padding: 8px 10px !important;
+
+  border: 1.2px solid rgba(27, 78, 100, 0.7) !important;
+  margin-top: 5px !important;
+}
+textarea {
+  resize: none !important;
+}
+textarea:focus,
+input:focus {
+  outline: none !important;
+  border-color: #6f6df4 !important;
+}
+form input {
+  background: transparent !important;
+  display: block !important;
+  height: 65px;
+}
+.formbutton,
+#formbutton {
+  border: none !important;
+  margin-top: 10px;
+  width: 293px !important;
+  height: 50px !important;
+  padding: 10px 20px !important;
+  background: #1b4e64 !important;
+  color: white;
+}
+.formbutton:hover {
+  background: #325894 !important;
+}
+#formbutton:hover {
+  background: #325894 !important;
+}
+.formbutton:active {
+  background: #85abe8 !important;
+}
+#formbutton:active {
+  background: #85abe8 !important;
+}
+@media (max-width: 950px) {
+  .containerform {
+    width: 95% !important;
+    margin-top: 50px !important;
+    padding: 35px 16px !important;
+  }
+
+  .p,
+  .h1 {
+    text-align: center !important;
+  }
+  input {
+    width: 100% !important;
+  }
+
+  .formbutton,
+  #formbutton {
+    position: absolute;
+    bottom: -60px;
+    width: 293px !important;
+    height: 65px !important;
+  }
+}
+/*////////////////////////////////////////nav sticky//////////////////////*/
+
+nav {
+  margin-bottom: 50px !important;
+}
+@media (max-width: 990px) {
+  nav {
+    margin-bottom: 0 !important;
   }
 }

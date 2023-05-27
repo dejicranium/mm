@@ -17,8 +17,9 @@
   }
 }
 .hero {
-  height: 100vh !important;
+  height: 113vh !important;
   padding-bottom: 50px !important;
+  background: url("/asset/image/background\ \(2\).png");
 }
 .get {
   height: 50px !important;
@@ -44,8 +45,8 @@
   font-family: "Space Grotesk" !important;
   font-style: normal !important;
   font-weight: 700 !important;
-  font-size: 80px !important;
-  line-height: 80px !important;
+  font-size: 100px !important;
+  line-height: 100px !important;
 
   /* or 95% */
 
@@ -58,9 +59,9 @@
 .lines {
   width: 80px !important;
   height: 0px !important;
-  margin-left: 400px !important;
+
   margin-top: 10px !important;
-  margin-bottom: 30px !important;
+  margin-bottom: 40px !important;
 
   /* Yellow */
 
@@ -74,14 +75,11 @@
   display: none !important;
 }
 .hero-row1 .paragraph {
-  width: 352px;
-  height: 170px;
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 21px;
   line-height: 34px;
-  /* or 212% */
 
   /* General Color/3 */
 
@@ -99,8 +97,8 @@
 }
 .hero-row2 img {
   margin-top: 10px;
-  width: 428px !important;
-  height: 575px !important;
+  width: 520px !important;
+  height: 600px !important;
 }
 .erect {
   position: relative !important;

@@ -9,7 +9,7 @@ author: Myself
 date: 2023-01-17T20:05:53.000Z
 tags:
   - post
-image: /assets/blog/img_20230116_004928_401.jpg
+image: /assets/blog/rename.png
 imageAlt: Me
 ---
 

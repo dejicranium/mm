@@ -232,7 +232,7 @@ input {
   .up {
     /* position the div to the center with transition */
 
-    transform: translate(100%, 50%);
+    transform: translate(60%, 35%);
   }
 }
 /*get started*/

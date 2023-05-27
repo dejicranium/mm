@@ -398,41 +398,8 @@ body {
 }
 
 @media (max-width: 800px) {
-  .sk-tweet-text {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
+ .t-box{
+ flex-direction:column;
+ }
 
-    text-align: justify;
-
-    color: #000000;
-
-    /* Inside auto layout */
-  }
-}
-
-.sk_twitter_feed_slider {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 11px;
-
-  color: #171717;
-
-  /* Inside auto layout */
-}
-.grid-content {
-  border: 0.5px solid #000000;
-  border-radius: 12px;
-}
-.sk-post-date,
-.sk-secondary-data {
-  color: #536471;
-  font-size: 13px;
-}
-.sk-tweet-media img {
-  height: 100%;
-}
-.sk-post-favorite-count {
 }

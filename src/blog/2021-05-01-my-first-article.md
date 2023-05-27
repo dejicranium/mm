@@ -10,7 +10,7 @@ description: Join our newsletter to unlock the secrets of real estate investing
   step towards financial freedom.
 author: Shobowale Lukman
 date: 2023-03-23T00:08:58.382Z
-image: /public/assets/blog/rename.png
+image: /public/assets/blog/tierra-mallorca-nptbvokkom8-unsplash-1-1-.png
 imageAlt: This is a test
 ---
 > I see a vicious cycle happening all too often: hardworking young people saving every penny they can, only to pour it into investments that end up burning their fingers. Cryptos, NFTs, and other high-risk investment vehicles may seem tempting, but they can lead to financial disaster if you don't fully understand them.\

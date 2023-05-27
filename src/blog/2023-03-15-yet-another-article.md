@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   aliquam?
 author: Kevin Powell
 date: 2023-03-15T09:28:33.355Z
-image: /assets/blog/photo-2-.png
+image: /assets/blog/rename.png
 imageAlt: read your book
 ---
 

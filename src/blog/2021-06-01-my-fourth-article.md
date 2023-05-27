@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   aliquam?
 author: Kevin Powell
 date: 2021-06-01
-image: /assets/blog/photo-2-.png
+image: /public/assets/blog/tierra-mallorca-nptbvokkom8-unsplash-1-1-.png
 imageAlt: This is a test
 ---
 

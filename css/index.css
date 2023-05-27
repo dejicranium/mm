@@ -398,8 +398,25 @@ body {
 }
 
 @media (max-width: 800px) {
- .t-box{
- flex-direction:column;
- }
-
+  .t-box {
+    flex-direction: column;
+  }
+  .t-box1,
+  .t-box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    width: 100vw;
+  }
+  .t-box1 {
+    margin-bottom: 30px;
+  }
+  .t-box2 img {
+    width: 100%;
+    height: auto;
+  }
+  .css-901oao {
+    font-size: 12px !important;
+  }
 }

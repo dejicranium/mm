@@ -633,6 +633,19 @@ section,
   color: #1b4e64 !important;
   text-decoration: none !important;
 }
+.a-main {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 36px;
+  line-height: 110%;
+  /* or 44px */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #f5f8fc;
+}
 
 @media all and (max-width: 1100px) {
   .a-card {
@@ -1291,9 +1304,12 @@ input[type="text"] {
 .erect a {
   text-decoration: none !important;
 }
+.hero {
+  height: 70vh !important;
+}
 @media (max-width: 899px) {
   .hero {
-    height: 90vh !important;
+    height: 60vh !important;
   }
   .hero-row1 .head {
     line-height: 1em !important;

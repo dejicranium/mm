@@ -434,8 +434,6 @@ h2 {
 strong {
   font-weight: var(--fw-700);
 }
-
-section,
 .section {
   padding: min(10vh, 10em) 0;
 }

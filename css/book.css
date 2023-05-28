@@ -1,8 +1,9 @@
 .hero {
   background: url("/asset/image/background\ \(2\).png") !important;
-  height: 527px !important;
+  height: 70vh !important;
   padding-top: 15px;
   position: relative;
+  background-size: cover;
 }
 .product-listing-wrap {
   padding: 50px !important;
@@ -61,11 +62,11 @@
 }
 @media all and (max-width: 1100px) {
   .hero {
-    height: 50vh !important;
+    height: 65vh !important;
   }
   .main {
     font-size: 40px;
-    top: 120px !important;
+    top: 100px !important;
   }
   .text-block {
     font-size: 15px;

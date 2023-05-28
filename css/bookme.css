@@ -182,6 +182,11 @@ h1 {
   color: #000000;
   text-align: center;
 }
+@media (max-width: 900px) {
+  .sec {
+    background: #f0f0f2;
+  }
+}
 /*////////////////////////////////////////form bookme//////////////////////*/
 
 form input {

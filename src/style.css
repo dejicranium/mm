@@ -45,7 +45,7 @@ p {
 }
 .flow ul li {
   color: #1b4e64;
-  list-style-image: url("/public/assets/Vector.png");
+  list-style-image: url("/asset/image/Vector\ \(1\).svg");
 }
 */
 /* Remove default margin */
@@ -1166,6 +1166,7 @@ input[type="text"] {
 
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
+  padding: 0;
   width: 100% !important;
   background: #232323 !important;
   position: fixed !important;
@@ -1555,7 +1556,9 @@ form input {
   }
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/
-
+section {
+  padding-top: 15px;
+}
 @media (max-width: 990px) {
   nav {
     margin-bottom: 0 !important;

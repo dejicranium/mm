@@ -1,131 +1,131 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300 !important;400 !important;500 !important;600 !important;700&display=swap");
 .container {
-  max-width: 1170px;
-  margin: auto;
+  max-width: 1170px !important;
+  margin: auto !important;
 }
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  width: 100%;
-  justify-content: space-between;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: row-reverse !important;
+  width: 100% !important;
+  justify-content: space-between !important;
 }
 .container ul {
-  list-style: none;
+  list-style: none !important;
 }
 .footer {
-  background: #232323;
-  border-top: 3px solid #131313;
+  background: #232323 !important;
+  border-top: 3px solid #131313 !important;
 
-  padding: 70px 0;
+  padding: 70px 0 !important;
 }
 .footer-col {
-  width: 25%;
-  padding: 0 15px;
+  width: 25% !important;
+  padding: 0 15px !important;
 }
 .footer-col h4 {
-  font-size: 24px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 500;
-  font-family: "Cardo";
-  position: relative;
+  font-size: 24px !important;
+  color: #ffffff !important;
+  text-transform: capitalize !important;
+  margin-bottom: 35px !important;
+  font-weight: 500 !important;
+  font-family: "Cardo" !important;
+  position: relative !important;
 }
 .footer-col ul span {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 180%;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 15px !important;
+  line-height: 180% !important;
   /* or 32px */
 
-  letter-spacing: -0.01em;
+  letter-spacing: -0.01em !important;
 
-  color: #929292;
+  color: #929292 !important;
 }
 .footer-col h4::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: -10px !important;
 
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
+  height: 2px !important;
+  box-sizing: border-box !important;
+  width: 50px !important;
 }
 .footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 .footer-col ul li a,
 .footer-col ul li button {
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 300;
-  border: none;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 300 !important;
+  border: none !important;
   text-align: left !important;
-  background: transparent;
-  cursor: pointer;
+  background: transparent !important;
+  cursor: pointer !important;
 
-  display: block;
-  transition: all 0.3s ease;
+  display: block !important;
+  transition: all 0.3s ease !important;
 }
 #text2 {
   text-transform: none !important;
   font-size: 13px !important;
 }
 .footer-col ul li a i {
-  font-family: "Font Awesome 5 Brands";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 120%;
+  font-family: "Font Awesome 5 Brands" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 120% !important;
   /* identical to box height, or 22px */
 
-  text-align: center;
-  letter-spacing: 0.055em;
-  text-transform: uppercase;
+  text-align: center !important;
+  letter-spacing: 0.055em !important;
+  text-transform: uppercase !important;
 
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .footer-col ul li a:hover {
-  color: #ffffff;
-  padding-left: 8px;
+  color: #ffffff !important;
+  padding-left: 8px !important;
 }
 .footer-col ul li button:hover {
-  color: #ffffff;
-  padding-left: 8px;
+  color: #ffffff !important;
+  padding-left: 8px !important;
 }
 .footer-col .social-links a {
-  color: #ffffff;
-  border: 1px #c58e2d solid;
+  color: #ffffff !important;
+  border: 1px #c58e2d solid !important;
   width: 55px !important;
   margin: 5px !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
   height: 55px !important;
 }
 .footer-col .social-links a i {
-  font-family: "Font Awesome 5 Brands";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
+  font-family: "Font Awesome 5 Brands" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
 }
 .footer-col .social-links a:hover {
-  color: #24262b;
-  background: #c58e2d;
+  color: #24262b !important;
+  background: #c58e2d !important;
 }
 .footer-col .social-links a:hover .footer-col .social-links a i {
-  color: #24262b;
+  color: #24262b !important;
 }
 .social {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
+  display: flex !important;
+  flex-direction: row !important;
+  list-style: none !important;
 }
 /*responsive*/
 @media (max-width: 800px) {
@@ -133,42 +133,42 @@
     flex-direction: column-reverse !important;
   }
   .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
+    width: 50% !important;
+    margin-bottom: 30px !important;
   }
 }
 @media (max-width: 574px) {
   .footer-col {
-    width: 100%;
+    width: 100% !important;
   }
 }
 /*b-line*/
-.b-line-c {
-  margin-top: 30px;
+footer .b-line-c {
+  margin-top: 30px !important;
 }
-.b-line-c,
-.b-c {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 10px 0;
+footer .b-line-c,
+footer .b-c {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin: 10px 0 !important;
 }
-.b-line {
+footer .b-line {
   width: 80% !important;
   height: 0px !important;
 
   opacity: 0.2 !important;
   border: 1px solid #ffffff !important;
 }
-.b-text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 200%;
+footer .b-text {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 17px !important;
+  line-height: 200% !important;
   /* identical to box height, or 34px */
 
-  letter-spacing: -0.01em;
+  letter-spacing: -0.01em !important;
 
-  color: #929292;
+  color: #929292 !important;
 }

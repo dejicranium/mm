@@ -1220,6 +1220,9 @@ input[type="text"] {
   .hero {
     background-size: cover !important;
   }
+  .i-hero {
+    height: 90vh !important;
+  }
 }
 
 .hero-row1 {

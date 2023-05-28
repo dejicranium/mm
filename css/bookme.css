@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
 
 .hero {
-  background: #1b4e64 !important;
-  height: 527px !important;
+  background: url("/asset/image/Banner\ \(5\)\ 1.png") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  height: 60vh !important;
   position: relative;
 }
 body {

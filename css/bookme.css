@@ -8,6 +8,13 @@
   position: relative;
   padding-top: 15px;
 }
+@media (max-width: 800px) {
+  .hero {
+    background: url("/asset/image/Banner\ \(5\)\ 1\ \(1\).png") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+  }
+}
 body {
   background-color: #fff !important;
 }

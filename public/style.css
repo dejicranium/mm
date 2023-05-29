@@ -1572,3 +1572,14 @@ section {
     margin-bottom: 0 !important;
   }
 }
+
+/*brake point control*/
+.br {
+  display: none;
+}
+
+@media (max-width: 900) {
+  .br {
+    display: block !important;
+  }
+}

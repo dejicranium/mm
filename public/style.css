@@ -1575,10 +1575,10 @@ section {
 
 /*brake point control*/
 .br {
-  display: none;
+  display: none !important;
 }
 
-@media (max-width: 900) {
+@media (max-width: 900px) {
   .br {
     display: block !important;
   }

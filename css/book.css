@@ -101,7 +101,7 @@
 
 .image-box {
   width: 401px !important;
-  position: absolute;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,4 +189,15 @@
   background: rgba(177, 141, 28, 0.2);
   align-items: center;
   justify-content: center;
+}
+
+.heading {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  /* identical to box height, or 42px */
+
+  color: #232323;
 }

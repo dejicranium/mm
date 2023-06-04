@@ -572,7 +572,7 @@ strong {
 
   letter-spacing: -0.02em;
 
-  color: #232323;
+  color: #232323 !important;
 }
 .a-p {
   font-family: "Inter";
@@ -673,7 +673,6 @@ strong {
     height: auto !important;
   }
   .a-h3 {
-    color: #1b4e64;
     text-decoration: none;
   }
   .a-p {

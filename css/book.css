@@ -225,13 +225,13 @@
   letter-spacing: -0.01em;
 }
 /*ui/ol special styling*/
-.flow ul,
-.flow ol {
+.media-list ul,
+.media-list ol {
   color: #232323;
   font-size: 14px;
   padding-left: 30px;
 }
-.flow ul li {
+.media-list ul li {
   color: #232323;
   list-style-image: url("./asset/image/Vector\ \(1\).svg");
 }

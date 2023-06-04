@@ -95,6 +95,12 @@
   flex-direction: row;
   margin-bottom: 100px;
 }
+
+@media all and (max-width: 900px) {
+  .media-box1 {
+    flex-direction: column;
+  }
+}
 .media-text {
   margin-left: 30px;
   margin-top: 47px;

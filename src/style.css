@@ -562,7 +562,7 @@ strong {
 .a-h3 {
   width: 100%;
   height: auto !important;
-
+  margin-top: 31px !important;
   font-family: "Cardo";
   font-style: normal;
   font-weight: 700;
@@ -591,8 +591,9 @@ strong {
 }
 .a-details ul {
   margin-top: 20px;
-  width: 90%;
+  width: 100% !important;
   list-style: none;
+  padding: 0 !important;
   display: flex;
   justify-content: space-between;
 }
@@ -660,6 +661,7 @@ strong {
   }
   .a-h3 {
     font-family: "Cardo";
+    margin-top: 27px !important;
     font-style: normal;
     font-weight: 700;
     font-size: 18px !important;

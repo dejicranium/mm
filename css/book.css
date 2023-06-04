@@ -97,14 +97,20 @@
 }
 .media-text {
   margin-left: 30px;
+  margin-top: 47px;
+  width: 840px;
 }
 
 .image-box {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 401px;
   height: 500px !important;
   background: rgba(177, 141, 28, 0.2) !important;
+}
+.image-box img {
+  border: 1px solid #b18d1c;
 }
 .media-head {
   font-family: "Cardo";
@@ -188,6 +194,9 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 60px;
+}
+.big-img img {
+  border: 1px solid #b18d1c;
 }
 
 .heading {

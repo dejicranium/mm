@@ -201,6 +201,24 @@
 
     color: #969aa0;
   }
+  .big-img {
+    width: 100% !important;
+    height: 253px !important;
+  }
+
+  .big-img img {
+    width: 100px !important;
+    height: auto !important;
+  }
+  .heading {
+    font-family: "Cardo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px !important;
+    line-height: 140%;
+    width: auto;
+    height: auto;
+  }
 }
 .media-head {
   font-family: "Cardo";
@@ -347,5 +365,17 @@
 @media (max-width: 900px) {
   .media-list {
     padding: 0px;
+  }
+  .ml {
+    width: auto;
+    height: auto;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 154.5% !important;
+    /* or 22px */
+
+    letter-spacing: -0.01em;
   }
 }

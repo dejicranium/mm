@@ -661,7 +661,16 @@ strong {
     position: relative;
   }
   .a-h3 {
-    font-size: 20px;
+    font-family: "Cardo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px !important;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: -0.02em;
+
+    color: #232323;
     width: 100px;
     height: auto !important;
   }
@@ -703,7 +712,7 @@ strong {
   width: 70%;
   padding: 10px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start !important;
 }
 
 .product_name div:nth-child(1) {

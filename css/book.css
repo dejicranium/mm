@@ -106,7 +106,7 @@
     margin-bottom: 77px;
   }
   .media-text {
-    margin-left: 0px;
+    margin-left: 0px !important;
     width: auto !important;
   }
 }
@@ -130,21 +130,22 @@
 
 @media all and (max-width: 900px) {
   .image-box {
-    width: 300px;
-    height: 330px;
+    width: 339px;
+    height: 369px;
+    padding: 49px 74px;
   }
   .image-box img {
-    width: 152.21px;
-    height: 231px;
+    width: 100%;
+    height: auto;
   }
   .media-head {
-    width: 228px;
+    width: auto;
     height: auto;
 
     font-family: "Cardo";
     font-style: normal;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 24px !important;
     line-height: 120%;
     /* or 29px */
 
@@ -153,7 +154,7 @@
     letter-spacing: -0.02em;
   }
   .media-head-para {
-    width: 245px !important;
+    width: auto !important;
     height: auto;
     left: 0px;
     top: -4px;
@@ -161,7 +162,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 18px !important;
     line-height: 20px;
     /* or 147% */
 
@@ -192,7 +193,7 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 14px !important;
     line-height: 180%;
     /* or 25px */
 

@@ -563,18 +563,16 @@ strong {
   width: 100%;
   height: auto !important;
 
-  margin-top: 27px;
-  margin-bottom: 5px;
   font-family: "Cardo";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 40px !important;
   line-height: 120%;
   /* or 48px */
 
   letter-spacing: -0.02em;
 
-  color: #1b4e64;
+  color: #232323;
 }
 .a-p {
   font-family: "Inter";

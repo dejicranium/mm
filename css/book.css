@@ -225,13 +225,28 @@
   letter-spacing: -0.01em;
 }
 /*ui/ol special styling*/
-.media-list ul,
-.media-list ol {
+
+.media-list .ml {
   color: #232323;
-  font-size: 14px;
-  padding-left: 30px;
+  list-style-image: url("/asset/image/Vector\ \(1\).svg") !important;
 }
-.media-list ul li {
+.media-list {
+  padding-left: 44px;
+}
+.ml {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 154.5%;
+  /* or 29px */
+
+  letter-spacing: -0.01em;
+
   color: #232323;
-  list-style-image: url("./asset/image/Vector\ \(1\).svg");
+}
+@media (max-width: 900px) {
+  .media-list {
+    padding: 0px;
+  }
 }

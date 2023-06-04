@@ -189,6 +189,7 @@
   background: rgba(177, 141, 28, 0.2);
   align-items: center;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .heading {
@@ -200,4 +201,29 @@
   /* identical to box height, or 42px */
 
   color: #232323;
+  margin-bottom: 11px;
+}
+.new-para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 170%;
+  /* or 32px */
+
+  letter-spacing: -0.01em;
+
+  color: #969aa0;
+  margin-bottom: 22px;
+}
+
+.media-list .ml {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 154.5%;
+  /* or 29px */
+
+  letter-spacing: -0.01em;
 }

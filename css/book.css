@@ -100,8 +100,6 @@
 }
 
 .image-box {
-  width: 401px !important;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,8 +214,7 @@
   color: #969aa0;
   margin-bottom: 22px;
 }
-
-.media-list .ml {
+.media-list .media-list .ml {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

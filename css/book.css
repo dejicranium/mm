@@ -98,11 +98,16 @@
 
 @media all and (max-width: 900px) {
   .medias-section {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 29px;
+    padding-right: 17px;
   }
   .media-box1 {
     flex-direction: column;
+    margin-bottom: 77px;
+  }
+  .media-text {
+    margin-left: 0px;
+    width: auto !important;
   }
 }
 .media-text {
@@ -180,7 +185,8 @@
     color: #000000;
   }
   .media-para-fade {
-    width: 373px;
+    width: 333px;
+    margin-right: 0;
     height: auto;
 
     font-family: "Inter";

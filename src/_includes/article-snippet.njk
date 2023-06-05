@@ -9,7 +9,7 @@
             <h3 class="a-h3"><a href=".{{ post.url }}" class="color , list-group-item">{{ post.data.title }}</a></h3>
             <div>
               <p class="a-p" id="myDiv" contenteditable="true">
-                {{post.data.description}}
+                {{post.data.description}}<span id="ellipsis" style="display: none">...</span>
               </p>
             </div>
           </div>

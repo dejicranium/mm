@@ -220,6 +220,18 @@ window.addEventListener("load", function () {
     <script>
     AOS.init();
     </script>
+    <!--character limit-->
+
+    <script type="text/javascript">
+    document.getElementById('myDiv').addEventListener('input', function () {
+        if (this.innerText.length > 100) { // Set limit to 100 characters
+            this.innerText = this.innerText.substring(0, 100);
+            document.getElementById('ellipsis').style.display = 'inline';
+        } else {
+            document.getElementById('ellipsis').style.display = 'none';
+        }
+    });
+</script>
 
 </body>
 </html>

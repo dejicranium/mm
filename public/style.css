@@ -591,7 +591,7 @@ strong {
 }
 .a-details ul {
   margin-top: 20px;
-  width: 50% !important;
+  width: 70% !important;
   list-style: none;
   padding: 0 !important;
   display: flex;
@@ -1479,7 +1479,7 @@ body {
 }
 @media (max-width: 1000px) {
   .a-details ul {
-    width: 90%;
+    width: 100% !important;
   }
 }
 

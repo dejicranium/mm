@@ -185,23 +185,6 @@
     AOS.init({
         once: true, // This option ensures the animation runs only once when the element is revealed.
     });
-
-
-    ///character limits
-
-    let originalText;
-
-    document.getElementById('myDiv').addEventListener('input', function () {
-        if (this.innerText.length > 100) { // Set limit to 100 characters
-            this.innerText = originalText;
-        } else {
-            originalText = this.innerText;
-        }
-
-        if(this.innerText.length === 100) {
-            this.innerText = this.innerText.substring(0, 96) + '....';
-        }
-    });
 </script>
 
  <!--data-->

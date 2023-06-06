@@ -588,21 +588,6 @@ window.addEventListener("load", function () {
     loader.style.display = "none !important";
   }, 3000);
 });
-
-///////character limit//
-let originalText;
-
-    document.getElementById('myDiv').addEventListener('input', function () {
-        if (this.innerText.length > 100) { // Set limit to 100 characters
-            this.innerText = originalText;
-        } else {
-            originalText = this.innerText;
-        }
-
-        if(this.innerText.length === 100) {
-            this.innerText = this.innerText.substring(0, 96) + '....';
-        }
-    });
  </script>
 
 <script href="/script/article.js"></script>
@@ -610,18 +595,6 @@ let originalText;
     <script>
     AOS.init();
     </script>
-    <!--character limit-->
-
-    <script type="text/javascript">
-    document.getElementById('myDiv').addEventListener('input', function () {
-        if (this.innerText.length > 100) { // Set limit to 100 characters
-            this.innerText = this.innerText.substring(0, 100);
-            document.getElementById('ellipsis').style.display = 'inline';
-        } else {
-            document.getElementById('ellipsis').style.display = 'none';
-        }
-    });
-</script>
 
 </body>
 </html>

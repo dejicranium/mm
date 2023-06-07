@@ -1660,7 +1660,7 @@ input[type="text"] {
     background-size: cover !important;
   }
   .i-hero {
-    min-height: 90vh !important;
+    height: 90vh !important;
   }
 }
 

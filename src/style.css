@@ -1660,7 +1660,7 @@ input[type="text"] {
     background-size: cover !important;
   }
   .i-hero {
-    height: 90vh !important;
+    height: auto !important;
   }
 }
 

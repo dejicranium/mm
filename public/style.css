@@ -1663,6 +1663,17 @@ input[type="text"] {
     height: 90vh !important;
   }
 }
+@media (max-width: 650px) {
+  .hero {
+    background-size: cover !important;
+  }
+  .i-hero {
+    height: 100vh !important;
+  }
+  .hero-row2 {
+    top: 70% !important;
+  }
+}
 
 .hero-row1 {
   padding-left: 30px;

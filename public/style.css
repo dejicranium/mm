@@ -1775,6 +1775,8 @@ input[type="text"] {
     display: block !important;
     margin-left: -60px;
     border-radius: 15px !important;
+    width: 90% !important;
+    height: auto !important;
   }
   .hero-container {
     flex-direction: column !important;

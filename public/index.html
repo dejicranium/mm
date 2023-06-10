@@ -77,7 +77,7 @@
       <section class="i-hero , hero">
         <!--nav bar-->
         <nav id="nav">
-          <div class="logo, sticky" id="logo">
+          <div class="logo" id="logo">
             <a href="./index.html"
               ><img
                 src="/asset/image/Lukman Shobowale.svg"
@@ -562,17 +562,19 @@ for (let i = 4; i < articles.length; i++) {
 ////////////////////////////////////////nav sticky/////////////
 document.addEventListener("DOMContentLoaded", function () {
   var nav = document.getElementById("nav");
+  var logo = document.getElementById("logo");
   var current_pos = nav.offsetTop;
   window.onscroll = function () {
     var window_pos = document.documentElement.scrollTop;
     if (window_pos >= current_pos) {
       nav.classList.add("sticky");
+      logo.classList.add("nologo");
     } else {
       nav.classList.remove("sticky");
+      logo.classList.remove("nologo");
     }
   };
 });
-
 
 
 

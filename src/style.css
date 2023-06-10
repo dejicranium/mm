@@ -1816,8 +1816,8 @@ input[type="text"] {
     font-family: "Space Grotesk" !important;
     font-style: normal !important;
     font-weight: 700 !important;
-    font-size: 45px !important;
-    line-height: 50px !important;
+    font-size: 33px !important;
+    line-height: 37px !important;
     width: 100% !important;
     height: auto !important;
 
@@ -1831,7 +1831,7 @@ input[type="text"] {
   }
   .hero-row1 .paragraph {
     width: 86% !important;
-    font-size: 16px !important;
+    font-size: 13px !important;
     text-align: justify;
     height: auto !important;
   }

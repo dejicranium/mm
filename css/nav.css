@@ -274,12 +274,12 @@ input {
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
-  padding-top: 15px;
-  width: 100%;
-  background: #232323;
-  position: fixed;
-  top: 0;
-  z-index: 99999;
+  padding-top: 15px !important;
+  width: 100% !important;
+  background: #232323 !important;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 99999 !important;
 }
 
 @media (max-width: 750px) {
@@ -289,11 +289,11 @@ input {
   }
 
   .logo {
-    display: flex;
-    margin-top: -15px;
+    display: flex !important;
+    margin-top: -15px !important;
   }
 
   .nologo {
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
 }

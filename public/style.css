@@ -1600,13 +1600,14 @@ input[type="text"] {
 
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
-  padding: 0;
+  padding-top: 15px !important;
   width: 100% !important;
   background: #232323 !important;
   position: fixed !important;
   top: 0 !important;
   z-index: 99999 !important;
 }
+
 @media (max-width: 750px) {
   .logopng {
     width: 217px !important;

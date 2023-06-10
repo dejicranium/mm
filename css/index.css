@@ -357,6 +357,7 @@ body {
   font-family: "Cardo";
   font-style: normal;
   font-weight: 700;
+  height: auto;
   font-size: 45px;
   line-height: 120%;
   /* or 54px */

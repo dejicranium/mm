@@ -5,6 +5,11 @@
   position: relative;
   background-size: cover;
 }
+@media (orientation: landscape) {
+  .hero {
+    height: 110vh !important;
+  }
+}
 .product-listing-wrap {
   padding: 50px !important;
 }
@@ -127,11 +132,16 @@
 .image-box img {
   border: 1px solid #b18d1c;
 }
-
+@media all and (max-width: 400px) {
+  .image-box {
+    width: 269px;
+    height: 299px;
+  }
+}
 @media all and (max-width: 900px) {
   .image-box {
-    width: 339px;
-    height: 369px;
+    max-width: 319px;
+    max-height: 349px;
     padding: 49px 74px;
   }
   .image-box img {

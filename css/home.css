@@ -49,8 +49,8 @@ body {
   width: 100% !important;
   height: 100% !important;
   display: flex !important;
-  flex-direction: row !important;
-  justify-content: flex-end !important;
+
+  justify-content: flex-s !important;
   align-items: flex-end !important;
   padding: 0 60px !important;
   bottom: 0px !important;
@@ -248,8 +248,8 @@ body {
 
 .hero-row1 {
   padding-left: 30px;
-  width: 50% !important;
-  height: 100% !important;
+  width: 100% !important;
+  height: auto !important;
   display: flex !important;
   flex-direction: column !important;
 }

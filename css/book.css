@@ -5,11 +5,11 @@
   position: relative;
   background-size: cover;
 }
-@media (orientation: landscape) {
+/*@media (orientation: portrait) {
   .hero {
     height: 110vh !important;
   }
-}
+}*/
 .product-listing-wrap {
   padding: 50px !important;
 }

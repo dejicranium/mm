@@ -333,6 +333,9 @@ form input {
     height: 65px !important;
   }
 }
+.wrap-input1000 > label {
+  display: none;
+}
 /*//////////////////////new form style///////////////////////////*/
 @media (max-width: 900px) {
   .wrap-input1000 {
@@ -347,14 +350,20 @@ form input {
   }
 
   .wrap-input1000 > label {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !;
+    line-height: 20px;
+    color: #333333;
     position: absolute;
     top: 0;
     left: 0;
     display: block;
     width: 100%;
     margin-bottom: 0; /* Override default `<label>` margin */
-    line-height: 1.5;
-    color: #495057;
+
     pointer-events: none;
     cursor: text; /* Match the input under the label */
     border: 1px solid transparent;

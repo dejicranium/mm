@@ -399,14 +399,13 @@ body {
   height: 531.279px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .twitter {
-    min-height: 1090.49px;
+    min-height: 1030.49px;
   }
   .t-box {
     flex-direction: column;
     padding: 0 !important;
-    margin-top: 100px !important;
   }
   .t-box1,
   .t-box2 {

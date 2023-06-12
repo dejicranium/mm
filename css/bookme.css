@@ -396,13 +396,7 @@ form input {
   .wrap-input1000 > input:not(:placeholder-shown) ~ label {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
-    font-size: 16px;
+    font-size: 5px;
     color: #777;
-  }
-  .l1:hover .date-input1 {
-    display: none;
-  }
-  .l2:hover .date-input2 {
-    display: none;
   }
 }

@@ -399,4 +399,10 @@ form input {
     font-size: 16px;
     color: #777;
   }
+  .l1:active .date-input1 {
+    display: none;
+  }
+  .l2:active .date-input2 {
+    display: none;
+  }
 }

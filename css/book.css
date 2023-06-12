@@ -129,6 +129,7 @@
   height: 500px;
   background: rgba(177, 141, 28, 0.2) !important;
 }
+
 .image-box img {
   border: 1px solid #b18d1c;
 }
@@ -139,6 +140,12 @@
   }
 }
 @media all and (max-width: 900px) {
+  .image-box-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .image-box {
     max-width: 319px;
     max-height: 349px;

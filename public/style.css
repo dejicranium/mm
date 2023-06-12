@@ -1605,6 +1605,7 @@ input[type="text"] {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 .a-line {
   width: 55px;
@@ -1617,6 +1618,11 @@ input[type="text"] {
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+@media (max-width: 900px) {
+  .a-line-box {
+    display: none;
+  }
 }
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {

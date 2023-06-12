@@ -362,6 +362,7 @@ form input {
     left: 0;
     display: block;
     width: 100%;
+    padding-left: 35px !important;
     margin-bottom: 0; /* Override default `<label>` margin */
 
     pointer-events: none;
@@ -397,5 +398,6 @@ form input {
     padding-bottom: 0.25rem;
     font-size: 12px;
     color: #777;
+    display: none;
   }
 }

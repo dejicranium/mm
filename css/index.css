@@ -14,7 +14,7 @@ body {
 }
 @media (max-width: 900px) {
   .hero {
-    background: url("/asset/image/responsive.png") !important;
+    background: url("/asset/image/img\ shobowale\ 2.svg") !important;
     background-repeat: no-repeat !important;
   }
 }

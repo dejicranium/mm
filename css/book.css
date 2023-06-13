@@ -383,6 +383,10 @@
   .media-list {
     padding: 0px;
   }
+  .media-line {
+    display: none;
+  }
+
   .ml {
     width: auto;
     height: auto;
@@ -395,4 +399,13 @@
 
     letter-spacing: -0.01em;
   }
+}
+
+.media-line {
+  width: 100%;
+  margin: 60px 0;
+  height: 3px;
+  padding: 0 60px;
+
+  background: rgba(177, 141, 28, 0.2);
 }

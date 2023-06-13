@@ -10,8 +10,11 @@ layout: 'base.njk'
 
   
    {%- for post in collections.all | reverse -%}
-    {% include 'article-snippet.njk' %}
+    {%- if not ("SBI" in post.data.tags) -%}
+        {% include 'article-snippet.njk' %}
+    {%- endif -%}
 {%- endfor %}
+
 
   
  

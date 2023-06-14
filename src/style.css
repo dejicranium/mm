@@ -1621,9 +1621,35 @@ input[type="text"] {
 }
 @media (max-width: 900px) {
   .a-line-box {
-    display: none;
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
+/*sbi-heading*/
+.sbi-heading {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 110%;
+  /* identical to box height, or 55px */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #232323;
+}
+
+@media (max-width: 900px) {
+  .sbi-heading {
+    display: block;
+    font-size: 20px;
+  }
+}
+
 /*////////////////////////////////////////nav sticky//////////////////////*/
 .sticky {
   padding-top: 15px !important;
@@ -1908,26 +1934,5 @@ section {
 @media (max-width: 900px) {
   .br {
     display: block !important;
-  }
-}
-
-/*sbi-heading*/
-.sbi-heading {
-  font-family: "Cardo";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 110%;
-  /* identical to box height, or 55px */
-
-  text-align: center;
-  letter-spacing: -0.02em;
-
-  color: #232323;
-}
-
-@media (max-width: 900px) {
-  .sbi-heading {
-    display: none;
   }
 }

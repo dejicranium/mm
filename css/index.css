@@ -394,6 +394,7 @@ body {
   justify-content: flex-end;
   padding-right: 30px;
 }
+
 .t-box2 img {
   width: 481.219px;
   height: 531.279px;
@@ -401,11 +402,19 @@ body {
 
 @media (max-width: 900px) {
   .twitter {
-    min-height: 1030.49px;
+    height: 1030.49px;
+    overflow: hidden;
+  }
+  .t-heading {
+    height: auto !important;
+    clear: both;
+    padding: auto;
+    font-size: 28px;
   }
   .t-box {
     flex-direction: column;
     padding: 0 !important;
+    margin-top: 100px;
   }
   .t-box1,
   .t-box2 {
@@ -417,7 +426,10 @@ body {
   }
   .t-box1 {
     margin-bottom: 0;
+    height: auto;
+    padding: auto;
   }
+
   .t-box2 img {
     width: 100% !important;
     height: auto;

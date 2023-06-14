@@ -7,9 +7,9 @@ layout: 'base.njk'
 
 <ul role="list" class="articles__list flow" id="slides-container-li" >
 
-{%- for post in collections.featured | filter(post => post.data.tags.indexOf('html') === -1) | reverse -%}
-  {% include 'article-snippet.njk' %}
-{%- endfor %}
+ {%- for post in collections.all | reverse -%}
+        {% include 'article-snippet.njk' %}
+      {%- endfor %} 
 
 
   

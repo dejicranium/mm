@@ -527,6 +527,7 @@ strong {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  overflow: auto;
   padding-bottom: 50px;
 }
 .a-card {
@@ -560,8 +561,8 @@ strong {
   font-family: "Cardo";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px !important;
-  line-height: 120%;
+  font-size: 35px !important;
+  line-height: 100%;
   /* or 48px */
 
   letter-spacing: -0.02em;
@@ -682,8 +683,10 @@ strong {
 /*Card*/
 .card_container {
   display: flex;
-  height: 350px;
+  min-height: 350px;
+  overflow: auto;
   width: 96%;
+  padding-bottom: 30px;
   overflow: hidden;
   margin: 0px 0;
   box-shadow: 0px 35px 25px rgba(4, 11, 20, 0.04);

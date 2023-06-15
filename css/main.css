@@ -401,7 +401,10 @@ textarea.input100 {
 }
 
 .contact100-form-btn:hover:before {
-  background-color: #403866;
+  background: gray;
+}
+.contact100-form-btn:active {
+  background: #1b1a1a;
 }
 
 /*------------------------------------------------------------------

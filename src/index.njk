@@ -1,13 +1,14 @@
 ---
 title: SBI
 layout: 'base.njk'
+
 ---
 
        
 
 <ul role="list" class="articles__list flow" id="slides-container-li" >
 
- {%- for post in collections.all | reverse -%}
+ {%- for post in collections.post | reverse -%}
         {% include 'article-snippet.njk' %}
       {%- endfor %} 
 

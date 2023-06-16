@@ -107,7 +107,7 @@
         </div>
       </setion>
       <section class="sec"  >
-      <h1>Contact For Any Booking</h1>
+      <h1 id="msg">Contact For Any Booking</h1>
      
        
         <div class="wrap-contact100">
@@ -218,7 +218,7 @@
           </div>
 
           <div class="container-contact100-form-btn">
-            <button class="contact100-form-btn">
+            <button class="contact100-form-btn" id="sub">
               <span> Let’s Get Started </span>
             </button>
           </div>
@@ -344,14 +344,16 @@
     let form=document.querySelector("form");
     form.addEventListener('submit' , (e) => {
     e.preventDefault();
+    document.querySelector("#msg").value="Submitting..."
+    document.querySelector("#sub").value="Submitting..."
     let data = new FormData(form);
     fetch('https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec', {
       method: "POST",
       body: data
 })
-    })
+    
     .then(res => res.text())
-    .then(data => console.log(data));
+    .then(data => {document.querySelector("#sub").value="Submit"});
     })
     </script>
     <script>

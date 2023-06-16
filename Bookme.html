@@ -113,7 +113,7 @@
         <div class="wrap-contact100">
         <form
           class="contact100-form validate-form"
-          action="https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec"
+          action="https://script.google.com/macros/s/AKfycbwtM8Han4HgpXIDiWyRVLhb5PLJWOA2ej9yEgOosRi5dCPHK7Xz0DQa96K177UFwp1K/exec"
           method="post"
           onsubmit="sendEmail(); reset(); return false;"
         >
@@ -344,26 +344,33 @@
     let form=document.querySelector("form");
     form.addEventListener('submit' , (e) => {
     e.preventDefault();
-    document.querySelector("#msg").innerHTML="Thank you";
-    document.querySelector("#sub").value="Submitting..."
+   
+    document.querySelector("#sub").innerHTML="Submitting..."
     let data = new FormData(form);
-    fetch('https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwtM8Han4HgpXIDiWyRVLhb5PLJWOA2ej9yEgOosRi5dCPHK7Xz0DQa96K177UFwp1K/exec', {
       method: "POST",
       body: data
 })
     
     .then(res => res.text())
-    .then(data => {document.querySelector("#sub").value="Submit"});
+    .then(data => {
+      document.querySelector("#msg").innerHTML="Thank you";
+      document.querySelector("#sub").innerHTML="Thank you"});
     })
     </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        var disclaimer = document.querySelector("a [href='https://elfsight.com/online-form-builder/?utm_source=websites&amp;utm_medium=clients&amp;utm_content=form-builder&amp;utm_term=shobowale.netlify.app&amp;utm_campaign=free-widget']");if(disclaimer) { disclaimer.remove();} });
-      </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        var disclaimer = document.querySelector("a [style='animation:none!important;background-color:rgba(238,238,238,0.9)!important;border:none!important;bottom:auto!important;color:rgba(0,0,0,.5)!important;display:inline-flex!important;align-items:center!important;gap:6px!important;float:none!important;height:28px!important;left:50%!important;margin:8px auto!important;opacity:1!important;padding:6px!important;position:relative!important;right:auto!important;top:auto!important;transform:translateX(-50%)!important;zoom:1!important;visibility:visible!important;box-sizing:border-box!important;border-radius:6px!important;font-family:Roboto,Arial,Sans-serif!important;font-size:12px!important;font-weight:700!important;line-height:16px!important;text-align:left!important;text-decoration:none!important;max-width:240px!important;text-indent:0!important;z-index:99999!important']");if(disclaimer) { disclaimer.remove();} });
-      </script>
+   
+   <script>
+    //////////////form
+    const scriptURL = '<SCRIPT URL>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> 
     <script src="./script/bookme.js"></script>
     <script>
       AOS.init({

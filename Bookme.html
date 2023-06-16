@@ -341,12 +341,12 @@
     </footer>
     <!-- End Footer -->
   <script>
-    let form=document.querySelector("form");
-    form.addEventListener('submit' , (e) => {
+   let forme =document.querySelector("form");
+    forme.addEventListener('submit' , (e) => {
     e.preventDefault();
    
     document.querySelector("#sub").innerHTML="Submitting..."
-    let data = new FormData(form);
+    let data = new FormData(forme);
     fetch('https://script.google.com/macros/s/AKfycbwtM8Han4HgpXIDiWyRVLhb5PLJWOA2ej9yEgOosRi5dCPHK7Xz0DQa96K177UFwp1K/exec', {
       method: "POST",
       body: data
@@ -361,7 +361,7 @@
    
    <script>
     //////////////form
-    const scriptURL = '<SCRIPT URL>'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwtM8Han4HgpXIDiWyRVLhb5PLJWOA2ej9yEgOosRi5dCPHK7Xz0DQa96K177UFwp1K/exec'
     const form = document.forms['submit-to-google-sheet']
   
     form.addEventListener('submit', e => {
@@ -392,26 +392,7 @@
   gtag("js", new Date());
   gtag("config", "UA-23581568-13");
 </script>
-<script
-  defer
-  src="beacon.min.js"
-  data-cf-beacon='{"rayId":"797287009c04982b","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}'
-></script>
-<script>
-  function sendEmail(){
-    Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "username",
-    Password : "password",
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-  }
-</script>
+
     <script>
       //////////////////////////////////
       ////////////////////////////////////////nav sticky/////////////

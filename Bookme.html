@@ -345,8 +345,12 @@
     form.addEventListener('submit' , (e) => {
     e.preventDefault();
     let data = new FormData(form);
-    fetch('https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec')
-    .then(res => res.json())
+    fetch('https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec', {
+      method: "POST",
+      body: data
+})
+    })
+    .then(res => res.text())
     .then(data => console.log(data));
     })
     </script>

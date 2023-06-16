@@ -344,7 +344,7 @@
     let form=document.querySelector("form");
     form.addEventListener('submit' , (e) => {
     e.preventDefault();
-    document.querySelector("#msg").value="Submitting..."
+    document.querySelector("#msg").innerHTML="Thank you";
     document.querySelector("#sub").value="Submitting..."
     let data = new FormData(form);
     fetch('https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec', {

@@ -339,7 +339,31 @@
       <div class="b-line-c"><div class="b-line"></div></div>
       <div class="b-c"><div class="b-text">© SHOBOWALE LUKMAN</div></div>
     </footer>
-
+    <script>
+      function sendEmail() {
+          var form = document.querySelector('.contact100-form');
+          var formData = new FormData(form);
+  
+          var xhr = new XMLHttpRequest();
+          xhr.open("POST", "https://formsubmit.co/el/lewige", true);
+          xhr.setRequestHeader("Accept", "application/json");
+          xhr.onreadystatechange = function () {
+              if (xhr.readyState !== XMLHttpRequest.DONE) return;
+              if (xhr.status === 200) {
+                  console.log(xhr.responseText);
+              } else {
+                  console.error(xhr.responseText);
+              }
+          };
+          xhr.send(formData);
+      }
+  
+      function reset() {
+          var form = document.querySelector('.contact100-form');
+          form.reset();
+      }
+  </script>
+  
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         var disclaimer = document.querySelector("a [href='https://elfsight.com/online-form-builder/?utm_source=websites&amp;utm_medium=clients&amp;utm_content=form-builder&amp;utm_term=shobowale.netlify.app&amp;utm_campaign=free-widget']");if(disclaimer) { disclaimer.remove();} });

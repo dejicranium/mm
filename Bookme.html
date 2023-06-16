@@ -114,7 +114,7 @@
         <form
           class="contact100-form validate-form"
           action="https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec"
-          method="POST"
+          method="post"
           onsubmit="sendEmail(); reset(); return false;"
         >
         
@@ -339,31 +339,17 @@
       <div class="b-line-c"><div class="b-line"></div></div>
       <div class="b-c"><div class="b-text">© SHOBOWALE LUKMAN</div></div>
     </footer>
-    <script>
-      function sendEmail() {
-          var form = document.querySelector('.contact100-form');
-          var formData = new FormData(form);
-  
-          var xhr = new XMLHttpRequest();
-          xhr.open("POST", "https://formsubmit.co/el/lewige", true);
-          xhr.setRequestHeader("Accept", "application/json");
-          xhr.onreadystatechange = function () {
-              if (xhr.readyState !== XMLHttpRequest.DONE) return;
-              if (xhr.status === 200) {
-                  console.log(xhr.responseText);
-              } else {
-                  console.error(xhr.responseText);
-              }
-          };
-          xhr.send(formData);
-      }
-  
-      function reset() {
-          var form = document.querySelector('.contact100-form');
-          form.reset();
-      }
-  </script>
-  
+    <!-- End Footer -->
+  <script>
+    let form=document.querySelector("form");
+    form.addEventListener('submit' , (e) => {
+    e.preventDefault();
+    let data = new FormData(form);
+    fetch('https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec')
+    .then(res => res.json())
+    .then(data => console.log(data));
+    })
+    </script>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         var disclaimer = document.querySelector("a [href='https://elfsight.com/online-form-builder/?utm_source=websites&amp;utm_medium=clients&amp;utm_content=form-builder&amp;utm_term=shobowale.netlify.app&amp;utm_campaign=free-widget']");if(disclaimer) { disclaimer.remove();} });

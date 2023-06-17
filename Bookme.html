@@ -113,8 +113,7 @@
         <div class="wrap-contact100">
         <form
           class="contact100-form validate-form"
-          action="https://script.google.com/macros/s/AKfycbwtM8Han4HgpXIDiWyRVLhb5PLJWOA2ej9yEgOosRi5dCPHK7Xz0DQa96K177UFwp1K/exec"
-          method="post"
+          action="https://formsubmit.co/oladipopreserve2003@gmail.com" method="POST"
           onsubmit="sendEmail(); reset(); return false;"
         >
         
@@ -340,36 +339,19 @@
       <div class="b-c"><div class="b-text">© SHOBOWALE LUKMAN</div></div>
     </footer>
     <!-- End Footer -->
-  <script>
-   let forme =document.querySelector("form");
-    forme.addEventListener('submit' , (e) => {
-    e.preventDefault();
-   
-    document.querySelector("#sub").innerHTML="Submitting..."
-    let data = new FormData(forme);
-    fetch('https://script.google.com/macros/s/AKfycbwtM8Han4HgpXIDiWyRVLhb5PLJWOA2ej9yEgOosRi5dCPHK7Xz0DQa96K177UFwp1K/exec', {
-      method: "POST",
-      body: data
-})
-    
-    .then(res => res.text())
-    .then(data => {
-      document.querySelector("#msg").innerHTML="Thank you";
-      document.querySelector("#sub").innerHTML="Thank you"});
-    })
-    </script>
+  
    
    <script>
     //////////////form
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwtM8Han4HgpXIDiWyRVLhb5PLJWOA2ej9yEgOosRi5dCPHK7Xz0DQa96K177UFwp1K/exec'
-    const form = document.forms['submit-to-google-sheet']
+   // const scriptURL = 'https://script.google.com/macros/s/AKfycbwtM8Han4HgpXIDiWyRVLhb5PLJWOA2ej9yEgOosRi5dCPHK7Xz0DQa96K177UFwp1K/exec'
+    //const form = document.forms['submit-to-google-sheet']
   
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message))
-    })
+    //form.addEventListener('submit', e => {
+     // e.preventDefault()
+      //fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+       // .then(response => console.log('Success!', response))
+       // .catch(error => console.error('Error!', error.message))
+   // })
   </script> 
     <script src="./script/bookme.js"></script>
     <script>
@@ -392,7 +374,11 @@
   gtag("js", new Date());
   gtag("config", "UA-23581568-13");
 </script>
-
+<script
+  defer
+  src="beacon.min.js"
+  data-cf-beacon='{"rayId":"797287009c04982b","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}'
+></script>
     <script>
       //////////////////////////////////
       ////////////////////////////////////////nav sticky/////////////

@@ -406,6 +406,10 @@ textarea.input100 {
 .contact100-form-btn:active {
   background: #1b1a1a;
 }
+@media (min-width: 900px) {
+  .contact100-form-btn:hover:before {
+    background:#1b1a1a;
+}
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/

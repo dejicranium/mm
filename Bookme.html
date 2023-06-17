@@ -109,10 +109,11 @@
       <section class="sec"  >
       <h1 id="msg">Contact For Any Booking</h1>
      
-       <center>We will be in touch with you shoutly.</center>
+       <center id="myDiv">We will be in touch with you shoutly.</center>
         <div class="wrap-contact100">
         <form
           class="contact100-form validate-form"
+          id="myDivs"
           action="https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec"
           method="post"
           onsubmit="sendEmail(); reset(); return false;"
@@ -344,6 +345,15 @@
     let form=document.querySelector("form");
     form.addEventListener('submit' , (e) => {
     e.preventDefault();
+    var myDiv = document.getElementById("myDiv");
+if(myDiv) {
+  myDiv.style.display = "block";
+}
+    var myDivs = document.getElementById("myDivs");
+if(myDivs) {
+  myDivs.style.display = "none";
+}
+
     document.querySelector("#msg").innerHTML="Thank you";
     document.querySelector("#sub").value="Submitting..."
     let data = new FormData(form);

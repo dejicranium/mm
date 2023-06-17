@@ -400,3 +400,13 @@ form input {
     color: #777;
   }
 }
+
+center {
+  display: none;
+  font-size: 30px;
+}
+@media (min-width: 800px) {
+  center {
+    font-size: 20px;
+  }
+}

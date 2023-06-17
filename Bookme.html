@@ -113,7 +113,8 @@
         <div class="wrap-contact100">
         <form
           class="contact100-form validate-form"
-          action="https://formsubmit.co/el/confirm/a4b388380709037ec5fa18ca5447708b" method="POST"
+          action="https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec"
+          method="post"
           onsubmit="sendEmail(); reset(); return false;"
         >
         
@@ -182,7 +183,7 @@
               class="input100 , l1"
               id="date-input"
               type="date"
-              name="eventstartdate "
+              name="eventstartdate"
               placeholder="Event start Date"
               required
             />
@@ -339,20 +340,30 @@
       <div class="b-c"><div class="b-text">© SHOBOWALE LUKMAN</div></div>
     </footer>
     <!-- End Footer -->
-  
-   
-   <script>
-    //////////////form
-   // const scriptURL = 'https://script.google.com/macros/s/AKfycbwtM8Han4HgpXIDiWyRVLhb5PLJWOA2ej9yEgOosRi5dCPHK7Xz0DQa96K177UFwp1K/exec'
-    //const form = document.forms['submit-to-google-sheet']
-  
-    //form.addEventListener('submit', e => {
-     // e.preventDefault()
-      //fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-       // .then(response => console.log('Success!', response))
-       // .catch(error => console.error('Error!', error.message))
-   // })
-  </script> 
+  <script>
+    let form=document.querySelector("form");
+    form.addEventListener('submit' , (e) => {
+    e.preventDefault();
+    document.querySelector("#msg").innerHTML="Thank you";
+    document.querySelector("#sub").value="Submitting..."
+    let data = new FormData(form);
+    fetch('https://script.google.com/macros/s/AKfycbwOUYEDMgjkwX4kluh-5KlsDphgboEgvKVG17G7-6TQm1aqvQSXrhlgGpEayQKp8xUt/exec', {
+      method: "POST",
+      body: data
+})
+    
+    .then(res => res.text())
+    .then(data => {document.querySelector("#sub").value="Submit"});
+    })
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        var disclaimer = document.querySelector("a [href='https://elfsight.com/online-form-builder/?utm_source=websites&amp;utm_medium=clients&amp;utm_content=form-builder&amp;utm_term=shobowale.netlify.app&amp;utm_campaign=free-widget']");if(disclaimer) { disclaimer.remove();} });
+      </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        var disclaimer = document.querySelector("a [style='animation:none!important;background-color:rgba(238,238,238,0.9)!important;border:none!important;bottom:auto!important;color:rgba(0,0,0,.5)!important;display:inline-flex!important;align-items:center!important;gap:6px!important;float:none!important;height:28px!important;left:50%!important;margin:8px auto!important;opacity:1!important;padding:6px!important;position:relative!important;right:auto!important;top:auto!important;transform:translateX(-50%)!important;zoom:1!important;visibility:visible!important;box-sizing:border-box!important;border-radius:6px!important;font-family:Roboto,Arial,Sans-serif!important;font-size:12px!important;font-weight:700!important;line-height:16px!important;text-align:left!important;text-decoration:none!important;max-width:240px!important;text-indent:0!important;z-index:99999!important']");if(disclaimer) { disclaimer.remove();} });
+      </script>
     <script src="./script/bookme.js"></script>
     <script>
       AOS.init({
@@ -374,11 +385,7 @@
   gtag("js", new Date());
   gtag("config", "UA-23581568-13");
 </script>
-<script
-  defer
-  src="beacon.min.js"
-  data-cf-beacon='{"rayId":"797287009c04982b","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}'
-></script>
+
     <script>
       //////////////////////////////////
       ////////////////////////////////////////nav sticky/////////////

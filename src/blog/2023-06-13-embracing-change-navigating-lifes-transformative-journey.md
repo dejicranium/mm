@@ -6,7 +6,7 @@ description: Change is an inevitable part of life. From the moment we are born
 author: Lukeman Shobowale
 date: 2023-06-13T22:01:27.660Z
 tags:
-  - Business
+  - post
 image: /assets/blog/rename.png
 imageAlt: Business Business
 ---

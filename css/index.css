@@ -422,6 +422,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 5px 20px !important;
+    position: relative;
     width: 100%;
   }
   .t-box1 {

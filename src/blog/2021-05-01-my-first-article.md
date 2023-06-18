@@ -10,6 +10,8 @@ description: Join our newsletter to unlock the secrets of real estate investing
   step towards financial freedom.
 author: Shobowale Lukman
 date: 2023-03-23T00:08:58.382Z
+tags:
+  - post
 image: /assets/blog/rename.png
 imageAlt: This is a test
 ---

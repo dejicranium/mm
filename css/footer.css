@@ -21,7 +21,7 @@
 }
 .footer-col {
   width: 25% !important;
-  padding: 0 15px !important;
+  padding: 0 5px !important;
 }
 .footer-col h4 {
   font-size: 24px !important;
@@ -73,8 +73,13 @@
   transition: all 0.3s ease !important;
 }
 #text2 {
-  text-transform: none !important;
-  font-size: 13px !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 15px !important;
+  line-height: 180% !important;
+  letter-spacing: -0.01em !important;
+  color: #929;
 }
 .footer-col ul li a i {
   font-family: "Font Awesome 5 Brands" !important;

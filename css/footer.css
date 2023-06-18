@@ -80,6 +80,7 @@
   line-height: 180% !important;
   letter-spacing: -0.01em !important;
   color: #929;
+  text-transform: none !important;
 }
 .footer-col ul li a i {
   font-family: "Font Awesome 5 Brands" !important;

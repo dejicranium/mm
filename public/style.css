@@ -786,10 +786,7 @@ button {
   }
 }
 
-/* //////////////////////
-                                                                                                                                                                                                                                                                                                                                                                Homepage
-                                                                                                                                                                                                                                                                                                                                                                  /////////////////////// */
-
+/* //////////////////////*/
 .hero__image {
   width: 100%;
   /* max-height: max(15rem, 40vh); */
@@ -812,9 +809,7 @@ main {
   margin: 6rem 0;
 }
 
-/* //////////////////////
-                                                                                                                                                                                                                                                                                                                                                                                          Individual article page
-                                                                                                                                                                                                                                                                                                                                                                                            /////////////////////// */
+/* //////////////////////*/
 
 .main-article {
   margin-bottom: 3rem;
@@ -850,10 +845,7 @@ strong {
   color: #232323;
 }
 
-/* //////////////////////
-                                                                                                                                                                                                                                                                                                                                                                                                                                        Article snippets
-                                                                                                                                                                                                                                                                                                                                                                                                                                          /////////////////////// */
-
+/* ///////////////////*/
 .btn--neutral {
   background-color: var(--clr-neutral-100);
   color: var(--clr-neutral-900);
@@ -1113,7 +1105,6 @@ strong {
   width: 96%;
   overflow: hidden;
   margin: 0px 0;
-  box-shadow: 0px 35px 25px rgba(4, 11, 20, 0.04);
 }
 
 .card_image {

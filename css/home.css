@@ -522,10 +522,16 @@ about us
   padding-top: 5px !important;
   background: #ffffff;
 }
+@media (max-width: 1100px) {
+  .about-section {
+    height: 700px;
+  }
+}
 @media (max-width: 900px) {
   .about-section {
     flex-direction: column-reverse !important;
     display: flex;
+    height: auto;
   }
   .about1,
   .about2 {

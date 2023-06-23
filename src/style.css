@@ -1680,7 +1680,7 @@ input[type="text"] {
   align-items: center !important;
   padding: 0 60px !important;
 }
-@media (max-width: 110px) {
+@media (max-width: 1159px) {
   .i-hero {
     height: 800px !important;
   }

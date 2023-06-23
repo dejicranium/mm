@@ -1680,6 +1680,16 @@ input[type="text"] {
   align-items: center !important;
   padding: 0 60px !important;
 }
+@media (max-width: 1100px) {
+  .i-hero {
+    height: 800px !important;
+  }
+}
+@media (min-width: 1110px) {
+  .i-hero {
+    height: 113vh !important;
+  }
+}
 @media (min-width: 1000px) {
   .hero-container {
     position: absolute !important;
@@ -1687,9 +1697,7 @@ input[type="text"] {
     transform: scaleY(0.85);
   }
 }
-.i-hero {
-  height: 113vh !important;
-}
+
 .hero {
   background: url("/asset/image/background\ \(2\).png");
 }

@@ -1680,17 +1680,12 @@ input[type="text"] {
   align-items: center !important;
   padding: 0 60px !important;
 }
-@media (max-width: 1110px) {
+@media (max-width: 110px) {
   .i-hero {
     height: 800px !important;
   }
-  .hero-container {
-    position: absolute !important;
-    bottom: 200px;
-    transform: scaleY(0.85);
-  }
 }
-@media (min-width: 1110px) {
+@media (min-width: 1160px) {
   .i-hero {
     height: 113vh !important;
   }

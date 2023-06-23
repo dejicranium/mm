@@ -101,6 +101,20 @@
   margin-bottom: 100px;
 }
 
+@media all and (max-width: 1100px) {
+  .image-box-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .media-box1 {
+    flex-direction: column;
+  }
+
+  .media-para-fade {
+    width: 100%;
+  }
+}
 @media all and (max-width: 900px) {
   .medias-section {
     padding-left: 29px;

@@ -260,7 +260,7 @@ class="footer">
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./index.html/#about">About Us</a></li>
-          <li><a href="./books.html" >Books</a></li>
+          <li><a href="./books.html">Books</a></li>
           <li><a href="./public/index.html">Newsletter</a></li>
           <li><a href="https://app.popt.in/APIRequest/click/63fa7633d1f58">Contact us</a></li>
         </ul>
@@ -343,6 +343,10 @@ res.send(html);
 <!--copy-->
 
  <script>
+  window.onload = function() {
+    document.getElementById('poptinFormSubmitButton').value = '';
+}
+
   function copy(copyId) {
     var $inp = $("<input>");
     $("body").append($inp);

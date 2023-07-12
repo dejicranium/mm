@@ -1903,9 +1903,6 @@ input[type="text"] {
   }
 }
 
-@media (max-width: 600px) {
-}
-
 /*////////////////////////////////////////nav sticky//////////////////////*/
 section {
   padding-top: 15px;

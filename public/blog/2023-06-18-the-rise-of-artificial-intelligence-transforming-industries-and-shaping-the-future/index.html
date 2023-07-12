@@ -42,7 +42,7 @@
     
       <section class=" a-hero , hero">
         <!--nav bar-->
-        <nav id="nav">
+                <nav id="nav">
           <div class="logo" id="logo">
             <a href="/index.html"
               ><img
@@ -58,7 +58,7 @@
           <input type="checkbox" id="btn" />
           <ul class="nav">
             <li><a href="/index.html">Home</a></li>
-              <li><a href="/public/index.html">SBI</a></li>
+            <li><a href="/public/index.html">SBI</a></li>
             <li><a href="/books.html">Books and Media</a></li>
             
 
@@ -199,23 +199,6 @@
        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
     AOS.init();
-
-
-
-    //////////////////////////////////
-////////////////////////////////////////nav sticky/////////////
-document.addEventListener("DOMContentLoaded", function () {
-  var nav = document.getElementById("nav");
-  var current_pos = nav.offsetTop;
-  window.onscroll = function () {
-    var window_pos = document.documentElement.scrollTop;
-    if (window_pos >= current_pos) {
-      nav.classList.add("sticky");
-    } else {
-      nav.classList.remove("sticky");
-    }
-  };
-});
 
 
 

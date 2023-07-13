@@ -150,6 +150,8 @@ a {
 
 .image-box img {
   border: 1px solid #b18d1c;
+  width: 290px;
+  height: auto;
 }
 @media all and (max-width: 400px) {
   .image-box {
@@ -340,6 +342,8 @@ a {
 }
 .big-img img {
   border: 1px solid #b18d1c;
+  width: 292px;
+  height: auto;
 }
 
 .heading {
